@@ -3,7 +3,7 @@ import React from 'react'
 const ChkHusky = () => {
     return (
         <div>
-            check Husky
+            check Huskyasdasad sa
         </div>
     )
 }
