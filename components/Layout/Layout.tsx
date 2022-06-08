@@ -16,15 +16,15 @@ export const Layout = ({ lang, title, description, children }: props) => {
       <Head>
         <html lang={lang ? lang : `en`} />
         <title>{title ? title : "Maxenius Solutions"}</title>
-        <meta name="description" content={description ? description : ``} />
-        {/* Chrome, Firefox OS and Opera */}
+        <meta
+          name="description"
+          content={description ? description : `Maxenius Solutions`}
+        />
         <meta name="theme-color" content="#ff173d" />
-        {/* Windows Phone */}
         <meta name="msapplication-navbutton-color" content="#ff173d" />
-        {/* iOS Safari */}
         <meta name="apple-mobile-web-app-status-bar-style" content="#ff173d" />
+        <link rel="icon" href="/favicon.ico" />
       </Head>
-
       <Header />
 
       <div>
