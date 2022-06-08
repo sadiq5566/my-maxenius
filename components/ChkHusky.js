@@ -6,7 +6,7 @@ const ChkHusky = () => {
     return (
         <>
             <div>{
-                console.log("here")
+                {/* console.log("here") */ }
             }
                 sdad
             </div>
