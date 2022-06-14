@@ -67,7 +67,7 @@ export function Header() {
                 developers.
               </p>
             </div>
-            <div className="flex h-[54px] w-[185px] mb-3  bg-white  rounded-4xl flex justify-center items-center">
+            <div className="flex h-[54px] w-[185px] mb-3  bg-white  rounded-4xl flex justify-center items-center cursor-pointer">
               <div className="h-[19px] w-[19px]  ml-4">
                 <PhoneSVG />
               </div>
