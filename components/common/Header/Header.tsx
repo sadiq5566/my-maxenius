@@ -5,7 +5,7 @@ import logo from "../../../public/assets/images/logo.png";
 import headersup from "../../../public/assets/images/headersupport.png";
 import SearchSVG from "../../../public/assets/svgs/searchSVG";
 import Arrow from "../../../public/assets/svgs/arrow";
-import PhoneSVG from "../../../public/assets/svgs/phoneSVG";
+import CallingPhoneSVG from "../../../public/assets/svgs/CallingPhoneSVG";
 export function Header() {
   return (
     <header
@@ -67,9 +67,9 @@ export function Header() {
                 developers.
               </p>
             </div>
-            <div className="flex h-[54px] w-[185px] mb-3  bg-white  rounded-4xl flex justify-center items-center cursor-pointer">
+            <div className="flex h-[54px] w-[185px] mb-3  bg-white  rounded-4xl justify-center items-center cursor-pointer">
               <div className="h-[19px] w-[19px]  ml-4">
-                <PhoneSVG />
+                <CallingPhoneSVG />
               </div>
               <span className="text-main ml-4 font-semibold font-poppins">
                 Book a Call
