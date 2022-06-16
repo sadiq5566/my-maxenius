@@ -11,11 +11,18 @@ module.exports = {
       },
       colors: {
         main: "#E11C34",
+        serviceBg: "#FBFBFB",
+        pColor: "#6A6A6A",
+        gradient1: "#FE2A44",
+        gradient2: "#BD0B21"
       },
       fontFamily: {
         'poppins': ['Poppins', 'sans-serif'],
         'Lato': ['Lato', 'sans-serif']
       },
+      boxShadow: {
+        'service': '0px 11px 16px rgba(0, 0, 0, 0.04)',
+      }
     }
   },
 
