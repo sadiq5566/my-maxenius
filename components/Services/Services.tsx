@@ -14,7 +14,7 @@ export const Services = () => {
           <div className="flex flex-wrap mx-4">
             {servicesData.map((service) => {
               return (
-                <div className=" lg:w-1/3 md:w-1/2 w-full mt-4" key={`${service.id}`}>
+                <div className=" lg:w-1/3 md:w-1/2 w-full mt-4 " key={`${service.id}`}>
                   <div
                     className={`h-[278px] w-[367px]  flex flex-col justify-around  rounded-md py-8 px-10 ${
                       service.id == 2

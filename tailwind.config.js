@@ -14,7 +14,8 @@ module.exports = {
         serviceBg: "#FBFBFB",
         pColor: "#6A6A6A",
         gradient1: "#FE2A44",
-        gradient2: "#BD0B21"
+        gradient2: "#BD0B21",
+        greyClr: "#F0F0F0"
       },
       fontFamily: {
         'poppins': ['Poppins', 'sans-serif'],
