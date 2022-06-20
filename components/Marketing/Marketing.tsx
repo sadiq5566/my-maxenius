@@ -32,7 +32,7 @@ export const Marketing = () => {
               key={`${data.id}`}
             >
               <div className=" pt-2 px-14 flex flex-col justify-around  h-full">
-                <div className="mb-4">{data.svg()}</div>
+                {/* <div className="mb-4">{data.svg()}</div> */}
                 <h2 className="text-2xl font-poppins font-normal leading-9 text-black not-italic">
                   {data.title}
                 </h2>

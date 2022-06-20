@@ -22,7 +22,7 @@ export const Services = () => {
                         : "bg-serviceBg"
                     } `}
                   >
-                    {service.svg()}
+                    {/* {service.svg()} */}
                     <div className="flex-grow mt-4 flex flex-col justify-evenly">
                       <h2 className="leading-9 text-black text-2xl font-normal font-poppins">
                         {service.title}
