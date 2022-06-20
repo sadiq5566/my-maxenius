@@ -7,8 +7,8 @@ import SearchSVG from "../../../public/assets/svgs/searchSVG";
 import Arrow from "../../../public/assets/svgs/arrow";
 import CallingPhoneSVG from "../../../public/assets/svgs/CallingPhoneSVG";
 export function Header() {
-  const imageWidth = 394;
-  const imageHeight = 394;
+  const imageWidth: Number = 394;
+  const imageHeight: Number = 394;
   return (
     <header
       className={`text-white px-14 sm:px-4 py-4 body-font bg-header-bg w-full h-[783px] sm:h-auto bg-cover bg-no-repeat bg-center`}
@@ -81,7 +81,7 @@ export function Header() {
           </div>
           <div className="w-1/3 sm:w-full flex flex-col md:ml-auto py-8 mt-0 relative sm:justify-center sm:items-center">
             <div
-              className={` h-[${imageHeight}px] w-[${imageHeight}px] sm:h-1/2 sm:w-1/2  `}
+              className={` h-[${imageHeight}px] w-[${imageWidth}px] sm:h-1/2 sm:w-1/2  `}
             >
               <Image
                 src={headersup}
