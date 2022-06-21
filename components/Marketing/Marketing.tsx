@@ -14,7 +14,7 @@ export const Marketing = () => {
               </span>
             </h1>
           </div>
-          <p className=" font-Lato w-[1117px] sm:w-full sm:text-5xl sm:tracking-wider sm:mt-4 sm:leading-[1.6] text-justify text-xl font-medium text-pColor leading-9 not-italic mt-5">
+          <p className=" font-Lato w-[1117px] sm:w-full sm:text-4xl sm:tracking-wider sm:mt-8 sm:leading-[1.6] text-justify text-xl font-medium text-pColor leading-9 not-italic mt-5">
             While our core business has always been software development, we also help our
             clients scale up their marketing efforts when they need professional marketing
             assistance.

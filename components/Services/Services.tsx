@@ -21,7 +21,7 @@ export const Services = () => {
                   <div
                     className={`h-[278px] w-[367px]  md:w-full flex flex-col justify-around  rounded-md py-8 px-10  ${
                       service.id == 2
-                        ? "border-main bg-white border-b-4 r shadow-service"
+                        ? "border-main bg-white border-b-4 r sm:h-auto shadow-service"
                         : "bg-serviceBg"
                     } `}
                   >
@@ -42,7 +42,7 @@ export const Services = () => {
             })}
           </div>
         </div>
-        <div className="w-full flex justify-center items-center sm:mt-6 ">
+        <div className="w-full flex justify-center items-center sm:my-8 ">
           <div className="flex h-[54px] w-[230px] sm:h-[100px] sm:w-[350px] sm:rounded-full mb-3  bg-gradient-to-r from-gradient1 to-gradient2  text-white rounded-4xl justify-center items-center cursor-pointer">
             <span className="text-white text-base leading-4 font-bold sm:text-2xl sm:font-bold font-poppins">
               View All Services
