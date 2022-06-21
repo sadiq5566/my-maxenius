@@ -3,8 +3,8 @@ import React from "react";
 const UxUiSVG = () => {
   return (
     <svg
-      width="24"
-      height="29"
+      width="35"
+      height="35"
       viewBox="0 0 24 29"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
