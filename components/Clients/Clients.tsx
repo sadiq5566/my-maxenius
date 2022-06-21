@@ -22,11 +22,11 @@ const Clients = () => {
                 CEO Maxenius - Usama Muhammad
               </h2>
             </div>
-            <div className="flex sm:mt-6 h-[54px] w-[185px] sm:h-[100px] sm:w-[350px] sm:rounded-full mb-3  bg-white  rounded-4xl justify-center items-center cursor-pointer">
+            <div className="flex sm:mt-6 md:mt-6 h-[54px] w-[185px] sm:h-[100px] sm:w-[350px] sm:rounded-full mb-3  bg-white  rounded-4xl justify-center items-center cursor-pointer">
               <div className="h-[19px] w-[19px] sm:h-[50px] sm:w-[50px] ml-4 flex justify-center items-center">
                 <CallingPhoneSVG />
               </div>
-              <span className="text-main ml-4 sm:ml-2 font-semibold font-poppins sm:text-4xl sm:font-bold flex justify-center items-center">
+              <span className=" text-main ml-4 sm:ml-2 font-semibold font-poppins sm:text-4xl sm:font-bold flex justify-center items-center">
                 Book a Call
               </span>
             </div>
@@ -35,7 +35,7 @@ const Clients = () => {
       </section>
       <div>
         <section className=" bg-transparent ">
-          <div className="container px-16 py-20 mx-auto md:py-0  ">
+          <div className="container px-16 py-20 mx-auto md:py-1  ">
             <div className="flex flex-wrap -m-4 text-center justify-between">
               <div className="border-2 border-gray-200 px-6  py-12 rounded-lg bg-white relative w-[257px] h-[149px] ">
                 <div className="h-[78px] w-[78px] rounded-full border-[6px] border-main flex justify-center items-center absolute ml-auto mr-auto left-0 right-0 -top-10  bg-white">
