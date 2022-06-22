@@ -50,16 +50,20 @@ export function Header({ title, subTitle }: HeaderProps) {
       </div>
       <section className="relative">
         <div
-          className={`px-14 py-24 mx-auto flex flex-nowrap sm:flex-col sm:px-8 sm:py-6 ${
+          className={`px-14 py-24 mx-auto flex flex-nowrap sm:flex-col sm:px-8 sm:py-6 sm:h-auto ${
             router.pathname === "/ourwork" ? "justify-between items-center" : ""
           }`}
         >
           <div
             className={`w-2/3 sm:w-full sm:order-2  mr-10  flex flex-col ${
               router.pathname === "/ourwork" ? "" : "justify-between"
-            } relative text-white sm:mt-24 sm:h-[700px]`}
+            } relative text-white sm:mt-24 sm:h-auto`}
           >
-            <div className={` ${router.pathname === "/ourwork" ? "mb-4" : "mt-7"} `}>
+            <div
+              className={` sm:h-auto ${
+                router.pathname === "/ourwork" ? "mb-4" : "mt-7"
+              } `}
+            >
               <h1 className="text-6xl font-bold font-poppins sm:text-9xl sm:tracking-wider sm:mb-6">
                 {title ? title : `Do Not Settle`}
               </h1>
@@ -68,8 +72,8 @@ export function Header({ title, subTitle }: HeaderProps) {
             {router.pathname === "/ourwork" ? (
               ""
             ) : (
-              <div>
-                <div className="flex mb-1 sm:mt-3">
+              <div className="sm:h-auto">
+                <div className="flex mb-1 sm:mt-3 ">
                   <h3 className="text-4xl font-normal font-poppins sm:text-7xl sm:tracking-widest">
                     Elevate Your Expectations
                   </h3>
@@ -81,7 +85,7 @@ export function Header({ title, subTitle }: HeaderProps) {
             )}
 
             <div>
-              <p className="w-[639px] sm:h-[150px] sm:mt-3 sm:tracking-widest sm:w-full sm:text-4xl sm:leading-[1.7] text-xl font-medium opacity-[0.8] leading-9 text-justify  mb-3 font-Lato">
+              <p className="w-[639px]  sm:h-auto sm:tracking-widest sm:w-full sm:text-4xl sm:leading-[1.7] text-xl font-medium opacity-[0.8] leading-9 text-justify  mb-3 font-Lato sm:mt-8">
                 {subTitle
                   ? subTitle
                   : `Benefit from a bespoke approach to
@@ -93,7 +97,7 @@ export function Header({ title, subTitle }: HeaderProps) {
             {router.pathname === "/ourwork" ? (
               ""
             ) : (
-              <div className="flex h-[54px] w-[185px] sm:h-[100px] sm:w-[350px] sm:rounded-full mb-3  bg-white  rounded-4xl justify-center items-center cursor-pointer">
+              <div className="flex h-[54px]  w-[185px]  sm:w-[350px] sm:rounded-full mb-3  bg-white  rounded-4xl justify-center items-center cursor-pointer sm:h-[100px] sm:mt-8">
                 <div className="h-[19px] w-[19px] sm:h-[50px] sm:w-[50px] ml-4 flex justify-center items-center">
                   <CallingPhoneSVG />
                 </div>
