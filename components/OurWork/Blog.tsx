@@ -8,7 +8,7 @@ export const Blog = () => {
       <section>
         {ourWorkBlogData.map((data) => {
           return (
-            <div key={`${data.id}`}>
+            <div key={`${data.id}`} className="bg-white">
               <div className="items-center justify-center sm:flex hidden sm:w-full">
                 <Image
                   className="object-cover object-center"
@@ -20,7 +20,7 @@ export const Blog = () => {
                 />
               </div>
               <div
-                className="p-12 flex flex-row  w-full h-[625px] bg-white rounded-xl sm:h-[1050px] sm:flex-col sm:px-2 sm:py-12"
+                className="p-12 flex flex-row  w-full h-[625px]  rounded-xl sm:h-auto sm:flex-col sm:px-2 sm:py-12"
                 key={`${data.id}`}
               >
                 <div className="w-3/5 flex flex-col items-start justify-around px-12  sm:text-left md:w-full sm:items-center sm:order-2">
