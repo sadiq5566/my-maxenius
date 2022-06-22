@@ -7,11 +7,8 @@ import SearchSVG from "../../../public/assets/svgs/searchSVG";
 import Arrow from "../../../public/assets/svgs/arrow";
 import CallingPhoneSVG from "../../../public/assets/svgs/CallingPhoneSVG";
 import { useRouter } from "next/router";
+import { HeaderProps } from "../../../Interfaces/headerInterface";
 
-interface HeaderProps {
-  title: String;
-  subTitle: String;
-}
 export function Header({ title, subTitle }: HeaderProps) {
   const imageWidth: Number = 394;
   const imageHeight: Number = 394;
