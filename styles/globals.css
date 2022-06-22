@@ -22,9 +22,10 @@ a {
 * {
   box-sizing: border-box;
 }
-@layer components{
 
+@layer components{
 .header-anchor{
   @apply mr-5 opacity-[0.8] text-white md:font-semibold font-medium active:font-bold font-Lato active:opacity-100;
 }
 }
+

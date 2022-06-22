@@ -11,7 +11,7 @@ export const Services = () => {
               Services We Offer
             </h1>
           </div>
-          <div className="flex flex-wrap mx-4 md:mx-24    ">
+          <div className="flex flex-wrap mx-4 md:mx-24">
             {servicesData.map((service) => {
               return (
                 <div
