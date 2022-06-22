@@ -5,11 +5,11 @@ import StraightArrowWhiteSvg from "../../public/assets/svgs/StraightArrowWhiteSv
 export const Blog = () => {
   return (
     <div className="w-full bg-serviceBg p-20">
-      <section>
-        {ourWorkBlogData.map((data) => {
-          return (
-            <div key={`${data.id}`} className="bg-white">
-              <div className="items-center justify-center sm:flex hidden sm:w-full">
+      {ourWorkBlogData.map((data) => {
+        return (
+          <section className="my-12 rounded-xl shadow-service" key={`${data.id}`}>
+            <div className="bg-white w-full h-[625px] p-12 sm:h-auto sm:px-2 sm:py-12">
+              <div className="items-center justify-center sm:flex hidden sm:w-full sm:mb-8">
                 <Image
                   className="object-cover object-center"
                   alt="logo"
@@ -19,10 +19,7 @@ export const Blog = () => {
                   objectFit="contain"
                 />
               </div>
-              <div
-                className="p-12 flex flex-row  w-full h-[625px]  rounded-xl sm:h-auto sm:flex-col sm:px-2 sm:py-12"
-                key={`${data.id}`}
-              >
+              <div className=" flex flex-row    rounded-xl  sm:flex-col ">
                 <div className="w-3/5 flex flex-col items-start justify-around px-12  sm:text-left md:w-full sm:items-center sm:order-2">
                   {/* //////// logo.////  */}
                   <div className="flex items-center justify-start sm:hidden">
@@ -106,9 +103,9 @@ export const Blog = () => {
                 </div>
               </div>
             </div>
-          );
-        })}
-      </section>
+          </section>
+        );
+      })}
     </div>
   );
 };

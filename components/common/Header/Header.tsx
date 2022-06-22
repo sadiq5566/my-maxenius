@@ -51,21 +51,21 @@ export function Header({ title, subTitle }: HeaderProps) {
       <section className="relative">
         <div
           className={`px-14 py-24 mx-auto flex flex-nowrap sm:flex-col sm:px-8 sm:py-6 ${
-            router.pathname === "/OurWork" ? "justify-between items-center" : ""
+            router.pathname === "/ourwork" ? "justify-between items-center" : ""
           }`}
         >
           <div
             className={`w-2/3 sm:w-full sm:order-2  mr-10  flex flex-col ${
-              router.pathname === "/OurWork" ? "" : "justify-between"
+              router.pathname === "/ourwork" ? "" : "justify-between"
             } relative text-white sm:mt-24 sm:h-[700px]`}
           >
-            <div className={` ${router.pathname === "/OurWork" ? "mb-4" : "mt-7"} `}>
+            <div className={` ${router.pathname === "/ourwork" ? "mb-4" : "mt-7"} `}>
               <h1 className="text-6xl font-bold font-poppins sm:text-9xl sm:tracking-wider sm:mb-6">
                 {title ? title : `Do Not Settle`}
               </h1>
             </div>
 
-            {router.pathname === "/OurWork" ? (
+            {router.pathname === "/ourwork" ? (
               ""
             ) : (
               <div>
@@ -90,7 +90,7 @@ export function Header({ title, subTitle }: HeaderProps) {
                 manage highly skilled offshore Pakistani developers.`}
               </p>
             </div>
-            {router.pathname === "/OurWork" ? (
+            {router.pathname === "/ourwork" ? (
               ""
             ) : (
               <div className="flex h-[54px] w-[185px] sm:h-[100px] sm:w-[350px] sm:rounded-full mb-3  bg-white  rounded-4xl justify-center items-center cursor-pointer">
