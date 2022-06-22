@@ -3,7 +3,7 @@ import { Footer } from "../components/common/Footer";
 import { Header } from "../components/common/Header";
 import { Blog } from "../components/OurWork";
 
-const ourwork = () => {
+const OurWork = () => {
   return (
     <>
       <Header
@@ -16,4 +16,4 @@ const ourwork = () => {
   );
 };
 
-export default ourwork;
+export default OurWork;

@@ -53,7 +53,7 @@ export const Blog = () => {
                         <h3 className="font-Lato font-medium text-xl leading-9 text-black text-justify">
                           Core Technologies:
                         </h3>
-                        <ul className="flex list-disc pl-10 py-2 md:flex-col mt-4">
+                        <ul className="flex list-disc pl-10 py-2 md:flex-col mt-1">
                           {data.technologies.map((tech, i) => {
                             return (
                               <li key={i} className="mr-12 text-main">
