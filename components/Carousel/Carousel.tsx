@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import { ourWorkBlogData } from "../../data/ourWorkBlog";
-import MainArrowStraightSVG from "../../public/assets/svgs/mainArrowStraightSVG";
+import MainArrowStraightSVG from "../../public/assets/svgs/MainArrowStraightSVG";
 import StraightArrowWhiteSvg from "../../public/assets/svgs/StraightArrowWhiteSvg";
 export const Carousel = () => {
   return (
