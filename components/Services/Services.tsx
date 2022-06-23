@@ -6,8 +6,8 @@ export const Services = () => {
   const router = useRouter();
 
   return (
-    <div className="w-full h-[1300px] md:h-[2000px] sm:h-auto pt-20 bg-serviceBg ">
-      <section className="body-font">
+    <div className="w-full h-auto md:h-[2000px] sm:h-auto py-20 bg-serviceBg ">
+      <section className="body-font ">
         <div
           className={`container px-5 ${
             router.pathname === "/services" ? "pt-0" : "pt-24"
