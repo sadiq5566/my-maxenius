@@ -23,7 +23,7 @@ export const Feedback = () => {
             <span className="text-white text-base leading-4 font-bold font-poppins">
               View All Stories
             </span>
-            <div className="h-[24px] w-[24px] ml-2">
+            <div className="h-[24px] w-[24px] ml-2 flex justify-center items-center">
               <StraightArrowWhiteSvg />
             </div>
           </div>

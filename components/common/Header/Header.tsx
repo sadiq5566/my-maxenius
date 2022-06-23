@@ -18,22 +18,22 @@ export function Header({ title, subTitle }: HeaderProps) {
       className={`text-white px-14 sm:px-4 py-4 body-font bg-header-bg w-full h-[783px] sm:h-auto bg-cover bg-no-repeat bg-center`}
     >
       <div className=" mx-auto sm:mx-0 flex flex-wrap py-5 px-14 sm:px-8 flex-row items-center md:flex-col sm:flex-row">
-        <Link href="#">
+        <Link href="/">
           <a className="flex title-font font-medium items-center text-gray-900 mb-4 ">
             <Image src={logo} alt="logo" className="ml-3 " />
           </a>
         </Link>
         <nav className="ml-auto flex flex-wrap items-center text-base justify-center space-x-9 md:mx-auto md:mt-6 sm:mt-0 sm:mr-0 sm:non">
-          <Link href="#">
+          <Link href="/">
             <a className="header-anchor">Home</a>
           </Link>
-          <Link href="#">
+          <Link href="/ourwork">
             <a className="header-anchor">Our Work</a>
           </Link>
           <Link href="#">
             <a className="header-anchor">About Us!</a>
           </Link>
-          <Link href="#">
+          <Link href="/services">
             <a className="header-anchor">Ecommerce Guide</a>
           </Link>
           <Link href="#">
@@ -57,7 +57,9 @@ export function Header({ title, subTitle }: HeaderProps) {
           <div
             className={`w-2/3 sm:w-full sm:order-2  mr-10  flex flex-col ${
               router.pathname === "/ourwork" ? "" : "justify-between"
-            } relative text-white sm:mt-24 sm:h-auto`}
+            }  ${
+              router.pathname === "/services" ? "justify-evenly" : ""
+            }  relative text-white sm:mt-24 sm:h-auto`}
           >
             <div
               className={` sm:h-auto ${
@@ -69,7 +71,7 @@ export function Header({ title, subTitle }: HeaderProps) {
               </h1>
             </div>
 
-            {router.pathname === "/ourwork" ? (
+            {router.pathname === "/ourwork" || router.pathname === "/services" ? (
               ""
             ) : (
               <div className="sm:h-auto">
