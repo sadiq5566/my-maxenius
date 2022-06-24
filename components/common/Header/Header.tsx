@@ -3,7 +3,6 @@ import Image from "next/image";
 import Link from "next/link";
 import logo from "../../../public/assets/images/logo.png";
 import headersup from "../../../public/assets/images/headersupport.png";
-import SearchSVG from "../../../public/assets/svgs/searchSVG";
 import Arrow from "../../../public/assets/svgs/arrow";
 import CallingPhoneSVG from "../../../public/assets/svgs/CallingPhoneSVG";
 import { useRouter } from "next/router";
