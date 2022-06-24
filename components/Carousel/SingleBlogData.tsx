@@ -3,7 +3,7 @@ import React from "react";
 import { Button } from "../../Button";
 import { ourWorkBlogData } from "../../data/ourWorkBlog";
 import StraightArrowWhiteSvg from "../../public/assets/svgs/StraightArrowWhiteSvg";
-import CarouselItemIcons from "./carouselItemIcons";
+import CarouselItemIcons from "./CarouselItemIcons";
 
 export const SingleBlogData = ({ item }: { item: Number }) => {
   return (
@@ -71,17 +71,6 @@ export const SingleBlogData = ({ item }: { item: Number }) => {
                           </ul>
                         </div>
 
-                        {/* /////////Button/////// */}
-                        {/* <div className="w-full flex sm:my-12 mt-12">
-                          <div className="flex h-[54px] w-[230px] sm:h-[100px] sm:w-[350px] sm:rounded-full mb-3  bg-gradient-to-r from-gradient1 to-gradient2  text-white rounded-4xl justify-center items-center cursor-pointer">
-                            <span className="text-white text-base leading-4 font-bold sm:text-2xl sm:font-bold font-poppins">
-                              View Case Study
-                            </span>
-                            <div className="h-[24px] w-[24px] sm:h-[50px] sm:w-[50px]  ml-2 flex justify-center items-center">
-                              <StraightArrowWhiteSvg />
-                            </div>
-                          </div>
-                        </div> */}
                         <Button
                           className=" w-full flex sm:my-12 mt-12"
                           preSVG={false}

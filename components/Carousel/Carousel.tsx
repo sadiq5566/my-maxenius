@@ -1,9 +1,7 @@
-import Image from "next/image";
 import React from "react";
-import { ourWorkBlogData } from "../../data/ourWorkBlog";
 import MainArrowStraightSVG from "../../public/assets/svgs/MainArrowStraightSVG";
-import StraightArrowWhiteSvg from "../../public/assets/svgs/StraightArrowWhiteSvg";
-import { SingleBlogData } from "./singleBlogData";
+
+import { SingleBlogData } from "./SingleBlogData";
 export const Carousel = () => {
   return (
     <div className="w-full h-auto bg-main">
