@@ -3,8 +3,8 @@ import React from "react";
 const ContentMarketingSVG = () => {
   return (
     <svg
-      width="50"
-      height="50"
+      width="30"
+      height="30"
       viewBox="0 0 27 29"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
