@@ -3,6 +3,7 @@ import { servicesData } from "../../data/Services";
 import StraightArrowWhiteSvg from "../../public/assets/svgs/StraightArrowWhiteSvg";
 import { useRouter } from "next/router";
 import { Button } from "../../Button";
+import ActiveLink from "../common/Header/ActiveLink";
 export const Services = () => {
   const router = useRouter();
 
@@ -26,21 +27,34 @@ export const Services = () => {
                   Solve Your Toughest Challenges
                 </h1>
               </div>
-              <section className="">
-                <div className=" px-5 pt-10 mx-auto flex flex-wrap flex-col">
-                  <div className="flex flex-wrap mx-48">
-                    <a className=" py-1 w-1/4 justify-center text-black text-base border-b-2 font-semibold bg-white inline-flex items-center border-main rounded-full sm:w-full sm:px-auto sm:border-b-0 sm:mb-4 sm:text-xl">
-                      Software Development
-                    </a>
-                    <a className=" py-1 w-1/4 text-pColor text-base font-normal justify-center  border-b-2 inline-flex items-center sm:w-full sm:px-auto sm:mb-4 sm:text-xl">
-                      Consultancy
-                    </a>
-                    <a className=" py-1 w-1/4 justify-center  border-b-2 text-pColor text-base font-normal inline-flex items-center sm:w-full sm:px-auto sm:mb-4 sm:text-xl">
-                      Enterprise Solutions
-                    </a>
-                    <a className=" py-1 w-1/4 justify-center border-b-2 inline-flex items-center text-pColor text-base font-normal sm:w-full sm:px-auto sm:mb-4 sm:text-xl">
-                      Emerging Technologies
-                    </a>
+              <section>
+                <style jsx>{`
+                  .active {
+                    border-radius: 9999px;
+                    color: black;
+                    background: white;
+                    font-weight: 600;
+                    border-bottom: 2px solid #e11c34;
+                  }
+                `}</style>
+
+                <div
+                  className=" px-5 pt-10 mx-auto flex flex-wrap flex-col"
+                  id="services"
+                >
+                  <div className="flex flex-wrap mx-48 ">
+                    <ActiveLink activeClassName="active" href="/services#services">
+                      <a className="services-anchor  sm:px-auto ">Software Development</a>
+                    </ActiveLink>
+                    <ActiveLink activeClassName="active" href="/services#Consultancy">
+                      <a className="services-anchor  sm:px-auto">Consultancy</a>
+                    </ActiveLink>
+                    <ActiveLink activeClassName="active" href="/services#Enterprise">
+                      <a className="services-anchor  sm:px-auto">Enterprise Solutions</a>
+                    </ActiveLink>
+                    <ActiveLink activeClassName="active" href="/services#Emerging">
+                      <a className="services-anchor  sm:px-auto">Emerging Technologies</a>
+                    </ActiveLink>
                   </div>
                 </div>
               </section>
@@ -61,11 +75,8 @@ export const Services = () => {
                   key={`${service.id}`}
                 >
                   <div
-                    className={`h-[278px] w-[367px]  md:w-full flex flex-col justify-around  rounded-md py-8 px-10  ${
-                      service.id == 2
-                        ? "border-main bg-white border-b-4 r sm:h-auto shadow-service"
-                        : "bg-serviceBg"
-                    } `}
+                    className={`h-[278px] w-[367px]  md:w-full flex flex-col justify-around  rounded-md py-8 px-10 bg-serviceBg 
+                      hover:border-main hover:bg-white hover:border-b-4 r sm:hover:h-auto hover:shadow-service `}
                   >
                     <div className="sm:h-[60px] sm:w-[60px] sm:mb-6">
                       {service.svg({})}
@@ -87,16 +98,6 @@ export const Services = () => {
         {router.pathname === "/services" ? (
           ""
         ) : (
-          // <div className="w-full flex justify-center items-center sm:my-12">
-          //   <div className="flex h-[54px] w-[230px] sm:h-[100px] sm:w-[350px] sm:rounded-full mb-3  bg-gradient-to-r from-gradient1 to-gradient2  text-white rounded-4xl justify-center items-center cursor-pointer">
-          //     <span className="text-white text-base leading-4 font-bold sm:text-2xl sm:font-bold font-poppins">
-          //       View All Services
-          //     </span>
-          //     <div className="h-[24px] w-[24px] sm:h-[50px] sm:w-[50px]  ml-2 flex justify-center items-center">
-          //       <StraightArrowWhiteSvg />
-          //     </div>
-          //   </div>
-          // </div>
           <Button
             svg={StraightArrowWhiteSvg}
             className="w-full flex justify-center items-center sm:my-12"

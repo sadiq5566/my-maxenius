@@ -19,16 +19,7 @@ export const Feedback = () => {
             </span>
           </h1>
         </div>
-        {/* <div className=" flex justify-center items-center sm:hidden">
-          <div className="flex h-[54px] w-[230px] mb-3 bg-gradient-to-r from-gradient1 to-gradient2 text-white rounded-4xl justify-center items-center cursor-pointer">
-            <span className="text-white text-base leading-4 font-bold font-poppins">
-              View All Stories
-            </span>
-            <div className="h-[24px] w-[24px] ml-2 flex justify-center items-center">
-              <StraightArrowWhiteSvg />
-            </div>
-          </div>
-        </div> */}
+
         <Button
           className=" flex justify-center items-center sm:hidden"
           preSVG={false}
@@ -94,17 +85,6 @@ export const Feedback = () => {
           <hr />
         </div>
       </div>
-
-      {/* <div className="w-full flex justify-center items-center sm:mt-6 invisible sm:visible">
-        <div className="flex h-[54px] w-[230px] sm:h-[100px] sm:w-[350px] sm:rounded-full mb-3  bg-gradient-to-r from-gradient1 to-gradient2  text-white rounded-4xl justify-center items-center cursor-pointer">
-          <span className="text-white text-base leading-4 font-bold sm:text-2xl sm:font-bold font-poppins">
-            View All Services
-          </span>
-          <div className="h-[24px] w-[24px] sm:h-[50px] sm:w-[50px]  ml-2 flex justify-center items-center">
-            <StraightArrowWhiteSvg />
-          </div>
-        </div>
-      </div> */}
       <Button
         className="w-full flex justify-center items-center sm:mt-6 invisible sm:visible"
         preSVG={false}

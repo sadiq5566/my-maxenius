@@ -23,14 +23,7 @@ const Clients = () => {
                 CEO Maxenius - Usama Muhammad
               </h2>
             </div>
-            {/* <div className="flex sm:mt-6 md:mt-6 h-[54px] w-[185px] sm:h-[100px] sm:w-[350px] sm:rounded-full mb-3  bg-white  rounded-4xl justify-center items-center cursor-pointer">
-              <div className="h-[19px] w-[19px] sm:h-[50px] sm:w-[50px] ml-4 flex justify-center items-center">
-                <CallingPhoneSVG />
-              </div>
-              <span className=" text-main ml-4 sm:ml-2 font-semibold font-poppins sm:text-4xl sm:font-bold flex justify-center items-center">
-                Book a Call
-              </span>
-            </div> */}
+
             <Button className="" preSVG={true} svg={CallingPhoneSVG}>
               Book a Call
             </Button>
