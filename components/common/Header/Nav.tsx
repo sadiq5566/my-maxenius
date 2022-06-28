@@ -22,7 +22,6 @@ const Nav = () => {
       <ActiveLink activeClassName="active" href="#">
         <a className="header-anchor">About Us!</a>
       </ActiveLink>
-
       <ActiveLink activeClassName="active" href="/services">
         <a className="header-anchor">Ecommerce Guide</a>
       </ActiveLink>
