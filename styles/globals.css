@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu,
+    Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    max-width: 1366px;
+    width: 1366px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@layer components{
+.header-anchor{
+  @apply mr-5 opacity-[0.8] text-white md:font-semibold font-medium font-Lato ;
+}
+.services-anchor{
+  @apply  py-1 w-1/4 justify-center text-pColor text-base border-b-2 font-normal inline-flex items-center cursor-pointer sm:w-full  sm:mb-4 sm:text-xl sm:active:border-b-0;
+}
+}
+

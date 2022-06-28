@@ -1,0 +1,17 @@
+{
+  "extends": ["eslint:recommended", "next","next/core-web-vitals", "prettier"],
+  "rules": {
+    "no-unused-vars": "error",
+        "no-console": 1,
+        "indent": ["error", 2]
+
+  },
+    "overrides": [
+    {
+      "files": ["*.ts", "*.tsx"],
+      "rules": {
+        "no-undef": "off"
+      }
+    }
+  ]
+}
