@@ -4,19 +4,8 @@ module.exports = {
     extend: {
       backgroundImage: {
 
-        'header-bg': "url('/assets/images/headerbg.png')",
-      },
-      borderRadius: {
-        '4xl': '40px',
-
-      },
-      colors: {
-        main: "#E11C34",
-      },
-      fontFamily: {
-        'poppins': ['Poppins', 'sans-serif'],
-        'Lato': ['Lato', 'sans-serif']
-      },
+        "button-gradient": "linear-gradient(112.3deg, #FE2A44 0.22%, #BD0B21 100.27%)"
+      }
 
     }
   },
