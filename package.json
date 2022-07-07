@@ -10,7 +10,7 @@
     "husky": "husky install",
     "prepare": "husky install",
     "format": "prettier --write \"**/*.{ts, tsx, js, jsx}\"",
-    "pre-commit": "next lint"
+    "pre-commit": "next lint --fix && git add -A ."
   },
   "dependencies": {
     "next": "12.1.6",
