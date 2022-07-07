@@ -24,9 +24,7 @@ export const Layout = ({ lang, title, description, children }: props) => {
         {/* iOS Safari */}
         <meta name="apple-mobile-web-app-status-bar-style" content="#ff173d" />
       </Head>
-
       <Header />
-
       <div>
         <main>{children}</main>
       </div>
