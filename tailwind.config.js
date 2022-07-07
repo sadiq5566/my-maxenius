@@ -3,6 +3,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
+
         'header-bg': "url('/assets/images/headerbg.png')",
       },
       borderRadius: {
@@ -16,6 +17,7 @@ module.exports = {
         'poppins': ['Poppins', 'sans-serif'],
         'Lato': ['Lato', 'sans-serif']
       },
+
     }
   },
 
