@@ -3,10 +3,22 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
+
         "footer-house": "url('../components/images/footer.png')",
         "red-gradient": "linear-gradient(112.3deg, #FE2A44 0.22%, #BD0B21 100.27%)"
       }
+
     }
   },
-  plugins: []
+
+  variants: {
+    extend: {
+      fontWeight: ['responsive', 'hover', 'focus', 'group-hover', 'active'],
+      fontBold: ['responsive', 'hover', 'focus', 'group-hover', 'active'],
+      opacity: ['responsive', 'hover', 'focus', 'disabled', 'active'],
+    }
+  },
+
+  plugins: [
+  ]
 };
