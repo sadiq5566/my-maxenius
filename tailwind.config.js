@@ -23,6 +23,7 @@ module.exports = {
         'Lato': ['Lato', 'sans-serif']
       },
 
+
       boxShadow: {
         'service': '0px 11px 16px rgba(0, 0, 0, 0.04)',
       }
