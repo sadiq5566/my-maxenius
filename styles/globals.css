@@ -12,6 +12,7 @@ body {
     Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
     max-width: 1366px;
     width: 1366px;
+  overflow-x: hidden;
 }
 
 a {

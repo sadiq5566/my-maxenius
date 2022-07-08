@@ -19,19 +19,19 @@ export function Header() {
           </a>
         </Link>
         <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center space-x-9">
-          <Link href="#">
+          <Link href="/">
             <a className="header-anchor">Home</a>
           </Link>
           <Link href="#">
             <a className="header-anchor">Our Work</a>
           </Link>
-          <Link href="#">
+          <Link href="/about">
             <a className="header-anchor">About Us!</a>
           </Link>
           <Link href="#">
             <a className="header-anchor">Ecommerce Guide</a>
           </Link>
-          <Link href="#">
+          <Link href="/contact">
             <a className="header-anchor">Contact Us</a>
           </Link>
           <Link href="#">
