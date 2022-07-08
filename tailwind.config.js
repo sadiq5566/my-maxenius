@@ -27,6 +27,9 @@ module.exports = {
       boxShadow: {
         service: "0px 11px 16px rgba(0, 0, 0, 0.04)",
         contact: "0px 11px 16px rgba(0, 0, 0, 0.04)"
+      },
+      backgroundSize: {
+        '100%': '100%',
       }
     }
   },

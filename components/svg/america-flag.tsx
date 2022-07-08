@@ -9,6 +9,7 @@ const AmericaFlag = () => {
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
       xmlnsXlink="http://www.w3.org/1999/xlink"
+      className="w-[36px] h-[36px] lg:w-[45px] lg:h-[45px]"
     >
       <circle cx="22.5" cy="22.5" r="22.5" fill="url(#pattern0)" />
       <defs>

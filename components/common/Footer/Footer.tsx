@@ -11,12 +11,12 @@ export function Footer() {
     setSelectAddress(ad);
   };
   return (
-    <div className="w-100 bg-footer-house bg-right-top bg-no-repeat h-[854px] bg-cover	">
-      <div className="w-50 pl-40	pt-24 inline-block">
-        <h1 className="text-4xl inline-block font-['Poppins'] font-normal">
+    <div className="w-100 bg-footer-house bg-right-bottom bg-no-repeat h-[695px] lg:h-[854px] bg-100%	">
+      <div className="lg:w-50 lg:pl-40 pt-24 inline-block w-100 pl-5 pr-5 md:pl-5 ">
+        <h1 className="text-[22px] lg:text-4xl inline-block font-['Poppins'] font-normal">
           Contact Us <Phone />
         </h1>
-        <p className="text-xl	text-[#6A6A6A] mt-5 w-80 font-['Lato'] font-medium">
+        <p className="text-xs lg:text-xl	text-[#6A6A6A] mt-5 w-80 font-['Lato'] font-medium">
           We operate our business just as we build software with a global mindset.
         </p>
         <div className="mt-6">
@@ -51,28 +51,28 @@ export function Footer() {
             {selectAddress === 3 && <DoubleDownArrow />}
           </span>
         </div>
-        <h1 className="text-4xl inline-block font-['Poppins'] font-normal mt-[15.42px]">
+        <h1 className="text-[22px] lg:text-4xl inline-block font-['Poppins'] font-normal mt-[15.42px]">
           {selectAddress === 1 && "USA, Ohio 44313"}
           {selectAddress === 2 && "PK, Lahore 5400"}
           {selectAddress === 3 && "PK, Lahore 5401"}
           <Location />
         </h1>
-        <h2 className="text-xl text-[#000000] leading-9 w-18 font-['Lato'] font-bold mt-3">
+        <h2 className="text-base lg:text-xl text-[#000000] leading-9 w-18 font-['Lato'] font-bold mt-3">
           Address
         </h2>
-        <p className="text-xl	text-[#6A6A6A] leading-9 w-96 font-['Lato'] font-medium">
+        <p className="text-xs lg:text-xl	text-[#6A6A6A] leading-9 w-96 font-['Lato'] font-medium">
           736 Hampton Ridge Dr. Akron, Ohio 44313
         </p>
-        <h3 className="text-xl	text-[#000000] leading-9 w-45 font-['Lato'] font-bold mt-3">
+        <h3 className="text-base lg:text-xl	text-[#000000] leading-9 w-45 font-['Lato'] font-bold mt-3">
           Phone & WhatsApp:
         </h3>
-        <p className="text-xl	text-[#6A6A6A] leading-9 w-42 font-['Lato'] font-medium">
+        <p className="text-xs lg:text-xl	text-[#6A6A6A] leading-9 w-42 font-['Lato'] font-medium">
           +1 ‭(330) 285-3015‬
         </p>
-        <h4 className="text-xl	text-[#000000] leading-9 w-13 font-['Lato'] font-bold mt-3">
+        <h4 className="text-base lg:text-xl	text-[#000000] leading-9 w-13 font-['Lato'] font-bold mt-3">
           Email
         </h4>
-        <p className="text-xl	text-[#6A6A6A] leading-9 w-45 font-['Lato'] font-medium">
+        <p className="text-xs lg:text-xl	text-[#6A6A6A] leading-9 w-45 font-['Lato'] font-medium">
           usa@maxenius.com
         </p>
       </div>
