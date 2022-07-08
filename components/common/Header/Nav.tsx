@@ -4,7 +4,7 @@ import ActiveLink from "./ActiveLink";
 
 const Nav = () => {
   return (
-    <nav className="ml-auto flex flex-wrap items-center text-base justify-center space-x-9 md:mx-auto md:mt-6 sm:mt-0 sm:mr-0 sm:non">
+    <nav className="ml-auto flex flex-wrap items-center text-base justify-center space-x-9  lg:mx-auto lg:mt-6 sm:mx-0 sm:space-x-3 sm:mt-0 sm:mr-0 sm:none">
       <style jsx>{`
         .active {
           font-weight: bold;
