@@ -85,7 +85,7 @@ import WorldSVG from "../../public/assets/svgs/worldSVG";
 
 const Clients = () => {
   return (
-    <div className="w-full  h-[400px] lg:h-auto sm:h-[550px] bg-main ">
+    <div className="w-full  h-[400px] lg:h-auto sm:h-[550px] bg-main relative">
       <section className="">
         <div className="container mx-auto py-20 ">
           <div className=" flex flex-row w-full sm:h-auto lg:flex-col lg:items-stretch lg:px-32 md:px-16 items-start justify-between px-20 sm:px-8">
@@ -109,9 +109,9 @@ const Clients = () => {
       </section>
       <div>
         <section className=" bg-transparent ">
-          <div className="container px-36 lg:px-8 py-4 md:py-8 sm:px-24 xsm:px-12 mx-auto lg:-mt-14 absolute">
-            <div className="flex md:flex-wrap -m-4 text-center justify-between ">
-              <div className=" w-[257px] h-[149px] lg:w-[200px] lg:h-[110px] border-2 border-gray-200 px-6  py-12 lg:py-8 lg:px-4 rounded-lg bg-white relative md:w-[150px] md:h-[89px] ">
+          <div className="container absolute left-0 right-0">
+            <div className="inline-flex md:flex-wrap justify-between w-full px-36 lg:px-8 md:px-6 py-4 md:py-3 sm:px-12 lg:-mt-14 sm:mt-0 sm:py-0 ">
+              <div className=" w-[257px] h-[149px] lg:w-[200px] lg:h-auto border-2 border-gray-200 px-6  py-12 lg:py-8 lg:px-4  rounded-lg bg-white relative md:w-[150px] md:h-[89px] text-center">
                 <div className="h-[78px] w-[78px]  lg:h-[60px] lg:w-[60px] rounded-full border-[6px] border-main flex justify-center items-center absolute ml-auto mr-auto left-0 right-0 -top-10  bg-white">
                   <PersonsSVG />
                 </div>
@@ -123,7 +123,7 @@ const Clients = () => {
                 </p>
               </div>
 
-              <div className="border-2 border-gray-200 px-6 py-12 rounded-lg bg-white relative w-[257px] h-[149px] lg:w-[200px] lg:h-[110px] lg:py-8 lg:px-4 md:w-[150px] md:h-[89px] ">
+              <div className="border-2 border-gray-200 px-6 py-12 rounded-lg bg-white relative w-[257px] h-[149px] lg:w-[200px] lg:h-auto lg:py-8 lg:px-4 md:w-[150px] md:h-[89px] text-center">
                 <div className="h-[78px] w-[78px]  lg:h-[60px] lg:w-[60px] rounded-full  border-[6px] border-main flex justify-center items-center absolute ml-auto mr-auto left-0 right-0 -top-10  bg-white">
                   <CompassSVG />
                 </div>
@@ -135,7 +135,7 @@ const Clients = () => {
                 </p>
               </div>
 
-              <div className="border-2 border-gray-200 px-6 py-12  rounded-lg bg-white relative w-[257px] h-[149px] lg:w-[200px] lg:h-[110px] lg:py-8 lg:px-4 md:w-[150px] md:h-[89px] sm:mt-24 xsm:mt-24">
+              <div className="border-2 border-gray-200 px-6 py-12  rounded-lg bg-white relative w-[257px] h-[149px] lg:w-[200px] lg:h-auto lg:py-8 lg:px-4 md:w-[150px] md:h-[89px] sm:mt-16  text-center">
                 <div className="h-[78px] w-[78px] lg:h-[60px] lg:w-[60px] rounded-full border-[6px] border-main flex justify-center items-center absolute ml-auto mr-auto left-0 right-0 -top-10  bg-white">
                   <WorldSVG />
                 </div>
@@ -147,7 +147,7 @@ const Clients = () => {
                 </p>
               </div>
 
-              <div className="border-2 border-gray-200 px-6 py-12 rounded-lg relative bg-white w-[257px] h-[149px] lg:w-[200px] lg:h-[110px] lg:py-8 lg:px-4 md:w-[150px] md:h-[89px] sm:mt-24  xsm:mt-24">
+              <div className="border-2 border-gray-200 px-6 py-12 rounded-lg relative bg-white w-[257px] h-[149px] lg:w-[200px] lg:h-auto lg:py-8 lg:px-4 md:w-[150px] md:h-[89px] sm:mt-16   text-center">
                 <div className="h-[78px] w-[78px] lg:h-[60px] lg:w-[60px] rounded-full  border-[6px] border-main flex justify-center items-center absolute ml-auto mr-auto left-0 right-0 -top-10  bg-white">
                   <BuildingSVG />
                 </div>
