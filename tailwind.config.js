@@ -5,6 +5,7 @@ module.exports = {
       "lg": { 'max': '1024px' },
       'md': { 'max': '768px' },
       'sm': { 'max': '500px' },
+      'xsm': { 'max': '460px' },
     },
     extend: {
       backgroundImage: {

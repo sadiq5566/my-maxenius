@@ -27,7 +27,7 @@ a {
   @apply mr-5 opacity-[0.8] text-white sm:font-semibold font-medium font-Lato sm:mr-2 ;
 }
 .services-anchor{
-  @apply  py-1 w-1/4 justify-center text-pColor text-base border-b-2 font-normal inline-flex items-center cursor-pointer sm:w-full  sm:mb-4 sm:text-xl sm:active:border-b-0;
+  @apply  py-3 w-1/4 justify-center text-pColor text-base border-b-2 md:border-b-0 font-normal inline-flex items-center cursor-pointer  md:w-1/2 sm:w-full  sm:mb-4 sm:text-xl sm:active:border-b-0;
 }
 }
 

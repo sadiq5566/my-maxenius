@@ -124,11 +124,11 @@ import { ourWorkBlogData } from "../../data/ourWorkBlog";
 import StraightArrowWhiteSvg from "../../public/assets/svgs/StraightArrowWhiteSvg";
 export const Blog = () => {
   return (
-    <div className="w-full bg-serviceBg p-20">
+    <div className="w-full bg-serviceBg p-20 sm:py-4 sm:px-4">
       {ourWorkBlogData.map((data) => {
         return (
           <section className="my-12 rounded-xl shadow-service" key={`${data.id}`}>
-            <div className="bg-white w-full h-[625px] p-12 sm:h-auto sm:px-2 sm:py-12">
+            <div className="bg-white w-full h-[625px] md:h-auto p-12 md:px-0 md:py-12 sm:h-auto sm:px-0 sm:py-12 ">
               <div className="items-center justify-center sm:flex hidden sm:w-full sm:mb-8">
                 <Image
                   className="object-cover object-center"
@@ -154,14 +154,14 @@ export const Blog = () => {
                   </div>
                   {/* //////// h1 heading.////  */}
                   <div className="w-[479px] lg:w-full sm:mt-16">
-                    <h1 className="font-poppins text-4xl  font-normal text-black leading-[48px]">
+                    <h1 className="font-poppins text-4xl  lg:text-3xl lg:leading-[40px] md:text-base md:leading-6 md:font-normal font-normal text-black leading-[48px]">
                       {data.title}
                       {/* <br className="hidden lg:inline-block" /> */}
                     </h1>
                   </div>
                   {/* //////// P tag description/// */}
-                  <div className="w-[559px]  lg:w-full sm:mt-4">
-                    <p className="font-Lato font-medium text-xl leading-9 text-pColor text-justify">
+                  <div className="w-auto  lg:w-full sm:mt-4">
+                    <p className="font-Lato font-medium text-xl leading-9 lg:text-lg lg:leading-7  md:text-xs md:leading-5 md:font-medium text-pColor text-justify">
                       {data.description}
                     </p>
                   </div>
@@ -169,14 +169,14 @@ export const Blog = () => {
                   <div className="lg:w-full flex lg:justify-between lg:mt-4 ">
                     <div className=" lg:flex lg:justify-between lg:flex-col lg:w-2/4">
                       <div className="w-auto">
-                        <h3 className="font-Lato font-medium text-xl leading-9 text-black text-justify">
+                        <h3 className="font-Lato font-medium text-xl leading-9 lg:text-lg lg:leading-7  md:text-base md:leading-6 md:font-normal text-black text-justify">
                           Core Technologies:
                         </h3>
                         <ul className="flex list-disc pl-10 py-2 lg:flex-col mt-1">
                           {data.technologies.map((tech, i) => {
                             return (
-                              <li key={i} className="mr-12 text-main">
-                                <p className="  bg-clip-text text-transparent bg-gradient-to-r from-gradient1 to-gradient2 font-Lato font-medium text-xl xl:text-lg leading-9 text-justify">
+                              <li key={i} className="mr-12 text-main sm:mr-0">
+                                <p className="bg-clip-text text-transparent bg-gradient-to-r from-gradient1 to-gradient2 font-Lato font-medium text-xl  leading-9 lg:text-md lg:leading-7 md:text-xs md:leading-5 md:font-medium text-justify">
                                   {tech}
                                 </p>
                               </li>
@@ -197,7 +197,7 @@ export const Blog = () => {
                         </div>
                       </div> */}
                       <Button
-                        className="w-full flex sm:my-12 mt-12"
+                        className="w-full flex mt-12 md:w-[145px] md:h-[34px]"
                         preSVG={false}
                         svg={StraightArrowWhiteSvg}
                       >

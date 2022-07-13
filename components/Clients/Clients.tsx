@@ -85,18 +85,18 @@ import WorldSVG from "../../public/assets/svgs/worldSVG";
 
 const Clients = () => {
   return (
-    <div className="w-full  h-[400px] lg:h-auto sm:h-[660px] bg-main ">
+    <div className="w-full  h-[400px] lg:h-auto sm:h-[550px] bg-main ">
       <section className="">
         <div className="container mx-auto py-20 ">
-          <div className=" flex flex-row w-full sm:h-[450px] lg:flex-col lg:items-stretch lg:px-32 items-start justify-between px-20 sm:px-8">
+          <div className=" flex flex-row w-full sm:h-auto lg:flex-col lg:items-stretch lg:px-32 md:px-16 items-start justify-between px-20 sm:px-8">
             <div className="lg:mb-3 w-9/12 lg:w-full">
-              <p className=" sm:w-full sm:h-auto sm:leading-[1.4] sm:tracking-widest sm:text-4xl h-auto text-white text-xl font-medium  leading-9 text-justify  mb-3 font-Lato">
+              <p className=" sm:w-full sm:h-auto sm:leading-[1.4] sm:tracking-widest sm:text-xs h-auto sm:font-medium text-white text-xl font-medium  leading-9 text-justify  mb-3 font-Lato">
                 `When you hire Maxenius, you ensure a commitment from American management
                 and leadership and improve the quality of life of our developers in
                 Pakistan. You will benefit from a hybrid outsourcing model without
                 sacrificing quality.`
               </p>
-              <h2 className=" font-poppins lg:mt-3 sm:text-6xl font-semibold text-2xl text-white leading-[48px] sm:mt-6">
+              <h2 className=" font-poppins lg:mt-3 sm:text-base sm:font-semibold sm:leading-6 font-semibold text-2xl text-white leading-[48px] sm:mt-6">
                 CEO Maxenius - Usama Muhammad
               </h2>
             </div>
@@ -109,52 +109,52 @@ const Clients = () => {
       </section>
       <div>
         <section className=" bg-transparent ">
-          <div className="container px-36 lg:px-8 py-4 md:py-8  mx-auto lg:-mt-14 absolute">
+          <div className="container px-36 lg:px-8 py-4 md:py-8 sm:px-24 xsm:px-12 mx-auto lg:-mt-14 absolute">
             <div className="flex md:flex-wrap -m-4 text-center justify-between ">
-              <div className=" w-[257px] h-[149px] lg:w-[200px] lg:h-[110px] border-2 border-gray-200 px-6  py-12 lg:py-8 lg:px-4 rounded-lg bg-white relative md:w-[137px] md:h-[89px]">
+              <div className=" w-[257px] h-[149px] lg:w-[200px] lg:h-[110px] border-2 border-gray-200 px-6  py-12 lg:py-8 lg:px-4 rounded-lg bg-white relative md:w-[150px] md:h-[89px] ">
                 <div className="h-[78px] w-[78px]  lg:h-[60px] lg:w-[60px] rounded-full border-[6px] border-main flex justify-center items-center absolute ml-auto mr-auto left-0 right-0 -top-10  bg-white">
                   <PersonsSVG />
                 </div>
-                <h2 className="title-font font-bold text-3xl md:text-xl md:font-semibold text-gray-900">
+                <h2 className="title-font font-bold text-3xl md:text-xl md:font-semibold text-gray-900 sm:text-[22px] sm:leading-6 sm:font-semibold">
                   100+
                 </h2>
-                <p className="leading-6 text-xl font-medium lg:text-lg md:text-xs">
+                <p className="leading-6 text-xl font-medium lg:text-lg md:text-xs sm:text-xs sm:leading-[18px] sm:font-medium">
                   Developers
                 </p>
               </div>
 
-              <div className="border-2 border-gray-200 px-6 py-12 rounded-lg bg-white relative w-[257px] h-[149px] lg:w-[200px] lg:h-[110px] lg:py-8 lg:px-4 md:w-[137px] md:h-[89px] ">
+              <div className="border-2 border-gray-200 px-6 py-12 rounded-lg bg-white relative w-[257px] h-[149px] lg:w-[200px] lg:h-[110px] lg:py-8 lg:px-4 md:w-[150px] md:h-[89px] ">
                 <div className="h-[78px] w-[78px]  lg:h-[60px] lg:w-[60px] rounded-full  border-[6px] border-main flex justify-center items-center absolute ml-auto mr-auto left-0 right-0 -top-10  bg-white">
                   <CompassSVG />
                 </div>
-                <h2 className="title-font font-bold  text-3xl text-gray-900 md:text-xl md:font-semibold">
+                <h2 className="title-font font-bold  text-3xl text-gray-900 md:text-xl md:font-semibold sm:text-[22px] sm:leading-6 sm:font-semibold">
                   2K+
                 </h2>
-                <p className="leading-6 text-xl font-medium lg:text-lg md:text-xs">
+                <p className="leading-6 text-xl font-medium lg:text-lg md:text-xs sm:text-xs sm:leading-[18px] sm:font-medium">
                   Customers Served
                 </p>
               </div>
 
-              <div className="border-2 border-gray-200 px-6 py-12  rounded-lg bg-white relative w-[257px] h-[149px] lg:w-[200px] lg:h-[110px] lg:py-8 lg:px-4 md:w-[137px] md:h-[89px] ">
+              <div className="border-2 border-gray-200 px-6 py-12  rounded-lg bg-white relative w-[257px] h-[149px] lg:w-[200px] lg:h-[110px] lg:py-8 lg:px-4 md:w-[150px] md:h-[89px] sm:mt-24 xsm:mt-24">
                 <div className="h-[78px] w-[78px] lg:h-[60px] lg:w-[60px] rounded-full border-[6px] border-main flex justify-center items-center absolute ml-auto mr-auto left-0 right-0 -top-10  bg-white">
                   <WorldSVG />
                 </div>
-                <h2 className="title-font font-bold  text-3xl text-gray-900 md:text-xl md:font-semibold">
+                <h2 className="title-font font-bold  text-3xl text-gray-900 md:text-xl md:font-semibold sm:text-[22px] sm:leading-6 sm:font-semibold">
                   500+
                 </h2>
-                <p className="leading-6 text-xl lg:text-lg font-medium md:text-xs">
+                <p className="leading-6 text-xl lg:text-lg font-medium md:text-xs sm:text-xs sm:leading-[18px] sm:font-medium">
                   Global Clients
                 </p>
               </div>
 
-              <div className="border-2 border-gray-200 px-6 py-12 rounded-lg relative bg-white w-[257px] h-[149px] lg:w-[200px] lg:h-[110px] lg:py-8 lg:px-4 md:w-[137px] md:h-[89px] ">
+              <div className="border-2 border-gray-200 px-6 py-12 rounded-lg relative bg-white w-[257px] h-[149px] lg:w-[200px] lg:h-[110px] lg:py-8 lg:px-4 md:w-[150px] md:h-[89px] sm:mt-24  xsm:mt-24">
                 <div className="h-[78px] w-[78px] lg:h-[60px] lg:w-[60px] rounded-full  border-[6px] border-main flex justify-center items-center absolute ml-auto mr-auto left-0 right-0 -top-10  bg-white">
                   <BuildingSVG />
                 </div>
-                <h2 className="title-font font-bold  text-3xl text-gray-900 md:text-xl md:font-semibold">
+                <h2 className="title-font font-bold  text-3xl text-gray-900 md:text-xl md:font-semibold sm:text-[22px] sm:leading-6 sm:font-semibold">
                   8
                 </h2>
-                <p className=" leading-6 text-xl font-medium lg:text-lg md:text-xs">
+                <p className=" leading-6 text-xl font-medium lg:text-lg md:text-xs sm:text-xs sm:leading-[18px] sm:font-medium">
                   Years in Business
                 </p>
               </div>

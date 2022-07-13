@@ -128,14 +128,14 @@ export const Services = () => {
           }  pb-16 mx-auto`}
         >
           {router.pathname === "/services" ? (
-            <div className="flex flex-col text-center sm:text-left sm:px-8 w-full mb-20">
+            <div className="flex flex-col text-center sm:text-left sm:px-0 w-full mb-20">
               <div className="mb-4">
-                <h3 className="font-Lato font-medium text-xl leading-9 text-pColor sm:text-center">
+                <h3 className="font-Lato font-medium text-xl lg:leading-7 lg:text-lg md:leading-5 md:text-base md:font-medium leading-9 text-pColor sm:text-left">
                   What we do?
                 </h3>
               </div>
               <div>
-                <h1 className="text-black font-poppins font-normal text-4xl sm:text-center">
+                <h1 className="text-black font-poppins font-normal text-4xl  lg:leading-7 lg:text-3xl md:leading-[30px] md:text-[22px] md:font-normal leading-9 sm:text-left">
                   Solve Your Toughest Challenges
                 </h1>
               </div>
@@ -151,15 +151,15 @@ export const Services = () => {
                 `}</style>
 
                 <div
-                  className=" px-5 pt-10 mx-auto flex flex-wrap flex-col"
+                  className=" px-5 lg:px-0 pt-10 mx-auto flex flex-wrap flex-col"
                   id="services"
                 >
-                  <div className="flex flex-wrap mx-48 ">
+                  <div className="flex flex-wrap mx-48 lg:mx-24 md:mx-12 sm:mx-0 md:text-base md:leading-5 md:font-semibold ">
                     <ActiveLink activeClassName="active" href="/services#services">
                       <a className="services-anchor  sm:px-auto ">Software Development</a>
                     </ActiveLink>
                     <ActiveLink activeClassName="active" href="/services#Consultancy">
-                      <a className="services-anchor  sm:px-auto">Consultancy</a>
+                      <a className="services-anchor   sm:px-auto">Consultancy</a>
                     </ActiveLink>
                     <ActiveLink activeClassName="active" href="/services#Enterprise">
                       <a className="services-anchor  sm:px-auto">Enterprise Solutions</a>
@@ -173,31 +173,31 @@ export const Services = () => {
             </div>
           ) : (
             <div className="flex flex-col text-center sm:text-left sm:px-8 w-full mb-20">
-              <h1 className="font-poppins font-normal text-4xl not-italic sm:text-8xl leading-[48px] text-black">
+              <h1 className="font-poppins font-normal text-4xl not-italic leading-[48px] text-black sm:text-[22px] sm:leading-[24px] sm:font-normal">
                 Services We Offer
               </h1>
             </div>
           )}
 
-          <div className="flex flex-wrap mx-4 lg:mx-24">
+          <div className="flex flex-wrap mx-4 lg:mx-24 md:mx-8">
             {servicesData.map((service) => {
               return (
                 <div
-                  className={`w-1/3 lg:w-1/2 sm:w-full mt-4 sm:mt-2 flex sm:mb-20`}
+                  className={`w-1/3 lg:w-1/2 sm:w-full mt-4 sm:mt-0 flex sm:mb-8`}
                   key={`${service.id}`}
                 >
                   <div
-                    className={`h-[278px] w-[367px]  lg:w-full flex flex-col justify-around  rounded-md py-8 px-10 bg-serviceBg 
-                      hover:border-main hover:bg-white hover:border-b-4 r sm:hover:h-auto hover:shadow-service `}
+                    className={`h-[278px] sm:h-auto  md:h-auto w-auto lg:w-full flex flex-col justify-around  rounded-md py-8 md:py-4 md:px-6 px-10 bg-serviceBg sm:py-0 
+                      hover:border-main hover:bg-white hover:border-b-4 r  hover:shadow-service `}
                   >
-                    <div className="sm:h-[60px] sm:w-[60px] sm:mb-6">
+                    <div className="md:h-[30px] sm:w-[30px] md:mb-3 ">
                       {service.svg({})}
                     </div>
-                    <div className="flex-grow mt-4 flex flex-col justify-evenly  ">
-                      <h2 className="leading-9 text-black text-2xl font-normal font-poppins sm:text-5xl">
+                    <div className="flex-grow mt-4 md:mt-2 sm:mt-0 flex flex-col justify-evenly  ">
+                      <h2 className="leading-9 text-black text-2xl lg:text-xl lg:leading-7 font-normal font-poppins md:text-base md:leading-6 md:font-normal sm:text-base sm:leading-[24px] sm:font-normal md:mb-2">
                         {service.title}
                       </h2>
-                      <p className="font-Lato text-pColor font-medium sm:text-4xl sm:my-8  sm:tracking-widest sm:leading-[1.6] sm:h-[150px] text-xl leading-[30px] w-[270px] lg:w-full lg:mt-4 h-[120px] text-justify not-italic">
+                      <p className="font-Lato text-pColor md:my-0 font-medium sm:text-xs sm:my-2 sm:tracking-widest sm:leading-5 sm:h-auto text-xl leading-[30px] lg:text-lg lg:leading-[24px] w-[270px] lg:w-full lg:mt-4 h-[120px] md:h-auto text-justify not-italic md:text-xs md:leading-[20px] md:font-medium">
                         {service.description}
                       </p>
                     </div>
@@ -212,7 +212,7 @@ export const Services = () => {
         ) : (
           <Button
             svg={StraightArrowWhiteSvg}
-            className="w-full flex justify-center items-center sm:my-12"
+            className="w-full flex justify-center items-center sm:my-2"
             preSVG={false}
           >
             View All Services
