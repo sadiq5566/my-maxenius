@@ -13,7 +13,7 @@ export const Button = ({ className = "", svg, children, preSVG }: btnInterface) 
             className ? `${className}` : "w-full flex justify-center items-center sm:my-2"
           } `}
         >
-          <div className="flex h-[54px] w-[185px] sm:rounded-full mb-3 bg-white rounded-4xl justify-center items-center cursor-pointer md:w-[118px] md:h-[33px] ">
+          <div className="flex h-[54px] w-[185px] sm:rounded-full mb-3 bg-white rounded-4xl justify-center items-center cursor-pointer md:w-[118px] md:h-[33px]">
             <div className={`h-auto w-auto flex justify-center items-center `}>
               {svg
                 ? svg({

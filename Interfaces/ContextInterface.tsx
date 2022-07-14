@@ -1,3 +1,5 @@
+import { Dispatch, SetStateAction } from "react";
+
 export interface ContextInterface {
   isLg?: boolean;
   setIsLg?: Dispatch<SetStateAction<boolean>>;
