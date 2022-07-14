@@ -18,21 +18,21 @@ export function Header({ title, subTitle }: HeaderProps) {
 
   const handleResize = () => {
     if (window.innerWidth <= 1024 && window.innerWidth > 768) {
-      setIsLg(true);
-      setIsTab(false);
-      setIsMobile(false);
+      setIsLg!(true);
+      setIsTab!(false);
+      setIsMobile!(false);
     } else if (window.innerWidth <= 768 && window.innerWidth > 500) {
-      setIsTab(true);
-      setIsLg(false);
-      setIsMobile(false);
+      setIsTab!(true);
+      setIsLg!(false);
+      setIsMobile!(false);
     } else if (window.innerWidth <= 500) {
-      setIsMobile(true);
-      setIsLg(false);
-      setIsTab(false);
+      setIsMobile!(true);
+      setIsLg!(false);
+      setIsTab!(false);
     } else {
-      setIsLg(false);
-      setIsTab(false);
-      setIsMobile(false);
+      setIsLg!(false);
+      setIsTab!(false);
+      setIsMobile!(false);
     }
   };
 
