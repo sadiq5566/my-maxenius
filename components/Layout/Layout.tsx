@@ -7,9 +7,11 @@ interface props {
   title?: string;
   description?: string;
   readonly children: React.ReactNode;
+  headTitle?: string;
+  subTitle?: string;
 }
 
-export const Layout = ({ title, description, children }: props) => {
+export const Layout = ({ title, description, children, headTitle, subTitle }: props) => {
   return (
     <>
       <div>
@@ -21,7 +23,7 @@ export const Layout = ({ title, description, children }: props) => {
           />
         </Head>
 
-        <Header />
+        <Header title={headTitle} subTitle={subTitle} />
 
         <div>
           <main>{children}</main>

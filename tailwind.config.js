@@ -4,8 +4,7 @@ module.exports = {
     screens: {
       "lg": { 'max': '1024px' },
       'md': { 'max': '768px' },
-      'sm': { 'max': '500px' },
-      'xsm': { 'max': '400px' },
+      'sm': { 'max': '500px' }
     },
     extend: {
       backgroundImage: {

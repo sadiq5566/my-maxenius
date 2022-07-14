@@ -1,11 +1,12 @@
 import React from "react";
+import { svgInterface } from "../../../Interfaces/svgInterface";
 
-const SocialMediaMarketingSVG = () => {
+const SocialMediaMarketingSVG = (props: svgInterface) => {
   return (
     <svg
-      width="32"
-      height="32"
-      viewBox="0 0 31 31"
+      width={props.width}
+      height={props.height}
+      viewBox={`0 0 31 31`}
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >

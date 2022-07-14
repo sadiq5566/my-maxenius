@@ -1,11 +1,12 @@
 import React from "react";
+import { svgInterface } from "../../../Interfaces/svgInterface";
 
-const DiscoveryWorkshopSVG = () => {
+const DiscoveryWorkshopSVG = (props: svgInterface) => {
   return (
     <svg
-      width="30"
-      height="30"
-      viewBox="0 0 29 22"
+      width={props.width}
+      height={props.height}
+      viewBox={`0 0 31 31`}
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >

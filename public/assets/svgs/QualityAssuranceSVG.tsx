@@ -1,11 +1,12 @@
 import React from "react";
+import { svgInterface } from "../../../Interfaces/svgInterface";
 
-const QualityAssuranceSVG = () => {
+const QualityAssuranceSVG = (props: svgInterface) => {
   return (
     <svg
-      width="25"
-      height="25"
-      viewBox="0 0 21 27"
+      width={props.width}
+      height={props.height}
+      viewBox={`0 0 31 31`}
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
