@@ -1,17 +1,16 @@
 @tailwind base;
 @tailwind components;
-
-
 @tailwind utilities;
 
 html,
 body {
-  padding: 0;
-  margin: 0;
+  padding: 0px;
+  margin: 0px;  
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu,
     Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-    max-width: 1366px;
-    width: 1366px;
+       width: 100vw;
+        min-width: 440px;
+        overflow-x: hidden; 
 }
 
 a {
@@ -25,7 +24,10 @@ a {
 
 @layer components{
 .header-anchor{
-  @apply mr-5 opacity-[0.8] text-white md:font-semibold font-medium active:font-bold font-Lato active:opacity-100;
+  @apply mr-5 opacity-[0.8] text-white sm:font-semibold font-medium font-Lato sm:mr-2 ;
+}
+.services-anchor{
+  @apply  py-3 w-1/4 justify-center text-pColor text-base border-b-2 md:border-b-0 font-normal inline-flex items-center cursor-pointer  md:w-1/2 sm:w-full  sm:mb-4 sm:text-xl sm:active:border-b-0;
 }
 }
 

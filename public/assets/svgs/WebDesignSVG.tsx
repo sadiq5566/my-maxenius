@@ -1,11 +1,12 @@
 import React from "react";
+import { svgInterface } from "../../../Interfaces/svgInterface";
 
-const WebDesignSVG = () => {
+const WebDesignSVG = (props: svgInterface) => {
   return (
     <svg
-      width="35"
-      height="35"
-      viewBox="0 0 25 25"
+      width={props.width}
+      height={props.height}
+      viewBox={`0 0 31 31`}
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >

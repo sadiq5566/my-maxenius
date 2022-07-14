@@ -2,9 +2,9 @@ module.exports = {
   content: ["./pages/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
   theme: {
     screens: {
-      'lg': { 'max': '1023px' },
+      "lg": { 'max': '1024px' },
       'md': { 'max': '768px' },
-      'sm': { 'max': '420px' },
+      'sm': { 'max': '500px' }
     },
     extend: {
       backgroundImage: {
@@ -26,9 +26,13 @@ module.exports = {
         'poppins': ['Poppins', 'sans-serif'],
         'Lato': ['Lato', 'sans-serif']
       },
+
       boxShadow: {
         'service': '0px 11px 16px rgba(0, 0, 0, 0.04)',
       }
+
+
+
     }
   },
 
@@ -42,6 +46,5 @@ module.exports = {
 
   plugins: [
     require("daisyui")
-
   ]
 };

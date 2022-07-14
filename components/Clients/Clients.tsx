@@ -1,4 +1,6 @@
-import React from "react";
+import React, { useContext } from "react";
+import { Button } from "../../Button";
+import StateContext from "../../Context/StateContext";
 import BuildingSVG from "../../public/assets/svgs/buildingSVG";
 import CallingPhoneSVG from "../../public/assets/svgs/CallingPhoneSVG";
 import CompassSVG from "../../public/assets/svgs/compassSVG";
@@ -6,67 +8,116 @@ import PersonsSVG from "../../public/assets/svgs/personsSVG";
 import WorldSVG from "../../public/assets/svgs/worldSVG";
 
 const Clients = () => {
+  const { isLg, isTab, isMobile } = useContext(StateContext);
   return (
-    <div className="w-full  h-[470px] sm:h-[660px] bg-main">
+    <div className="w-full  h-[400px] lg:h-auto sm:h-[550px] bg-main relative">
       <section className="">
         <div className="container mx-auto py-20 ">
-          <div className=" flex flex-row sm:h-[450px] md:flex-col md:items-stretch md:px-32 items-center justify-between px-20 sm:px-8">
-            <div>
-              <p className="w-[806px] sm:w-full sm:h-auto sm:leading-[1.4] sm:tracking-widest sm:text-4xl h-[108px] text-white text-xl  font-light  leading-9 text-justify  mb-3 font-Lato">
+          <div className=" flex flex-row w-full sm:h-auto lg:flex-col lg:items-stretch lg:px-32 md:px-16 items-start justify-between px-20 sm:px-8">
+            <div className="lg:mb-3 w-9/12 lg:w-full">
+              <p className=" sm:w-full sm:h-auto sm:leading-[1.4] sm:tracking-widest sm:text-xs h-auto sm:font-medium text-white text-xl font-medium  leading-9 text-justify  mb-3 font-Lato">
                 `When you hire Maxenius, you ensure a commitment from American management
                 and leadership and improve the quality of life of our developers in
                 Pakistan. You will benefit from a hybrid outsourcing model without
                 sacrificing quality.`
               </p>
-              <h2 className=" font-poppins sm:text-6xl font-semibold text-2xl text-white leading-[48px] sm:mt-6">
+              <h2 className=" font-poppins lg:mt-3 sm:text-base sm:font-semibold sm:leading-6 font-semibold text-2xl text-white leading-[48px] sm:mt-6">
                 CEO Maxenius - Usama Muhammad
               </h2>
             </div>
-            <div className="flex sm:mt-6 md:mt-6 h-[54px] w-[185px] sm:h-[100px] sm:w-[350px] sm:rounded-full mb-3  bg-white  rounded-4xl justify-center items-center cursor-pointer">
-              <div className="h-[19px] w-[19px] sm:h-[50px] sm:w-[50px] ml-4 flex justify-center items-center">
-                <CallingPhoneSVG />
-              </div>
-              <span className=" text-main ml-4 sm:ml-2 font-semibold font-poppins sm:text-4xl sm:font-bold flex justify-center items-center">
-                Book a Call
-              </span>
-            </div>
+
+            <Button
+              className=" flex  md:w-[145px] md:h-[34px] "
+              preSVG={true}
+              svg={CallingPhoneSVG}
+            >
+              Book a Call
+            </Button>
           </div>
         </div>
       </section>
       <div>
         <section className=" bg-transparent ">
-          <div className="container px-16 py-20 mx-auto md:py-1  ">
-            <div className="flex flex-wrap -m-4 text-center justify-between">
-              <div className="border-2 border-gray-200 px-6  py-12 rounded-lg bg-white relative w-[257px] h-[149px] ">
-                <div className="h-[78px] w-[78px] rounded-full border-[6px] border-main flex justify-center items-center absolute ml-auto mr-auto left-0 right-0 -top-10  bg-white">
-                  <PersonsSVG />
+          <div className="container absolute left-0 right-0">
+            <div className="inline-flex md:flex-wrap justify-between w-full px-36 lg:px-8 md:px-6 py-4 md:py-3 sm:px-12 lg:-mt-14 sm:mt-0 sm:py-0 ">
+              <div className=" w-[257px] h-[149px] lg:w-[200px] lg:h-auto border-2 border-gray-200 px-6  py-12 lg:py-8 lg:px-4  rounded-lg bg-white relative md:w-[150px] md:h-[89px] text-center">
+                <div className="h-[78px] w-[78px]  lg:h-[60px] lg:w-[60px] rounded-full border-[6px] border-main flex justify-center items-center absolute ml-auto mr-auto left-0 right-0 -top-10  bg-white">
+                  <PersonsSVG
+                    {...(isLg
+                      ? { height: "40", width: "40" }
+                      : isTab
+                      ? { height: "24", width: "24" }
+                      : isMobile
+                      ? { height: "24", width: "24" }
+                      : { height: "40", width: "40" })}
+                  />
                 </div>
-                <h2 className="title-font font-medium text-3xl text-gray-900">100+</h2>
-                <p className="leading-relaxed">Developers</p>
+                <h2 className="title-font font-bold text-3xl md:text-xl md:font-semibold text-gray-900 sm:text-[22px] sm:leading-6 sm:font-semibold">
+                  100+
+                </h2>
+                <p className="leading-6 text-xl font-medium lg:text-lg md:text-xs sm:text-xs sm:leading-[18px] sm:font-medium">
+                  Developers
+                </p>
               </div>
 
-              <div className="border-2 border-gray-200 px-6 py-12 rounded-lg bg-white relative w-[257px] h-[149px]">
-                <div className="h-[78px] w-[78px] rounded-full  border-[6px] border-main flex justify-center items-center absolute ml-auto mr-auto left-0 right-0 -top-10  bg-white">
-                  <CompassSVG />
+              <div className="border-2 border-gray-200 px-6 py-12 rounded-lg bg-white relative w-[257px] h-[149px] lg:w-[200px] lg:h-auto lg:py-8 lg:px-4 md:w-[150px] md:h-[89px] text-center">
+                <div className="h-[78px] w-[78px]  lg:h-[60px] lg:w-[60px] rounded-full  border-[6px] border-main flex justify-center items-center absolute ml-auto mr-auto left-0 right-0 -top-10  bg-white">
+                  <CompassSVG
+                    {...(isLg
+                      ? { height: "40", width: "40" }
+                      : isTab
+                      ? { height: "24", width: "24" }
+                      : isMobile
+                      ? { height: "24", width: "24" }
+                      : { height: "40", width: "40" })}
+                  />
                 </div>
-                <h2 className="title-font font-medium text-3xl text-gray-900">2K+</h2>
-                <p className="leading-relaxed">Customers Served</p>
+                <h2 className="title-font font-bold  text-3xl text-gray-900 md:text-xl md:font-semibold sm:text-[22px] sm:leading-6 sm:font-semibold">
+                  2K+
+                </h2>
+                <p className="leading-6 text-xl font-medium lg:text-lg md:text-xs sm:text-xs sm:leading-[18px] sm:font-medium">
+                  Customers Served
+                </p>
               </div>
 
-              <div className="border-2 border-gray-200 px-6 py-12  rounded-lg bg-white relative w-[257px] h-[149px]">
-                <div className="h-[78px] w-[78px] rounded-full border-[6px] border-main flex justify-center items-center absolute ml-auto mr-auto left-0 right-0 -top-10  bg-white">
-                  <WorldSVG />
+              <div className="border-2 border-gray-200 px-6 py-12  rounded-lg bg-white relative w-[257px] h-[149px] lg:w-[200px] lg:h-auto lg:py-8 lg:px-4 md:w-[150px] md:h-[89px] sm:mt-16  text-center">
+                <div className="h-[78px] w-[78px] lg:h-[60px] lg:w-[60px] rounded-full border-[6px] border-main flex justify-center items-center absolute ml-auto mr-auto left-0 right-0 -top-10  bg-white">
+                  <WorldSVG
+                    {...(isLg
+                      ? { height: "40", width: "40" }
+                      : isTab
+                      ? { height: "24", width: "24" }
+                      : isMobile
+                      ? { height: "24", width: "24" }
+                      : { height: "40", width: "40" })}
+                  />
                 </div>
-                <h2 className="title-font font-medium text-3xl text-gray-900">500+</h2>
-                <p className="leading-relaxed">Global Clients</p>
+                <h2 className="title-font font-bold  text-3xl text-gray-900 md:text-xl md:font-semibold sm:text-[22px] sm:leading-6 sm:font-semibold">
+                  500+
+                </h2>
+                <p className="leading-6 text-xl lg:text-lg font-medium md:text-xs sm:text-xs sm:leading-[18px] sm:font-medium">
+                  Global Clients
+                </p>
               </div>
 
-              <div className="border-2 border-gray-200 px-6 py-12 rounded-lg relative bg-white w-[257px] h-[149px]">
-                <div className="h-[78px] w-[78px] rounded-full  border-[6px] border-main flex justify-center items-center absolute ml-auto mr-auto left-0 right-0 -top-10  bg-white">
-                  <BuildingSVG />
+              <div className="border-2 border-gray-200 px-6 py-12 rounded-lg relative bg-white w-[257px] h-[149px] lg:w-[200px] lg:h-auto lg:py-8 lg:px-4 md:w-[150px] md:h-[89px] sm:mt-16   text-center">
+                <div className="h-[78px] w-[78px] lg:h-[60px] lg:w-[60px] rounded-full  border-[6px] border-main flex justify-center items-center absolute ml-auto mr-auto left-0 right-0 -top-10  bg-white">
+                  <BuildingSVG
+                    {...(isLg
+                      ? { height: "40", width: "40" }
+                      : isTab
+                      ? { height: "24", width: "24" }
+                      : isMobile
+                      ? { height: "24", width: "24" }
+                      : { height: "40", width: "40" })}
+                  />
                 </div>
-                <h2 className="title-font font-medium text-3xl text-gray-900">8</h2>
-                <p className="leading-relaxed">Years in Business</p>
+                <h2 className="title-font font-bold  text-3xl text-gray-900 md:text-xl md:font-semibold sm:text-[22px] sm:leading-6 sm:font-semibold">
+                  8
+                </h2>
+                <p className=" leading-6 text-xl font-medium lg:text-lg md:text-xs sm:text-xs sm:leading-[18px] sm:font-medium">
+                  Years in Business
+                </p>
               </div>
             </div>
           </div>
