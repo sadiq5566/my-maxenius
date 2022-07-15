@@ -1,10 +1,8 @@
-import { Dispatch, SetStateAction } from "react";
-
 export interface ContextInterface {
   isLg?: boolean;
-  setIsLg?: Dispatch<SetStateAction<boolean>>;
+  setIsLg?: React.Dispatch<React.SetStateAction<boolean>> | undefined;
   isTab?: boolean;
-  setIsTab?: Dispatch<SetStateAction<boolean>>;
+  setIsTab?: React.Dispatch<React.SetStateAction<boolean>> | undefined;
   isMobile?: boolean;
-  setIsMobile?: Dispatch<SetStateAction<boolean>>;
+  setIsMobile?: React.Dispatch<React.SetStateAction<boolean>> | undefined;
 }

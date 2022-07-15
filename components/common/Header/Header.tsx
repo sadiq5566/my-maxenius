@@ -18,21 +18,21 @@ export function Header({ title, subTitle }: HeaderProps) {
 
   const handleResize = () => {
     if (window.innerWidth <= 1024 && window.innerWidth > 768) {
-      setIsLg(true);
-      setIsTab(false);
-      setIsMobile(false);
+      setIsLg!(true);
+      setIsTab!(false);
+      setIsMobile!(false);
     } else if (window.innerWidth <= 768 && window.innerWidth > 500) {
-      setIsTab(true);
-      setIsLg(false);
-      setIsMobile(false);
+      setIsTab!(true);
+      setIsLg!(false);
+      setIsMobile!(false);
     } else if (window.innerWidth <= 500) {
-      setIsMobile(true);
-      setIsLg(false);
-      setIsTab(false);
+      setIsMobile!(true);
+      setIsLg!(false);
+      setIsTab!(false);
     } else {
-      setIsLg(false);
-      setIsTab(false);
-      setIsMobile(false);
+      setIsLg!(false);
+      setIsTab!(false);
+      setIsMobile!(false);
     }
   };
 
@@ -114,7 +114,7 @@ export function Header({ title, subTitle }: HeaderProps) {
               ""
             ) : (
               <Button
-                className="w-full flex justify-start  md:w-[145px] md:h-[34px] "
+                className="h-[54px] w-[185px] bg-white rounded-4xl  md:h-[34px] md:w-[118px] flex justify-center"
                 preSVG={true}
                 svg={() =>
                   CallingPhoneSVG({
