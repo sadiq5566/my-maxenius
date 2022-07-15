@@ -5,5 +5,15 @@
         "no-console": 1,
         "indent": ["error", 2]
 
-  }
+  },
+    "overrides": [
+    {
+      "files": ["*.ts", "*.tsx"],
+      "rules": {
+        "no-undef": "off",
+        "indent": "off"
+
+      }
+    }
+  ]
 }

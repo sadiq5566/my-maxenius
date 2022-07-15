@@ -14,103 +14,103 @@ const OnlineCalender = () => {
           opacity="0.3"
           d="M256.362 302.307H208.636V345.947H256.362V302.307Z"
           stroke="black"
-          stroke-linejoin="round"
+          strokeLinejoin="round"
         />
         <path
           opacity="0.3"
           d="M218.685 315.028H213.689V320.032H218.685V315.028Z"
           stroke="black"
-          stroke-linejoin="round"
+          strokeLinejoin="round"
         />
         <path
           opacity="0.3"
           d="M226.874 315.028H221.869V320.032H226.874V315.028Z"
           stroke="black"
-          stroke-linejoin="round"
+          strokeLinejoin="round"
         />
         <path
           opacity="0.3"
           d="M235.062 315.028H230.058V320.032H235.062V315.028Z"
           stroke="black"
-          stroke-linejoin="round"
+          strokeLinejoin="round"
         />
         <path
           opacity="0.3"
           d="M243.235 315.028H238.239V320.032H243.235V315.028Z"
           stroke="black"
-          stroke-linejoin="round"
+          strokeLinejoin="round"
         />
         <path
           opacity="0.3"
           d="M251.423 315.028H246.419V320.032H251.423V315.028Z"
           stroke="black"
-          stroke-linejoin="round"
+          strokeLinejoin="round"
         />
         <path
           opacity="0.3"
           d="M218.685 324.127H213.689V329.131H218.685V324.127Z"
           stroke="black"
-          stroke-linejoin="round"
+          strokeLinejoin="round"
         />
         <path
           opacity="0.3"
           d="M226.874 324.127H221.869V329.131H226.874V324.127Z"
           stroke="black"
-          stroke-linejoin="round"
+          strokeLinejoin="round"
         />
         <path
           opacity="0.3"
           d="M235.062 324.127H230.058V329.131H235.062V324.127Z"
           stroke="black"
-          stroke-linejoin="round"
+          strokeLinejoin="round"
         />
         <path
           opacity="0.3"
           d="M243.235 324.127H238.239V329.131H243.235V324.127Z"
           stroke="black"
-          stroke-linejoin="round"
+          strokeLinejoin="round"
         />
         <path
           opacity="0.3"
           d="M251.423 324.127H246.419V329.131H251.423V324.127Z"
           stroke="black"
-          stroke-linejoin="round"
+          strokeLinejoin="round"
         />
         <path
           opacity="0.3"
           d="M218.685 333.217H213.689V338.221H218.685V333.217Z"
           stroke="black"
-          stroke-linejoin="round"
+          strokeLinejoin="round"
         />
         <path
           opacity="0.3"
           d="M226.874 333.217H221.869V338.221H226.874V333.217Z"
           stroke="black"
-          stroke-linejoin="round"
+          strokeLinejoin="round"
         />
         <path
           opacity="0.3"
           d="M235.062 333.217H230.058V338.221H235.062V333.217Z"
           stroke="black"
-          stroke-linejoin="round"
+          strokeLinejoin="round"
         />
         <path
           opacity="0.3"
           d="M243.235 333.217H238.239V338.221H243.235V333.217Z"
           stroke="black"
-          stroke-linejoin="round"
+          strokeLinejoin="round"
         />
         <path
           opacity="0.3"
           d="M251.423 333.217H246.419V338.221H251.423V333.217Z"
           stroke="black"
-          stroke-linejoin="round"
+          strokeLinejoin="round"
         />
         <path
           opacity="0.3"
           d="M250.96 307.303H213.689V310.032H250.96V307.303Z"
           stroke="black"
-          stroke-linejoin="round"
+          strokeLinejoin="round"
         />
       </g>
       <g opacity="0.3">
@@ -118,103 +118,103 @@ const OnlineCalender = () => {
           opacity="0.3"
           d="M378.152 108.152H330.425V151.792H378.152V108.152Z"
           stroke="black"
-          stroke-linejoin="round"
+          strokeLinejoin="round"
         />
         <path
           opacity="0.3"
           d="M340.482 120.873H335.478V125.878H340.482V120.873Z"
           stroke="black"
-          stroke-linejoin="round"
+          strokeLinejoin="round"
         />
         <path
           opacity="0.3"
           d="M348.655 120.873H343.659V125.878H348.655V120.873Z"
           stroke="black"
-          stroke-linejoin="round"
+          strokeLinejoin="round"
         />
         <path
           opacity="0.3"
           d="M356.843 120.873H351.839V125.878H356.843V120.873Z"
           stroke="black"
-          stroke-linejoin="round"
+          strokeLinejoin="round"
         />
         <path
           opacity="0.3"
           d="M365.024 120.873H360.02V125.878H365.024V120.873Z"
           stroke="black"
-          stroke-linejoin="round"
+          strokeLinejoin="round"
         />
         <path
           opacity="0.3"
           d="M373.205 120.873H368.209V125.878H373.205V120.873Z"
           stroke="black"
-          stroke-linejoin="round"
+          strokeLinejoin="round"
         />
         <path
           opacity="0.3"
           d="M340.482 129.972H335.478V134.968H340.482V129.972Z"
           stroke="black"
-          stroke-linejoin="round"
+          strokeLinejoin="round"
         />
         <path
           opacity="0.3"
           d="M348.655 129.972H343.659V134.968H348.655V129.972Z"
           stroke="black"
-          stroke-linejoin="round"
+          strokeLinejoin="round"
         />
         <path
           opacity="0.3"
           d="M356.843 129.972H351.839V134.968H356.843V129.972Z"
           stroke="black"
-          stroke-linejoin="round"
+          strokeLinejoin="round"
         />
         <path
           opacity="0.3"
           d="M365.024 129.972H360.02V134.968H365.024V129.972Z"
           stroke="black"
-          stroke-linejoin="round"
+          strokeLinejoin="round"
         />
         <path
           opacity="0.3"
           d="M373.205 129.972H368.209V134.968H373.205V129.972Z"
           stroke="black"
-          stroke-linejoin="round"
+          strokeLinejoin="round"
         />
         <path
           opacity="0.3"
           d="M340.482 139.062H335.478V144.066H340.482V139.062Z"
           stroke="black"
-          stroke-linejoin="round"
+          strokeLinejoin="round"
         />
         <path
           opacity="0.3"
           d="M348.655 139.062H343.659V144.066H348.655V139.062Z"
           stroke="black"
-          stroke-linejoin="round"
+          strokeLinejoin="round"
         />
         <path
           opacity="0.3"
           d="M356.843 139.062H351.839V144.066H356.843V139.062Z"
           stroke="black"
-          stroke-linejoin="round"
+          strokeLinejoin="round"
         />
         <path
           opacity="0.3"
           d="M365.024 139.062H360.02V144.066H365.024V139.062Z"
           stroke="black"
-          stroke-linejoin="round"
+          strokeLinejoin="round"
         />
         <path
           opacity="0.3"
           d="M373.205 139.062H368.209V144.066H373.205V139.062Z"
           stroke="black"
-          stroke-linejoin="round"
+          strokeLinejoin="round"
         />
         <path
           opacity="0.3"
           d="M372.75 113.148H335.478V115.877H372.75V113.148Z"
           stroke="black"
-          stroke-linejoin="round"
+          strokeLinejoin="round"
         />
       </g>
       <g opacity="0.3">
@@ -222,20 +222,20 @@ const OnlineCalender = () => {
           opacity="0.3"
           d="M32.7673 81.1976C44.4324 81.1976 53.8888 71.7412 53.8888 60.0762C53.8888 48.4111 44.4324 38.9547 32.7673 38.9547C21.1023 38.9547 11.6459 48.4111 11.6459 60.0762C11.6459 71.7412 21.1023 81.1976 32.7673 81.1976Z"
           stroke="black"
-          stroke-linejoin="round"
+          strokeLinejoin="round"
         />
         <path
           opacity="0.3"
           d="M25.391 67.4605L32.7673 60.0762L45.0258 71.3843"
           stroke="black"
-          stroke-linejoin="round"
+          strokeLinejoin="round"
         />
       </g>
       <path
         opacity="0.3"
         d="M48.7221 224.888V221.639L30.3302 211.176C30.0622 200.851 28.8274 193.052 27.3489 193.052C25.8704 193.052 24.6274 200.891 24.3675 211.249L6.59299 221.176V224.515L24.4 220.753C24.6112 226.838 25.1555 231.94 25.8866 234.889L21.2155 238.39V240.868L26.7883 238.39H28.5268L33.7259 240.868V238.52L28.8517 234.612C29.7601 229.937 30.2548 225.191 30.3302 220.429L48.7221 224.888Z"
         stroke="black"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M8.53465 156.301C11.2154 155.829 16.2277 152.336 16.2277 152.336C16.2277 152.336 12.9214 149.737 12.6939 149.599C10.0294 147.974 3.93667 146.487 1.32086 148.786C0.896255 149.179 0.559188 149.656 0.331675 150.188C0.104162 150.719 -0.00867935 151.293 0.000520533 151.871C0.00972041 152.449 0.140754 153.018 0.385065 153.542C0.629375 154.066 0.981467 154.533 1.41835 154.911C3.22179 156.585 6.24378 156.747 8.53465 156.301Z"
@@ -277,38 +277,38 @@ const OnlineCalender = () => {
         d="M357.306 57.761H69.868V289.195H357.306V57.761Z"
         fill="white"
         stroke="#263238"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path d="M292.512 194.669H263.519V223.54H292.512V194.669Z" fill="#E11C34" />
       <path
         d="M357.306 57.761H69.868V77.5826H357.306V57.761Z"
         fill="#E11C34"
         stroke="#263238"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M357.306 57.761H69.868V64.138H357.306V57.761Z"
         fill="#263238"
         stroke="#263238"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M343.366 61.0267C343.366 60.7326 343.279 60.4452 343.116 60.2007C342.952 59.9563 342.72 59.7657 342.449 59.6532C342.177 59.5407 341.878 59.5112 341.59 59.5686C341.301 59.626 341.036 59.7676 340.829 59.9755C340.621 60.1834 340.479 60.4483 340.422 60.7366C340.364 61.025 340.394 61.3239 340.506 61.5956C340.619 61.8672 340.809 62.0994 341.054 62.2627C341.298 62.4261 341.586 62.5133 341.88 62.5133C342.274 62.5133 342.652 62.3567 342.931 62.0779C343.21 61.7991 343.366 61.4209 343.366 61.0267Z"
         fill="white"
         stroke="#263238"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M347.639 61.0266C347.639 60.7323 347.552 60.4445 347.388 60.1999C347.225 59.9552 346.992 59.7647 346.72 59.6524C346.448 59.5401 346.148 59.5112 345.86 59.5692C345.571 59.6272 345.306 59.7696 345.099 59.9783C344.891 60.1871 344.75 60.4527 344.694 60.7416C344.637 61.0305 344.668 61.3297 344.782 61.6012C344.895 61.8727 345.087 62.1043 345.333 62.2667C345.578 62.4291 345.867 62.5149 346.161 62.5133C346.356 62.5133 346.549 62.4748 346.729 62.4C346.909 62.3251 347.072 62.2155 347.209 62.0774C347.347 61.9392 347.455 61.7753 347.529 61.5949C347.603 61.4146 347.641 61.2215 347.639 61.0266Z"
         fill="white"
         stroke="#263238"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M351.921 61.0267C351.92 60.734 351.834 60.4479 351.672 60.2042C351.51 59.9605 351.28 59.77 351.01 59.6566C350.74 59.5432 350.443 59.5119 350.156 59.5667C349.868 59.6215 349.603 59.7599 349.394 59.9645C349.185 60.1692 349.041 60.431 348.98 60.7172C348.919 61.0034 348.944 61.3013 349.051 61.5734C349.159 61.8456 349.344 62.0799 349.585 62.2471C349.825 62.4143 350.109 62.5069 350.401 62.5133C350.599 62.5176 350.796 62.4824 350.98 62.4096C351.164 62.3368 351.332 62.228 351.474 62.0895C351.615 61.9511 351.728 61.7857 351.804 61.6032C351.881 61.4207 351.921 61.2247 351.921 61.0267Z"
         fill="white"
         stroke="#263238"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M102.395 134.814C102.201 134.932 101.981 135.001 101.753 135.017V134.586C101.939 134.592 102.121 134.533 102.269 134.421C102.416 134.309 102.521 134.149 102.566 133.969H102.923V138.624H102.411L102.395 134.814Z"
@@ -886,214 +886,214 @@ const OnlineCalender = () => {
       <path
         d="M176.548 108.062H147.676V136.934H176.548V108.062Z"
         stroke="#263238"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M205.541 108.062H176.669V136.934H205.541V108.062Z"
         stroke="#263238"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M234.534 108.062H205.663V136.934H234.534V108.062Z"
         stroke="#263238"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M263.519 108.062H234.648V136.934H263.519V108.062Z"
         stroke="#263238"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M292.512 108.062H263.641V136.934H292.512V108.062Z"
         stroke="#263238"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M321.506 108.062H292.634V136.934H321.506V108.062Z"
         stroke="#263238"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M350.499 108.062H321.628V136.934H350.499V108.062Z"
         stroke="#263238"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M176.548 136.934H147.676V165.805H176.548V136.934Z"
         stroke="#263238"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M205.541 136.934H176.669V165.805H205.541V136.934Z"
         stroke="#263238"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M234.534 136.934H205.663V165.805H234.534V136.934Z"
         stroke="#263238"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M263.519 136.934H234.648V165.805H263.519V136.934Z"
         stroke="#263238"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M292.512 136.934H263.641V165.805H292.512V136.934Z"
         stroke="#263238"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M321.506 136.934H292.634V165.805H321.506V136.934Z"
         stroke="#263238"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M350.499 136.934H321.628V165.805H350.499V136.934Z"
         stroke="#263238"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M176.548 165.797H147.676V194.669H176.548V165.797Z"
         stroke="#263238"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M205.541 165.797H176.669V194.669H205.541V165.797Z"
         stroke="#263238"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M234.534 165.797H205.663V194.669H234.534V165.797Z"
         stroke="#263238"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M263.519 165.797H234.648V194.669H263.519V165.797Z"
         stroke="#263238"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M292.512 165.797H263.641V194.669H292.512V165.797Z"
         stroke="#263238"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M321.506 165.797H292.634V194.669H321.506V165.797Z"
         stroke="#263238"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M350.499 165.797H321.628V194.669H350.499V165.797Z"
         stroke="#263238"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M176.548 194.669H147.676V223.54H176.548V194.669Z"
         stroke="#263238"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M205.541 194.669H176.669V223.54H205.541V194.669Z"
         stroke="#263238"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M234.534 194.669H205.663V223.54H234.534V194.669Z"
         stroke="#263238"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M263.519 194.669H234.648V223.54H263.519V194.669Z"
         stroke="#263238"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M292.512 194.669H263.641V223.54H292.512V194.669Z"
         stroke="#263238"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M321.506 194.669H292.634V223.54H321.506V194.669Z"
         stroke="#263238"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M350.499 194.669H321.628V223.54H350.499V194.669Z"
         stroke="#263238"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M176.548 223.532H147.676V252.403H176.548V223.532Z"
         stroke="#263238"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M205.541 223.532H176.669V252.403H205.541V223.532Z"
         stroke="#263238"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M234.534 223.532H205.663V252.403H234.534V223.532Z"
         stroke="#263238"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M263.519 223.532H234.648V252.403H263.519V223.532Z"
         stroke="#263238"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M292.512 223.532H263.641V252.403H292.512V223.532Z"
         stroke="#263238"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M321.506 223.532H292.634V252.403H321.506V223.532Z"
         stroke="#263238"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M350.499 223.532H321.628V252.403H350.499V223.532Z"
         stroke="#263238"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M176.548 252.403H147.676V281.275H176.548V252.403Z"
         stroke="#263238"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M205.541 252.403H176.669V281.275H205.541V252.403Z"
         stroke="#263238"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M234.534 252.403H205.663V281.275H234.534V252.403Z"
         stroke="#263238"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M263.519 252.403H234.648V281.275H263.519V252.403Z"
         stroke="#263238"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M292.512 252.403H263.641V281.275H292.512V252.403Z"
         stroke="#263238"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M321.506 252.403H292.634V281.275H321.506V252.403Z"
         stroke="#263238"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M350.499 252.403H321.628V281.275H350.499V252.403Z"
         stroke="#263238"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
-      <path d="M351.36 93.9355H75.8147" stroke="#263238" stroke-linejoin="round" />
+      <path d="M351.36 93.9355H75.8147" stroke="#263238" strokeLinejoin="round" />
       <path d="M275.786 81.0515H258.442V88.9801H275.786V81.0515Z" fill="#CCCCCC" />
       <path d="M294.617 81.0515H277.273V88.9801H294.617V81.0515Z" fill="#CCCCCC" />
       <path d="M313.447 81.0515H296.103V88.9801H313.447V81.0515Z" fill="#CCCCCC" />
@@ -1161,37 +1161,37 @@ const OnlineCalender = () => {
         d="M215.695 83.2124C215.45 83.3623 215.17 83.4463 214.883 83.4561V82.9362C215.105 82.9404 215.322 82.8687 215.498 82.7327C215.674 82.5968 215.798 82.4049 215.85 82.1888H216.28V87.8266H215.663L215.695 83.2124Z"
         fill="#263238"
       />
-      <path d="M77.09 185.367H128.188" stroke="#263238" stroke-linejoin="round" />
-      <path d="M77.09 195.205H128.188" stroke="#263238" stroke-linejoin="round" />
-      <path d="M77.09 205.042H128.188" stroke="#263238" stroke-linejoin="round" />
-      <path d="M77.09 214.888H128.188" stroke="#263238" stroke-linejoin="round" />
+      <path d="M77.09 185.367H128.188" stroke="#263238" strokeLinejoin="round" />
+      <path d="M77.09 195.205H128.188" stroke="#263238" strokeLinejoin="round" />
+      <path d="M77.09 205.042H128.188" stroke="#263238" strokeLinejoin="round" />
+      <path d="M77.09 214.888H128.188" stroke="#263238" strokeLinejoin="round" />
       <path
         d="M207.645 66.9651H90.1934V73.6671H207.645V66.9651Z"
         fill="white"
         stroke="#263238"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
-      <path d="M343.927 69.0366H352.108" stroke="#263238" stroke-linejoin="round" />
-      <path d="M343.927 71.2625H352.108" stroke="#263238" stroke-linejoin="round" />
-      <path d="M343.927 73.4965H352.108" stroke="#263238" stroke-linejoin="round" />
-      <path d="M14.6029 376.378H379.354" stroke="#263238" stroke-linejoin="round" />
+      <path d="M343.927 69.0366H352.108" stroke="#263238" strokeLinejoin="round" />
+      <path d="M343.927 71.2625H352.108" stroke="#263238" strokeLinejoin="round" />
+      <path d="M343.927 73.4965H352.108" stroke="#263238" strokeLinejoin="round" />
+      <path d="M14.6029 376.378H379.354" stroke="#263238" strokeLinejoin="round" />
       <path
         d="M309.694 216.407C309.519 217.757 309.247 219.093 308.882 220.404C308.549 221.07 306.38 221.574 306.38 222.403C306.55 223.24 306.89 224.034 307.379 224.734L307.883 230.071C307.883 230.071 307.541 230.737 308.882 231.071C310.222 231.404 312.879 230.258 314.04 226.075C315.202 221.891 313.545 216.74 313.228 216.074C312.911 215.408 311.197 213.613 309.694 216.407Z"
         fill="white"
         stroke="#263238"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M291.538 226.903C291.538 226.903 282.537 210.575 282.537 209.575C282.537 208.576 283.536 205.595 283.633 204.969C283.731 204.344 283.43 202.483 283.633 201.444C283.836 200.404 283.844 199.266 283.219 200.306C282.685 201.104 282.402 202.043 282.407 203.003C282.394 203.297 282.324 203.585 282.2 203.851C282.076 204.117 281.9 204.357 281.684 204.555L280.546 202.589L279.092 197.195C279.092 197.195 278.158 196.781 278.158 197.504C278.158 198.227 278.97 202.378 278.97 202.378L276.59 197.089C276.59 197.089 275.778 196.886 275.778 197.715C275.778 198.543 277.541 203.206 277.541 203.206L274.535 199.681C274.319 199.822 274.167 200.042 274.109 200.293C274.052 200.544 274.094 200.808 274.226 201.029C274.64 201.964 276.2 204.555 276.2 204.555C275.524 204.184 274.897 203.731 274.332 203.206C274.226 202.898 273.706 202.687 273.812 203.418C273.917 204.149 276.614 206.626 276.614 206.626C277.125 207.502 277.751 208.306 278.475 209.015L279.515 209.949L285.94 232.24C285.94 232.24 288.857 226.343 291.538 226.903Z"
         fill="white"
         stroke="#263238"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M334.52 273.468C334.52 273.468 339.394 290.698 339.581 291.283C339.768 291.868 337.956 293.72 337.834 294.589C337.673 295.625 337.309 296.619 336.762 297.514C336.372 298.001 334.422 298.391 335.137 299.138C335.852 299.886 338.387 298.261 338.387 298.261V301.381C338.387 301.381 337.412 304.882 338.387 305.077C339.361 305.272 341.4 303.322 341.985 301.567C342.57 299.813 342.375 295.239 342.668 292.518C342.96 289.796 341.53 270.478 341.53 270.478L334.52 273.468Z"
         fill="white"
         stroke="#263238"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M340.653 294.687C340.414 295.003 340.246 295.367 340.162 295.754C340.078 296.141 340.079 296.542 340.166 296.929C340.361 298.489 340.458 300.633 340.458 300.633C340.458 300.633 337.639 303.647 338.711 303.745C339.784 303.842 342.018 301.697 342.213 300.926C342.408 300.154 342.505 295.239 342.505 294.11"
@@ -1200,191 +1200,191 @@ const OnlineCalender = () => {
       <path
         d="M340.653 294.687C340.414 295.003 340.246 295.367 340.162 295.754C340.078 296.141 340.079 296.542 340.166 296.929C340.361 298.489 340.458 300.633 340.458 300.633C340.458 300.633 337.639 303.647 338.711 303.745C339.784 303.842 342.018 301.697 342.213 300.926C342.408 300.154 342.505 295.239 342.505 294.11"
         stroke="#263238"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M309.532 237.569C309.532 237.569 300.701 233.735 299.036 232.565L293.536 228.739C293.392 228.458 293.178 228.218 292.915 228.043C292.652 227.868 292.348 227.764 292.033 227.74C290.872 227.569 289.036 230.071 288.207 232.232C287.724 233.456 287.449 234.752 287.395 236.067C287.395 236.067 301.725 248.252 302.886 249.064C304.048 249.877 306.055 252.728 306.055 252.728C306.055 252.728 308.386 271.721 308.386 272.225C308.386 272.729 311.221 275.556 317.046 275.889C322.871 276.222 328.711 273.89 329.548 272.395C330.385 270.901 330.88 265.084 331.043 264.394C331.1 263.559 331.045 262.72 330.88 261.9L333.212 270.226L339.873 268.399C339.873 268.399 336.372 251.737 335.876 249.073C335.381 246.408 328.378 240.575 322.716 238.244C317.054 235.912 309.532 237.569 309.532 237.569Z"
         fill="white"
         stroke="#263238"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M293.536 228.739C293.536 228.739 292.724 227.407 291.034 230.737C289.973 232.924 289.137 235.213 288.54 237.569C288.54 237.569 286.038 236.757 285.372 234.897C284.706 233.036 285.867 228.902 288.036 226.773C290.206 224.645 292.537 225.067 293.536 228.739Z"
         fill="white"
         stroke="#263238"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M317.192 208.909C317.192 208.909 312.862 206.911 311.026 207.577C309.19 208.243 308.029 212.744 308.532 215.246C309.036 217.748 311.359 219.072 311.863 221.745C312.367 224.417 309.531 230.575 307.866 233.573C306.201 236.57 308.029 239.405 310.531 241.404C313.033 243.402 314.86 245.734 313.691 248.715C312.521 251.696 309.531 254.873 311.026 259.877C312.521 264.881 320.693 269.869 328.183 267.367C335.673 264.865 335.852 258.374 335.495 255.709C335.137 253.045 339.329 252.046 339.662 245.376C339.995 238.707 338.85 235.214 336.656 233.386C334.463 231.558 331.498 232.053 331.165 227.057C330.832 222.061 331.977 214.555 327.33 210.225C322.684 205.895 317.192 208.909 317.192 208.909Z"
         fill="#263238"
         stroke="#263238"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M331.912 270.6C331.912 270.6 334.016 274.28 334.885 274.451C335.755 274.621 341.197 272.525 341.547 272.014C341.896 271.502 341.725 268.334 341.368 267.286C341.011 266.238 337.867 267.456 335.413 268.512C332.96 269.568 331.384 269.024 331.912 270.6Z"
         fill="white"
         stroke="#263238"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M302.96 319.423C302.96 319.423 304.649 342.567 305.356 348.774C306.063 354.98 306.908 368.092 306.908 368.092C306.908 368.092 305.502 372.609 304.795 373.592C304.089 374.574 302.821 375.85 302.96 376.979C303.098 378.108 309.873 377.402 309.873 377.402C309.873 377.402 311.14 377.548 311.424 376.841C311.709 376.134 311.993 365.127 311.993 363.998C311.993 362.868 314.528 321.828 314.528 321.828L302.96 319.423Z"
         fill="white"
         stroke="#263238"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M312.131 364.566C312.131 364.566 309.312 364.989 308.459 366.825C307.606 368.66 305.778 370.773 305.64 371.479C305.502 372.186 303.52 374.867 303.52 374.867C303.52 374.867 302.253 376.134 302.96 376.979C303.666 377.824 311.571 377.686 311.571 377.686C311.571 377.686 312.554 372.747 313.122 371.617C313.783 369.759 313.879 367.746 313.398 365.833C312.838 364.42 312.131 364.566 312.131 364.566Z"
         fill="#263238"
         stroke="#263238"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M309.588 371.333L306.908 377.686H311.562L309.588 371.333Z"
         fill="white"
         stroke="#263238"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M309.588 371.341L310.864 377.686H312.415L313.545 369.505C313.545 369.505 310.596 366.963 309.588 371.341Z"
         fill="#263238"
         stroke="#263238"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M320.742 321.121C320.742 321.121 324.406 337.368 327.087 346.093C329.768 354.818 333.586 367.824 333.862 370.366C334.138 372.909 334.146 375.866 334.991 376.435C335.836 377.003 342.189 377.247 342.302 376.15C342.416 375.054 340.182 369.798 339.337 367.962C338.659 366.31 338.094 364.613 337.647 362.885L332.57 319.707L320.742 321.121Z"
         fill="white"
         stroke="#263238"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M338.021 364.136C337.59 364.046 335.145 363.567 333.862 364.721C333.449 365.1 333.118 365.559 332.887 366.069C333.289 367.483 333.615 368.917 333.862 370.366C334.146 372.901 334.146 375.866 334.991 376.435C335.836 377.003 342.188 377.247 342.302 376.15C342.416 375.054 340.182 369.798 339.337 367.962C338.814 366.717 338.375 365.439 338.021 364.136Z"
         fill="#263238"
         stroke="#263238"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M342.327 376.15C341.62 374.875 340.068 370.366 338.939 369.513C337.81 368.66 335.836 369.091 335.836 369.091L335.024 370.22C334.211 371.349 335.024 376.435 335.024 376.435C335.836 376.995 342.189 377.28 342.327 376.15Z"
         fill="white"
         stroke="#263238"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M338.939 369.513C338.723 369.284 338.461 369.103 338.169 368.983C337.878 368.862 337.564 368.805 337.249 368.815C336.12 368.815 334.991 370.22 334.991 370.22L336.965 377.531H338.379L338.939 369.513Z"
         fill="#263238"
         stroke="#263238"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M329.841 271.551C329.764 271.832 329.658 272.104 329.524 272.363C328.711 273.858 322.854 276.189 317.021 275.856C311.189 275.523 308.362 272.696 308.362 272.192C308.362 272.119 308.305 271.624 308.215 270.836C306.916 273.541 302.691 282.729 301.075 291.421C299.149 301.762 300.547 319.805 300.547 319.805C306.449 322.777 313.061 324.051 319.645 323.485C330.856 322.608 336.291 319.634 336.291 319.634C336.291 319.634 337.688 295.662 335.243 286.726C333.839 281.535 332.032 276.461 329.841 271.551Z"
         fill="#263238"
         stroke="#263238"
-        stroke-linejoin="round"
+        strokeLinejoin="round"
       />
       <path
         d="M89.8846 280.43L88.9747 364.98L80.5424 364.753L74.9209 294.467L72.6381 295.377L67.9995 315.751L56.1553 364.98L48.6328 364.298L50.9074 340.593L57.6581 278.155L58.2024 273.135L89.2022 273.59L89.5596 277.18L89.8846 280.43Z"
         fill="#263238"
         stroke="#263238"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M89.5598 277.18L57.6583 278.155L58.2025 273.135L89.2023 273.59L89.5598 277.18Z"
         fill="#737373"
         stroke="#263238"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path d="M61.1758 278.659V274.54L63.231 274.662L63.3529 278.537" fill="#263238" />
       <path
         d="M61.1758 278.659V274.54L63.231 274.662L63.3529 278.537"
         stroke="#263238"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path d="M83.2232 278.293V274.174L85.2785 274.296L85.4003 278.171" fill="#263238" />
       <path
         d="M83.2232 278.293V274.174L85.2785 274.296L85.4003 278.171"
         stroke="#263238"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M77.4066 275.027H71.5901V277.814H77.4066V275.027Z"
         fill="white"
         stroke="#263238"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M89.2023 253.419L96.1317 262.192L104.361 249.064C99.7792 244.141 96.0667 239.755 95.3356 238.747C93.5078 236.237 90.1933 231.883 88.8367 231.192C87.48 230.502 73.9298 228.235 73.9298 228.235L63.3691 229.941L51.2893 234.157L40.7285 259.341L53.8888 266.928L55.1074 253.532L56.7321 268.805C56.7321 268.805 55.8141 273.362 56.7321 274.491C56.9543 274.808 57.2418 275.074 57.5754 275.27C57.9089 275.466 58.2807 275.588 58.6655 275.629L76.5375 275.06H88.8448C89.186 275.06 90.4695 273.695 90.5508 272.558C90.632 271.421 88.6092 266.741 88.6092 266.741L89.2023 253.419Z"
         fill="white"
         stroke="#263238"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M89.9496 241.94L89.2022 253.419L91.9317 240.201"
         stroke="#263238"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M90.2257 237.805L90.1201 239.446"
         stroke="#263238"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M51.5572 245.271L50.6799 243.24"
         stroke="#263238"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M52.3535 241.753L55.1237 253.532L52.1017 246.538"
         stroke="#263238"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M51.4193 237.781L51.8499 239.625"
         stroke="#263238"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M78.609 264.142L77.6016 265.921L75.0996 270.34L74.7259 270.982L74.474 270.633L72.7518 268.195L70.331 264.8L70.1929 264.605L70.396 261.534L70.7047 256.863L70.924 253.516L71.2327 248.845L71.452 245.506L71.7526 240.827L71.8582 239.267L70.8671 238L69.1774 235.839L72.1344 232.695L75.9282 234.547L75.0102 236.058L73.2474 238.983L73.4667 240.023L74.3441 244.15L74.9696 247.082L75.8551 251.209L76.4806 254.15L77.3579 258.268L77.9834 261.209L78.609 264.142Z"
         fill="#E11C34"
         stroke="#263238"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M75.0103 236.058L70.8673 237.984L71.8583 239.251L71.7609 240.827L73.4749 240.015L73.2556 238.975L75.0103 236.058ZM74.3442 244.182L71.4522 245.539L71.2328 248.869L74.9697 247.115L74.3442 244.182ZM75.8552 251.241L70.9485 253.516L70.7292 256.863L76.5051 254.15L75.8552 251.241ZM77.358 258.301L70.3961 261.55L70.193 264.621L70.3311 264.816L77.9836 261.225L77.358 258.301ZM72.7519 268.228L74.4741 270.665L75.0997 270.373L77.6017 265.953L72.7519 268.228Z"
         fill="#263238"
         stroke="#263238"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M66.8865 226.611L64.7906 226.936L62.1504 230.356L67.0246 238.292L70.4446 235.652L72.4268 236.749L74.7421 234.986L78.0484 236.091C78.0484 236.091 77.1629 229.478 76.8379 228.479C76.513 227.48 73.6372 226.164 73.6372 226.164L66.8865 226.611Z"
         fill="white"
         stroke="#263238"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M83.5157 219.502C83.7937 219.152 83.9982 218.748 84.1168 218.316C83.865 217.805 81.7285 214.433 81.7285 214.433C82.0866 213.534 82.3137 212.587 82.4027 211.623C82.2511 210.46 81.9195 209.328 81.4198 208.268C81.4198 208.268 77.2198 205.132 73.093 206.497C68.9662 207.861 64.157 211.517 64.3683 216.529C64.5795 221.542 67.1059 223.028 67.1059 223.028L65.6437 226.984L69.7055 233.8L72.4594 236.773L74.5553 232.809L77.8047 226.627C77.8047 226.627 81.9153 226.676 82.1753 226.294L82.4758 220.786C82.4758 220.786 83.1338 219.876 83.5157 219.502Z"
         fill="white"
         stroke="#263238"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M72.1832 217.528C72.1832 217.528 73.7267 217.675 73.8648 216.903C74.0029 216.131 73.7673 214.206 74.0354 213.572C74.3035 212.938 76.4725 212.443 76.7568 211.289C77.0412 210.136 75.7657 208.584 75.7657 208.584C75.7657 208.584 79.8276 209.665 82.3134 208.795C84.7992 207.926 82.6221 204.173 78.7877 202.841C74.9534 201.509 65.7006 202.297 62.5405 205.595C59.3804 208.893 60.2659 213.272 61.3788 216.237C62.4917 219.202 65.0182 223.475 67.1953 223.759C69.3724 224.043 71.8745 219.575 71.8745 219.575C71.8745 219.575 71.4034 218.162 72.1832 217.528Z"
         fill="#263238"
         stroke="#263238"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M73.0686 218.95C73.0686 218.95 72.2562 215.213 70.5422 215.579C68.8281 215.944 68.3 220.047 69.4373 221.598C70.5746 223.15 72.9061 221.257 72.9061 221.257"
@@ -1393,14 +1393,14 @@ const OnlineCalender = () => {
       <path
         d="M73.0686 218.95C73.0686 218.95 72.2562 215.213 70.5422 215.579C68.8281 215.944 68.3 220.047 69.4373 221.598C70.5746 223.15 72.9061 221.257 72.9061 221.257"
         stroke="#263238"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M81.7529 212.256C81.7529 212.256 80.5018 210.9 79.6895 213.125"
         stroke="#263238"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M81.3385 214.945C81.3385 215.441 81.1517 215.839 80.9404 215.839C80.7292 215.839 80.5586 215.432 80.5667 214.937C80.5749 214.441 80.7455 214.035 80.9648 214.043C81.1841 214.051 81.3385 214.425 81.3385 214.945Z"
@@ -1409,98 +1409,98 @@ const OnlineCalender = () => {
       <path
         d="M81.6471 222.24C81.2164 222.179 80.8042 222.024 80.4394 221.787C80.0746 221.55 79.7659 221.236 79.535 220.867"
         stroke="#263238"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M48.9333 363.656L46.2362 368.669L41.2239 374.249C41.2239 374.249 40.2654 375.598 40.6472 376.183C41.029 376.768 55.4809 376.183 55.4809 376.183L56.4476 375.598L56.8294 373.868L56.3826 368.888L56.1552 364.98L48.9333 363.656Z"
         fill="white"
         stroke="#263238"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M40.7286 375.135C40.6377 375.292 40.5833 375.468 40.5692 375.65C40.5551 375.831 40.5819 376.013 40.6474 376.183C41.0373 376.76 55.4811 376.183 55.4811 376.183L56.4478 375.598L56.7078 374.412L40.7286 375.135Z"
         fill="white"
         stroke="#263238"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M88.9748 364.98L90.6482 368.669L95.6524 374.249C95.6524 374.249 96.6191 375.598 96.2291 376.183C95.8392 376.768 81.3954 376.183 81.3954 376.183L80.4368 375.598L80.0469 373.868L80.4368 365.971L80.7293 364.98H88.9748Z"
         fill="white"
         stroke="#263238"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M96.2291 376.183C96.4729 375.825 96.2291 375.176 95.9529 374.729L80.0875 374.022L80.4368 375.598L81.3954 376.183C81.3954 376.183 95.8473 376.76 96.2291 376.183Z"
         fill="white"
         stroke="#263238"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M148.921 359.656C170.703 337.874 170.703 302.558 148.921 280.776C127.139 258.994 91.8227 258.994 70.0405 280.776C48.2583 302.558 48.2583 337.874 70.0405 359.656C91.8228 381.439 127.139 381.439 148.921 359.656Z"
         fill="#E11C34"
         stroke="#263238"
-        stroke-miterlimit="10"
+        strokeMiterlimit="10"
       />
       <path
         d="M109.479 370.984C137.52 370.984 160.252 348.252 160.252 320.211C160.252 292.17 137.52 269.438 109.479 269.438C81.4379 269.438 58.7062 292.17 58.7062 320.211C58.7062 348.252 81.4379 370.984 109.479 370.984Z"
         fill="white"
         stroke="#263238"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M113.346 320.211C113.346 319.446 113.119 318.699 112.694 318.063C112.269 317.427 111.665 316.931 110.959 316.639C110.252 316.346 109.475 316.269 108.725 316.419C107.974 316.568 107.285 316.936 106.745 317.477C106.204 318.018 105.836 318.707 105.686 319.457C105.537 320.207 105.614 320.984 105.906 321.691C106.199 322.397 106.695 323.001 107.331 323.426C107.966 323.851 108.714 324.078 109.479 324.078C110.504 324.078 111.488 323.671 112.213 322.945C112.938 322.22 113.346 321.237 113.346 320.211Z"
         fill="#263238"
         stroke="#263238"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M107.285 320.325L94.9457 339.935L97.1634 341.203L111.087 321.901L107.285 320.325Z"
         fill="#263238"
         stroke="#263238"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M109.438 320.699L135.011 358.108L135.613 357.653L110.697 319.756L109.438 320.699Z"
         fill="#263238"
         stroke="#263238"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M42.8407 260.454L41.4922 263.825L60.2659 291.08L64.3521 287.432L53.9051 266.928L51.0699 265.312L42.8407 260.454Z"
         fill="white"
         stroke="#263238"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M57.0733 297.749C57.0733 297.749 56.8864 298.968 56.8052 299.374C56.7239 299.78 59.096 301.86 59.096 301.86C59.096 301.86 59.9815 301.673 59.6728 301.437C59.1254 300.664 58.6392 299.849 58.2187 299L57.0733 297.749Z"
         fill="white"
         stroke="#263238"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M57.6012 294.947C57.2526 295.622 56.9958 296.34 56.8376 297.083C56.8376 297.79 58.706 299.52 59.1772 299.845C59.6484 300.17 60.4445 300.934 60.7369 300.544C60.8781 300.182 60.9253 299.79 60.8742 299.405C60.823 299.02 60.6752 298.655 60.4445 298.342C59.7266 297.391 59.0958 296.377 58.5598 295.312C58.5598 295.312 57.7881 294.224 57.6012 294.947Z"
         fill="white"
         stroke="#263238"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M58.5843 292.412L57.3901 294.459L59.0961 297.709C59.0961 297.709 60.4527 299.488 61.1189 299.26C61.785 299.033 62.4024 298.878 61.9312 298.164C61.46 297.449 60.4933 295.84 60.4933 295.84L60.5908 293.444L58.5843 292.412Z"
         fill="white"
         stroke="#263238"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M60.5014 288.399L58.3892 291.973L59.8434 294.41C59.8434 294.41 62.2804 296.116 62.9709 295.808C63.1165 295.744 63.2432 295.644 63.3388 295.517C63.4345 295.39 63.4958 295.241 63.5171 295.083C63.5383 294.926 63.5186 294.765 63.46 294.618C63.4013 294.47 63.3056 294.34 63.1822 294.24L61.6224 293.054C61.6224 293.054 63.1497 290.397 63.9458 289.033"
@@ -1509,8 +1509,8 @@ const OnlineCalender = () => {
       <path
         d="M60.5014 288.399L58.3892 291.973L59.8434 294.41C59.8434 294.41 62.2804 296.116 62.9709 295.808C63.1165 295.744 63.2432 295.644 63.3388 295.517C63.4345 295.39 63.4958 295.241 63.5171 295.083C63.5383 294.926 63.5186 294.765 63.46 294.618C63.4013 294.47 63.3056 294.34 63.1822 294.24L61.6224 293.054C61.6224 293.054 63.1497 290.397 63.9458 289.033"
         stroke="#263238"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M62.0124 288.196C62.0124 288.196 61.6712 289.293 61.5412 289.934C61.4112 290.576 60.8832 291.778 61.5412 292.371C62.1992 292.964 63.3203 293.606 63.7346 293.054C64.1489 292.501 63.1253 290.617 63.1253 290.617C63.6481 289.692 64.0911 288.725 64.4494 287.725C64.5144 287.156 63.7671 286.839 63.7671 286.839"
@@ -1519,36 +1519,36 @@ const OnlineCalender = () => {
       <path
         d="M62.0124 288.196C62.0124 288.196 61.6712 289.293 61.5412 289.934C61.4112 290.576 60.8832 291.778 61.5412 292.371C62.1992 292.964 63.3203 293.606 63.7346 293.054C64.1489 292.501 63.1253 290.617 63.1253 290.617C63.6481 289.692 64.0911 288.725 64.4494 287.725C64.5144 287.156 63.7671 286.839 63.7671 286.839"
         stroke="#263238"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M104.06 249.649L105.011 250.47L119.617 263.662L114.719 264.109L100.551 257.017L99.2106 257.513L104.06 249.649Z"
         fill="white"
         stroke="#263238"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M126.774 264.515C126.774 264.515 127.846 265.1 128.244 265.328C128.642 265.555 128.829 268.667 128.829 268.667C128.829 268.667 128.147 269.252 128.147 268.862C127.856 267.952 127.495 267.067 127.066 266.213L126.774 264.515Z"
         fill="white"
         stroke="#263238"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M124.223 263.24C124.968 263.369 125.693 263.598 126.376 263.922C126.969 264.312 127.188 266.863 127.188 267.456C127.188 268.049 127.286 269.122 126.798 269.122C126.311 269.122 125.222 268.139 125.222 267.554C124.898 266.405 124.471 265.287 123.947 264.215C123.947 264.215 123.533 262.939 124.223 263.24Z"
         fill="white"
         stroke="#263238"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M121.575 262.452L123.923 262.744L125.499 266.083C125.499 266.083 126.083 268.236 125.499 268.634C124.914 269.032 124.418 269.446 124.126 268.634L123.143 266.083L121.177 264.71L121.575 262.452Z"
         fill="white"
         stroke="#263238"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M117.253 261.542L121.372 262.038L122.452 264.686C122.452 264.686 122.355 267.627 121.64 268.017C121.499 268.097 121.34 268.139 121.178 268.137C121.016 268.136 120.857 268.092 120.717 268.01C120.578 267.927 120.463 267.809 120.384 267.668C120.305 267.526 120.264 267.366 120.267 267.204V265.238L115.653 264.654"
@@ -1557,8 +1557,8 @@ const OnlineCalender = () => {
       <path
         d="M117.253 261.542L121.372 262.038L122.452 264.686C122.452 264.686 122.355 267.627 121.64 268.017C121.499 268.097 121.34 268.139 121.178 268.137C121.016 268.136 120.857 268.092 120.717 268.01C120.578 267.927 120.463 267.809 120.384 267.668C120.305 267.526 120.264 267.366 120.267 267.204V265.238L115.653 264.654"
         stroke="#263238"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M116.181 262.647C116.181 262.647 117.253 263.045 117.806 263.338C118.358 263.63 119.666 263.922 119.763 264.808C119.861 265.693 119.666 266.961 118.951 266.961C118.236 266.961 117.375 265.003 117.375 265.003C116.311 264.867 115.262 264.636 114.239 264.312C113.752 264.02 113.947 263.24 113.947 263.24"
@@ -1567,14 +1567,14 @@ const OnlineCalender = () => {
       <path
         d="M116.181 262.647C116.181 262.647 117.253 263.045 117.806 263.338C118.358 263.63 119.666 263.922 119.763 264.808C119.861 265.693 119.666 266.961 118.951 266.961C118.236 266.961 117.375 265.003 117.375 265.003C116.311 264.867 115.262 264.636 114.239 264.312C113.752 264.02 113.947 263.24 113.947 263.24"
         stroke="#263238"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
       <path
         d="M103.094 252.395C102.676 253.426 102.582 254.561 102.826 255.647C103.07 256.732 103.64 257.718 104.458 258.472"
         stroke="#263238"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   );
