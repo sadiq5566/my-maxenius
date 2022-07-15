@@ -3,7 +3,7 @@ import React from "react";
 const RatingStarSVG = () => {
   return (
     <svg
-      width="22"
+      width="21"
       height="21"
       viewBox="0 0 22 21"
       fill="none"

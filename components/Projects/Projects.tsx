@@ -1,42 +1,66 @@
 import React from "react";
-import Image from "next/image";
-import project1 from "../../public/assets/images/project1.png";
-import project2 from "../../public/assets/images/project2.png";
-import project3 from "../../public/assets/images/project3.png";
-import project4 from "../../public/assets/images/project4.png";
-import project5 from "../../public/assets/images/project5.png";
-import project6 from "../../public/assets/images/project6.png";
-import project7 from "../../public/assets/images/project7.png";
+import project1 from "../../public/assets/images/uil.png";
+import project2 from "../../public/assets/images/b.png";
+import project3 from "../../public/assets/images/elo.png";
+import project4 from "../../public/assets/images/in.png";
+import project5 from "../../public/assets/images/me.png";
+import project6 from "../../public/assets/images/pizza.png";
+import ImageWrapper from "./ImageWrapper";
 export const Projects = () => {
   return (
-    <div className="w-full  h-[138px] bg-white flex justify-around items-center">
-      <div className="w-[85] h-[50]">
-        <Image alt="Project1 Image" src={project1} />
-      </div>
+    <div className="w-full h-[138px] bg-white flex justify-around items-center space-x-4  md:space-x-2">
+      <ImageWrapper
+        src={project1.src}
+        alt="United Industries Limiteds"
+        width="85"
+        height="50"
+        imgHeight={project1.height}
+        imgWidth={project1.width}
+      />
 
-      <div className="w-[67] h-[70]">
-        <Image alt="Project1 Image" src={project2} />
-      </div>
+      <ImageWrapper
+        src={project2.src}
+        alt="Fatory Outlet Bazar"
+        width="67"
+        height="70"
+        imgHeight={project2.height}
+        imgWidth={project2.width}
+      />
 
-      <div className="w-[125] h-[50]">
-        <Image alt="Project1 Image" src={project3} />
-      </div>
+      <ImageWrapper
+        src={project3.src}
+        alt="elo"
+        width="125"
+        height="50"
+        imgHeight={project3.height}
+        imgWidth={project3.width}
+      />
 
-      <div className="w-[248] h-[50]">
-        <Image alt="Project1 Image" src={project4} />
-      </div>
+      <ImageWrapper
+        src={project4.src}
+        alt="inteero"
+        width="248"
+        height="50"
+        imgHeight={project4.height}
+        imgWidth={project4.width}
+      />
 
-      <div className="w-[153] h-[42]">
-        <Image alt="Project1 Image" src={project5} />
-      </div>
-
-      <div className="w-[167] h-[50]">
-        <Image alt="Project1 Image" src={project6} />
-      </div>
-
-      <div className="w-[108] h-[50]">
-        <Image alt="Project1 Image" src={project7} />
-      </div>
+      <ImageWrapper
+        src={project5.src}
+        alt="Mediacom"
+        width="153"
+        height="42"
+        imgHeight={project3.height}
+        imgWidth={project3.width}
+      />
+      <ImageWrapper
+        src={project6.src}
+        alt="Pizza Hut"
+        width="167"
+        height="50"
+        imgHeight={project6.height}
+        imgWidth={project6.width}
+      />
     </div>
   );
 };

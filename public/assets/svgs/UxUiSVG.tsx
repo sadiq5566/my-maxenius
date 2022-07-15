@@ -1,11 +1,12 @@
 import React from "react";
+import { svgInterface } from "../../../Interfaces/svgInterface";
 
-const UxUiSVG = () => {
+const UxUiSVG = (props: svgInterface) => {
   return (
     <svg
-      width="24"
-      height="29"
-      viewBox="0 0 24 29"
+      width={props.width}
+      height={props.height}
+      viewBox={`0 0 31 31`}
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
