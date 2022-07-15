@@ -12,7 +12,7 @@ export const Services = () => {
     <div className="w-full h-auto  sm:h-auto py-20 bg-serviceBg ">
       <section className="body-font ">
         <div
-          className={`container px-5 ${
+          className={`container px-16 ${
             router.pathname === "/services" ? "pt-0" : "pt-24"
           }  pb-16 mx-auto`}
         >
@@ -68,7 +68,7 @@ export const Services = () => {
             </div>
           )}
 
-          <div className="flex flex-wrap mx-4 lg:mx-24 md:mx-8">
+          <div className="flex flex-wrap mx-2 lg:mx-24 md:mx-8">
             {servicesData.map((service) => {
               return (
                 <div
@@ -76,7 +76,7 @@ export const Services = () => {
                   key={`${service.id}`}
                 >
                   <div
-                    className={`h-[278px] sm:h-auto  md:h-auto w-auto lg:w-full flex flex-col justify-around  rounded-md py-8 md:py-4 md:px-6 px-10 bg-serviceBg sm:py-0 
+                    className={`h-[278px] sm:h-auto  md:h-auto w-auto lg:w-full flex flex-col justify-around  rounded-md py-8 md:py-4 md:px-6 px-0 bg-serviceBg sm:py-0 sm:px-0
                       hover:border-main hover:bg-white hover:border-b-4 r  hover:shadow-service `}
                   >
                     <div className="md:h-[30px] sm:w-[30px] md:mb-3 ">

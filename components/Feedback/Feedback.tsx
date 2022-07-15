@@ -14,7 +14,7 @@ export const Feedback = () => {
     <section className="w-full h-[765px] sm:h-auto ">
       <div className="flex sm:flex-col justify-between items-center pt-16 px-28 md:px-14 sm:pt-8 sm:px-6">
         <div className="flex w-3/4 sm:text-left md:w-full ">
-          <h1 className="inline md:text-[22px] md:font-normal md:leading[30px] font-poppins md:w-full font-normal text-4xl leading-[48px] text-black sm:text-x sm:leading-[30px] sm:font-normal">
+          <h1 className="inline md:text-[22px] md:font-normal md:leading[30px] font-poppins md:w-full font-normal text-4xl leading-[48px] text-black sm:text-xl sm:leading-[30px] sm:font-normal">
             Maxenius Success Stories
             <span className="ml-7  md:h-[30px] md:w-[30px]">
               <HalfRedStarSVG

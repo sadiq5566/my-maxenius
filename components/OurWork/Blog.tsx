@@ -50,7 +50,7 @@ export const Blog = () => {
                   </div>
                   {/* /////core technologies//// */}
                   <div className="lg:w-full flex lg:justify-between lg:mt-4 ">
-                    <div className=" lg:flex lg:justify-between lg:flex-col lg:w-2/4">
+                    <div className=" lg:flex lg:justify-between lg:flex-col lg:w-2/4 sm:w-full">
                       <div className="w-auto">
                         <h3 className="font-Lato font-medium text-xl leading-9 lg:text-lg lg:leading-7  md:text-base md:leading-6 md:font-normal text-black text-justify">
                           Core Technologies:
@@ -67,24 +67,6 @@ export const Blog = () => {
                           })}
                         </ul>
                       </div>
-
-                      <Button
-                        className="flex h-[54px] w-[230px]  md:w-[150px] md:h-[34px] sm:rounded-full mb-3 bg-gradient-to-r from-gradient1 to-gradient2 text-white rounded-4xl justify-center items-center cursor-pointer mt-12"
-                        preSVG={false}
-                        svg={() =>
-                          StraightArrowWhiteSvg({
-                            ...(isLg
-                              ? { height: "24", width: "40" }
-                              : isTab
-                              ? { height: "12", width: "20" }
-                              : isMobile
-                              ? { height: "16", width: "16" }
-                              : { height: "24", width: "40" })
-                          })
-                        }
-                      >
-                        View Case Study
-                      </Button>
                     </div>
                     {/* ////image //// */}
                     <div className="w-2/5  lg:2/4 lg:block hidden sm:hidden">
@@ -109,6 +91,25 @@ export const Blog = () => {
                     objectFit="contain"
                   />
                 </div>
+              </div>
+              <div className="px-12">
+                <Button
+                  className="flex h-[54px] w-[230px]  md:w-[150px] md:h-[34px] sm:rounded-full mb-3 bg-gradient-to-r from-gradient1 to-gradient2 text-white rounded-4xl justify-center items-center cursor-pointer mt-12"
+                  preSVG={false}
+                  svg={() =>
+                    StraightArrowWhiteSvg({
+                      ...(isLg
+                        ? { height: "24", width: "40" }
+                        : isTab
+                        ? { height: "12", width: "20" }
+                        : isMobile
+                        ? { height: "16", width: "16" }
+                        : { height: "24", width: "40" })
+                    })
+                  }
+                >
+                  View Case Study
+                </Button>
               </div>
             </div>
           </section>
