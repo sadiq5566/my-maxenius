@@ -8,6 +8,7 @@ const Consulting = () => {
       viewBox="0 0 400 344"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
+      className="w-[190px] h-[177.28px] lg:w-[400px] lg:h-[334px]"
     >
       <path d="M47.374 33.9683V322.563" stroke="#263238" stroke-miterlimit="10" />
       <path d="M47.374 22.8418V28.3638" stroke="#263238" stroke-miterlimit="10" />

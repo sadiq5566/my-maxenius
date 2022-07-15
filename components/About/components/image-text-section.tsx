@@ -1,32 +1,33 @@
 import React, { FC } from "react";
 
 interface IProps {
-  align: string;
   image: any;
   heading: string;
   para: string;
   mainStyle?: string;
+  textStyle?: string;
 }
 
-const ImageTextSection: FC<IProps> = ({ align, image, heading, para, mainStyle }) => {
+const ImageTextSection: FC<IProps> = ({ image, heading, para, mainStyle, textStyle }) => {
   return (
-    <div className={`grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 ${mainStyle}`}>
-      {align === "left" && <div className="col-span-1">{image}</div>}
+    <div className={`flex flex-wrap ${mainStyle}`}>
+      <div className="w-full md:w-1/3 lg:w-1/3 mx-auto md:mx-0 lg:mx-0 mb-[46.60px] md:mb-[46.60px]  lg:my-0 flex justify-center lg:justify-start">
+        {image}
+      </div>
       <div
-        className={`col-span-2 flex justify-center align-center flex-col	 ${
-          align === "left" && "ml-[68px]"
-        }`}
+        className={`w-3/3 md:w-2/3 lg:w-2/3 flex justify-center align-center flex-col`}
       >
-        <h1 className="text-4xl inline-block font-['Poppins'] font-normal">{heading}</h1>
+        <h1
+          className={`text-[22px] lg:text-4xl inline-block font-['Poppins'] font-normal  ${textStyle}`}
+        >
+          {heading}
+        </h1>
         <p
-          className={`text-xl text-[#6A6A6A] text-justify  ${
-            align === "left" ? "w-full" : "w-[663px]"
-          } mt-[35px] font-['Lato'] font-medium`}
+          className={`text-xs	lg:text-xl text-[#6A6A6A] text-justify mt-[10px] lg:mt-[35px] font-['Lato'] font-medium w-full md:w-[463px] lg:w-[463px] xl:w-[663px]  ${textStyle}`}
         >
           {para}
         </p>
       </div>
-      {align === "right" && <div className="col-span-1">{image}</div>}
     </div>
   );
 };

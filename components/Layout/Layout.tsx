@@ -21,7 +21,7 @@ export const Layout = ({ title, description, children }: props) => {
           />
         </Head>
 
-        <Header />
+        {/* <Header /> */}
 
         <div>
           <main>{children}</main>
