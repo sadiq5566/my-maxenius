@@ -40,11 +40,11 @@ const About: FC = () => {
       </div>
       <div className="w-full h-[538px] bg-red-gradient">
         <OurAim />
-        <div className="lg:p-[115px] sm:p-[10px]">
+        <div className="lg:p-[115px] md:p-[10px]">
           <h1 className="text-4xl inline-block font-['Poppins'] font-normal text-white	">
             Our Aim
           </h1>
-          <p className="text-xl text-[#6A6A6A] text-justify mt-[35px] font-['Lato'] font-medium text-white">
+          <p className="text-xl text-[#FFFFFF] text-justify mt-[35px] font-['Lato'] font-medium text-white">
             A properly developed website should ultimately deliver absolute brand words.
             It will not deceive its users and helpful in getting maximum impact of
             cutomers. Providing trendy design is a way to attract your users and develop
