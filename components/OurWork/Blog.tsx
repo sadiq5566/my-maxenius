@@ -69,7 +69,6 @@ export const Blog = () => {
                       </div>
 
                       <Button
-                        // className="w-full flex justify-start sm:my-2 md:w-[145px] md:h-[34px] mt-12"
                         className="flex h-[54px] w-[230px]  md:w-[150px] md:h-[34px] sm:rounded-full mb-3 bg-gradient-to-r from-gradient1 to-gradient2 text-white rounded-4xl justify-center items-center cursor-pointer mt-12"
                         preSVG={false}
                         svg={() =>
