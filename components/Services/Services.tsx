@@ -107,23 +107,26 @@ export const Services = () => {
         {router.pathname === "/services" ? (
           ""
         ) : (
-          <Button
-            svg={() =>
-              StraightArrowWhiteSvg({
-                ...(isLg
-                  ? { height: "24", width: "40" }
-                  : isTab
-                  ? { height: "16", width: "16" }
-                  : isMobile
-                  ? { height: "16", width: " 16" }
-                  : { height: "24", width: "40" })
-              })
-            }
-            className="w-full flex justify-center items-center sm:my-2"
-            preSVG={false}
-          >
-            View All Services
-          </Button>
+          <div className="w-full flex justify-center  items-center">
+            <Button
+              svg={() =>
+                StraightArrowWhiteSvg({
+                  ...(isLg
+                    ? { height: "24", width: "40" }
+                    : isTab
+                    ? { height: "16", width: "16" }
+                    : isMobile
+                    ? { height: "16", width: " 16" }
+                    : { height: "24", width: "40" })
+                })
+              }
+              // className="h-[54px] w-full flex justify-center sm:my-2"
+              className="flex h-[54px] w-[230px]  md:w-[150px] md:h-[34px] sm:rounded-full mb-3 bg-gradient-to-r from-gradient1 to-gradient2 text-white rounded-4xl justify-center items-center cursor-pointer "
+              preSVG={false}
+            >
+              View All Services
+            </Button>
+          </div>
         )}
       </section>
     </div>

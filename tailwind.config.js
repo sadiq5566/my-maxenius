@@ -12,7 +12,6 @@ module.exports = {
       },
       borderRadius: {
         '4xl': '40px',
-
       },
       colors: {
         main: "#E11C34",
@@ -30,9 +29,6 @@ module.exports = {
       boxShadow: {
         'service': '0px 11px 16px rgba(0, 0, 0, 0.04)',
       }
-
-
-
     }
   },
 

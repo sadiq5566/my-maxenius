@@ -13,7 +13,7 @@ const Clients = () => {
     <div className="w-full  h-[400px] lg:h-auto sm:h-[550px] bg-main relative">
       <section className="">
         <div className="container mx-auto py-20 ">
-          <div className=" flex flex-row w-full sm:h-auto lg:flex-col lg:items-stretch lg:px-32 md:px-16 items-start justify-between px-20 sm:px-8">
+          <div className=" flex flex-row w-full sm:h-auto lg:flex-col lg:items-stretch lg:px-32 md:px-12 items-start justify-between px-20 sm:px-8">
             <div className="lg:mb-3 w-9/12 lg:w-full">
               <p className=" sm:w-full sm:h-auto sm:leading-[1.4] sm:tracking-widest sm:text-xs h-auto sm:font-medium text-white text-xl font-medium  leading-9 text-justify  mb-3 font-Lato">
                 `When you hire Maxenius, you ensure a commitment from American management
@@ -27,7 +27,7 @@ const Clients = () => {
             </div>
 
             <Button
-              className=" flex  md:w-[145px] md:h-[34px] "
+              className=" h-[54px] w-[185px] bg-white rounded-4xl  md:h-[34px] md:w-[118px] flex justify-center"
               preSVG={true}
               svg={CallingPhoneSVG}
             >

@@ -114,7 +114,7 @@ export function Header({ title, subTitle }: HeaderProps) {
               ""
             ) : (
               <Button
-                className="w-full flex justify-start  md:w-[145px] md:h-[34px] "
+                className="h-[54px] w-[185px] bg-white rounded-4xl  md:h-[34px] md:w-[118px] flex justify-center"
                 preSVG={true}
                 svg={() =>
                   CallingPhoneSVG({

@@ -12,8 +12,8 @@ export const Feedback = () => {
   const { isLg, isTab, isMobile } = useContext(StateContext);
   return (
     <section className="w-full h-[765px] sm:h-auto ">
-      <div className="flex sm:flex-col justify-between items-center pt-16 px-28 sm:pt-8 sm:px-6">
-        <div className="flex sm:text-left sm:w-full">
+      <div className="flex sm:flex-col justify-between items-center pt-16 px-28 md:px-14 sm:pt-8 sm:px-6">
+        <div className="flex w-3/4 sm:text-left md:w-full ">
           <h1 className="inline md:text-[22px] md:font-normal md:leading[30px] font-poppins md:w-full font-normal text-4xl leading-[48px] text-black sm:text-x sm:leading-[30px] sm:font-normal">
             Maxenius Success Stories
             <span className="ml-7  md:h-[30px] md:w-[30px]">
@@ -31,7 +31,7 @@ export const Feedback = () => {
         </div>
 
         <Button
-          className=" flex justify-center items-center md:hidden"
+          className="flex h-[54px] w-[230px]  md:w-[150px] md:h-[34px] sm:rounded-full mb-3 bg-gradient-to-r from-gradient1 to-gradient2 text-white rounded-4xl justify-center items-center cursor-pointer md:hidden"
           preSVG={false}
           svg={() =>
             StraightArrowWhiteSvg({
@@ -52,7 +52,7 @@ export const Feedback = () => {
         <hr />
       </div>
 
-      <div className="w-full mx-auto flex px-5 md:px-12 sm:px-4 mt-24 mb-20 sm:mb-4 flex-row sm:flex-col items-center">
+      <div className="w-full mx-auto flex px-5 md:px-8 sm:px-4 mt-24 mb-20 sm:mb-4 flex-row sm:flex-col items-center">
         <div className="w-1/3 sm:w-full flex items-center justify-center overflow-hidden">
           <Image
             src={client}
@@ -105,23 +105,25 @@ export const Feedback = () => {
           <hr />
         </div>
       </div>
-      <Button
-        className="w-full flex justify-center items-center md:mt-6 invisible md:visible"
-        preSVG={false}
-        svg={() =>
-          StraightArrowWhiteSvg({
-            ...(isLg
-              ? { height: "24", width: "40" }
-              : isTab
-              ? { height: "16", width: "16" }
-              : isMobile
-              ? { height: "16", width: "16" }
-              : { height: "24", width: "40" })
-          })
-        }
-      >
-        View All Stories
-      </Button>
+      <div className="w-full flex justify-center">
+        <Button
+          className="flex h-[54px] w-[230px]  md:w-[150px] md:h-[34px] sm:rounded-full mb-3 bg-gradient-to-r from-gradient1 to-gradient2 text-white rounded-4xl justify-center items-center cursor-pointer invisible md:visible md:mt-6"
+          preSVG={false}
+          svg={() =>
+            StraightArrowWhiteSvg({
+              ...(isLg
+                ? { height: "24", width: "40" }
+                : isTab
+                ? { height: "16", width: "16" }
+                : isMobile
+                ? { height: "16", width: "16" }
+                : { height: "24", width: "40" })
+            })
+          }
+        >
+          View All Stories
+        </Button>
+      </div>
     </section>
   );
 };
