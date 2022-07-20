@@ -9,7 +9,6 @@ import WorldSVG from "../../public/assets/svgs/worldSVG";
 import CountUp from "react-countup";
 
 const Clients = () => {
-  const isWindow = typeof window !== "undefined";
   const { isLg, isTab, isMobile } = useContext(StateContext);
   return (
     <div className="w-full  h-[470px] lg:h-auto sm:h-[455px]  bg-main relative">
