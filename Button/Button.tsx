@@ -27,7 +27,6 @@ export const Button = ({ className = "", svg, children, preSVG }: btnInterface) 
           </span>
         </div>
       ) : (
-        // <div className="flex h-[54px] w-[230px]  md:w-[150px] md:h-[34px] sm:rounded-full mb-3 bg-gradient-to-r from-gradient1 to-gradient2 text-white rounded-4xl justify-center items-center cursor-pointer">
         <div className={` ${className ? className : ""}`}>
           <span
             className={`text-white text-base font-semibold font-poppins flex items-center md:text-xs md:font-semibold`}

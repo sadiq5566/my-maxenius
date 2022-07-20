@@ -1,8 +1,11 @@
 import React, { useContext } from "react";
 import StateContext from "../../Context/StateContext";
 import MainArrowStraightSVG from "../../public/assets/svgs/MainArrowStraightSVG";
-
+import { Swiper, SwiperSlide } from "swiper/react";
 import { SingleBlogData } from "./SingleBlogData";
+import { Pagination } from "swiper";
+import "swiper/css";
+import "swiper/css/pagination";
 export const Carousel = () => {
   const { isLg, isTab, isMobile } = useContext(StateContext);
 
@@ -32,7 +35,7 @@ export const Carousel = () => {
         </div>
       </div>
 
-      <div className="carousel w-full h-auto bg-transparent pb-16">
+      {/* <div className="carousel w-full h-auto bg-transparent pb-16">
         <div id="slide1" className="carousel-item relative w-full ">
           <SingleBlogData item={1} />
         </div>
@@ -42,9 +45,30 @@ export const Carousel = () => {
         <div id="slide3" className="carousel-item relative w-full">
           <SingleBlogData item={3} />
         </div>
-      </div>
+      </div> */}
+
+      {isMobile ? (
+        <div className="flex flex-col">
+          <SingleBlogData item={1} />
+          <SingleBlogData item={2} />
+          <SingleBlogData item={3} />
+        </div>
+      ) : (
+        <Swiper modules={[Pagination]} pagination={{ clickable: true }} slidesPerView={1}>
+          <SwiperSlide>
+            <SingleBlogData item={1} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <SingleBlogData item={2} />
+          </SwiperSlide>
+          <SwiperSlide>
+            <SingleBlogData item={3} />
+          </SwiperSlide>
+        </Swiper>
+      )}
+
       <div className="w-full md:flex justify-center hidden ">
-        <div className="flex h-[54px] w-[178px] md:h-[34px] md:w-[128px]  sm:rounded-full mb-3 bg-white  rounded-4xl justify-center items-center cursor-pointer  ">
+        <div className="flex h-[54px] w-[178px] md:h-[34px] md:w-[128px]  sm:rounded-full mb-3 bg-white  rounded-4xl justify-center items-center cursor-pointer ">
           <span className="text-main text-base leading-4 font-bold md:text-xs md:font-semibold  font-poppins">
             View More
           </span>

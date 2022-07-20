@@ -13,10 +13,12 @@
     "pre-commit": "next lint --fix && git add -A ."
   },
   "dependencies": {
-    "daisyui": "^2.17.0",
+    "framer-motion": "^6.5.1",
     "next": "12.1.6",
+    "number-counter": "^1.0.3",
     "react": "18.1.0",
-    "react-dom": "18.1.0"
+    "react-dom": "18.1.0",
+    "swiper": "^8.3.1"
   },
   "devDependencies": {
     "@types/node": "17.0.40",
