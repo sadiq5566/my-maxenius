@@ -6,9 +6,10 @@ import CallingPhoneSVG from "../../public/assets/svgs/CallingPhoneSVG";
 import CompassSVG from "../../public/assets/svgs/compassSVG";
 import PersonsSVG from "../../public/assets/svgs/personsSVG";
 import WorldSVG from "../../public/assets/svgs/worldSVG";
-import NumberCounter from "number-counter";
+import CountUp from "react-countup";
 
 const Clients = () => {
+  const isWindow = typeof window !== "undefined";
   const { isLg, isTab, isMobile } = useContext(StateContext);
   return (
     <div className="w-full  h-[470px] lg:h-auto sm:h-[455px]  bg-main relative">
@@ -54,14 +55,12 @@ const Clients = () => {
                   />
                 </div>
                 <div className="flex flex-col justify-center items-center">
-                  <NumberCounter
+                  <CountUp
                     start={20}
                     end={100}
-                    delay={1}
+                    suffix="+"
                     className="title-font font-bold text-3xl md:text-xl md:font-semibold text-gray-900 sm:text-[22px] sm:leading-6 sm:font-semibold"
-                    postFix="+"
                   />
-
                   <p className="leading-6 text-xl font-medium lg:text-lg md:text-xs sm:text-xs sm:leading-[18px] sm:font-medium">
                     Developers
                   </p>
@@ -80,11 +79,10 @@ const Clients = () => {
                       : { height: "40", width: "40" })}
                   />
                 </div>
-                <NumberCounter
+                <CountUp
                   end={2}
-                  delay={1}
                   className="title-font font-bold  text-3xl text-gray-900 md:text-xl md:font-semibold sm:text-[22px] sm:leading-6 sm:font-semibold"
-                  postFix="K+"
+                  suffix="K+"
                 />
 
                 <p className="leading-6 text-xl font-medium lg:text-lg md:text-xs sm:text-xs sm:leading-[18px] sm:font-medium">
@@ -104,12 +102,11 @@ const Clients = () => {
                       : { height: "40", width: "40" })}
                   />
                 </div>
-                <NumberCounter
+                <CountUp
                   start={400}
                   end={500}
-                  delay={1}
                   className="title-font font-bold  text-3xl text-gray-900 md:text-xl md:font-semibold sm:text-[22px] sm:leading-6 sm:font-semibold"
-                  postFix="+"
+                  suffix="+"
                 />
 
                 <p className="leading-6 text-xl lg:text-lg font-medium md:text-xs sm:text-xs sm:leading-[18px] sm:font-medium">
@@ -129,10 +126,9 @@ const Clients = () => {
                       : { height: "40", width: "40" })}
                   />
                 </div>
-                <NumberCounter
+                <CountUp
                   start={0}
                   end={8}
-                  delay={1}
                   className="title-font font-bold  text-3xl text-gray-900 md:text-xl md:font-semibold sm:text-[22px] sm:leading-6 sm:font-semibold"
                 />
                 <p className=" leading-6 text-xl font-medium lg:text-lg md:text-xs sm:text-xs sm:leading-[18px] sm:font-medium">
