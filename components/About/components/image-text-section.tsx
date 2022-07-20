@@ -11,19 +11,19 @@ interface IProps {
 const ImageTextSection: FC<IProps> = ({ image, heading, para, mainStyle, textStyle }) => {
   return (
     <div className={`flex flex-wrap ${mainStyle}`}>
-      <div className="w-full md:w-1/3 lg:w-1/3 mx-auto md:mx-0 lg:mx-0 mb-[46.60px] md:mb-[46.60px]  lg:my-0 flex justify-center lg:justify-start">
+      <div className="sm:w-full md:w-1/3 w-1/3 sm:mx-auto md:mx-0 mx-0 sm:mb-[46.60px] mb-[46.60px]  my-0 flex justify-center justify-start">
         {image}
       </div>
       <div
-        className={`w-3/3 md:w-2/3 lg:w-2/3 flex justify-center align-center flex-col`}
+        className={`sm:w-full md:w-2/3 w-2/3 flex justify-center align-center flex-col`}
       >
         <h1
-          className={`text-[22px] lg:text-4xl inline-block font-['Poppins'] font-normal  ${textStyle}`}
+          className={`sm:text-[22px] text-4xl inline-block font-['Poppins'] font-normal  ${textStyle}`}
         >
           {heading}
         </h1>
         <p
-          className={`text-xs	lg:text-xl text-[#6A6A6A] text-justify mt-[10px] lg:mt-[35px] font-['Lato'] font-medium w-full md:w-[463px] lg:w-[463px] xl:w-[663px]  ${textStyle}`}
+          className={`sm:text-xs	text-xl text-[#6A6A6A] text-justify sm:mt-[10px] mt-[35px] font-['Lato'] font-medium sm:w-full md:w-[463px] lg:w-[463px] w-[663px]  ${textStyle}`}
         >
           {para}
         </p>

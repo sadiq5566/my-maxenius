@@ -8,7 +8,7 @@ const Phone = () => {
       viewBox="0 0 48 48"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
-      className="inline-block mb-2 lg:mb-3 ml-[10px] lg:ml-4 w-[30px] h-[30px] lg:w-[48px] lg:h-[48px]"
+      className="inline-block sm:mb-2 mb-3 sm:ml-[10px] ml-4 sm:w-[30px] sm:h-[30px] w-[48px] h-[48px]"
     >
       <path
         opacity="0.4"

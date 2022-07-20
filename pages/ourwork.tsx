@@ -8,6 +8,7 @@ const OurWork = () => {
       <Layout
         headTitle="Take A Look At Our Work"
         subTitle="Here are some of our projects that we take pride in. Take a look around and you'll definitely find something fascinating in them"
+        bannerImageClass="hidden sm:block"
       >
         <Blog />
       </Layout>

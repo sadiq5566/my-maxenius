@@ -8,7 +8,7 @@ const OnlineCalender = () => {
       viewBox="0 0 388 400"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
-      className="w-[190px] h-[177.28px] lg:w-[338px] lg:h-[400px]"
+      className="sm:w-[190px] sm:h-[177.28px] w-[338px] h-[400px]"
     >
       <g opacity="0.3">
         <path

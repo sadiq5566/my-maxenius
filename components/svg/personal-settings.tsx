@@ -7,7 +7,7 @@ const PersonalSettings = () => {
       height="373"
       viewBox="0 0 401 373"
       fill="none"
-      className="w-[190px] h-[177.28px] lg:w-[401px] lg:h-[373px]"
+      className="sm:w-[190px] sm:h-[177.28px] w-[401px] h-[373px]"
       xmlns="http://www.w3.org/2000/svg"
     >
       <path

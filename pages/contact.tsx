@@ -4,7 +4,14 @@ import Contact from "../components/Contact";
 
 const ContactPage: NextPage = () => {
   return (
-    <Layout>
+    <Layout
+      headTitle="Let’s get started!"
+      subTitle="."
+      isButton={false}
+      customHeight="h-[788px] sm:h-[734.95px]"
+      bannerImageClass="hidden sm:block"
+      isContact={true}
+    >
       <Contact />
     </Layout>
   );

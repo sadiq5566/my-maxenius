@@ -12,6 +12,7 @@ const OurWork = () => {
       <Layout
         headTitle="Your Business Needs Our Software Solutions"
         subTitle="We provide you end to end software development and consultancy services resulting in extraordinary digital experiences."
+        bannerImageClass="hidden sm:block"
       >
         <Projects />
         <Services />
