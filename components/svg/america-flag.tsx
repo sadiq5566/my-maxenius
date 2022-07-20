@@ -11,10 +11,10 @@ const AmericaFlag = () => {
       xmlnsXlink="http://www.w3.org/1999/xlink"
       className="sm:w-[36px] sm:h-[36px] w-[45px] h-[45px]"
     >
-      <circle cx="22.5" cy="22.5967" r="22.5" fill="url(#pattern0)" />
+      <circle cx="22.5" cy="22.5967" r="22.5" fill="url(#pattern01)" />
       <defs>
         <pattern
-          id="pattern0"
+          id="pattern01"
           patternContentUnits="objectBoundingBox"
           width="1"
           height="1"

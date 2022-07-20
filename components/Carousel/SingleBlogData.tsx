@@ -4,7 +4,6 @@ import { Button } from "../../Button";
 import StateContext from "../../Context/StateContext";
 import { ourWorkBlogData } from "../../data/ourWorkBlog";
 import StraightArrowWhiteSvg from "../../public/assets/svgs/StraightArrowWhiteSvg";
-import CarouselItemIcons from "./CarouselItemIcons";
 
 export const SingleBlogData = ({ item }: { item: Number }) => {
   const { isLg, isTab, isMobile } = useContext(StateContext);
@@ -17,10 +16,10 @@ export const SingleBlogData = ({ item }: { item: Number }) => {
           return (
             <div
               key={`${data.id}`}
-              className="bg-transparent w-full px-32 md:px-8 rounded-xl"
+              className="bg-transparent w-full px-32 md:px-8  pb-16"
             >
-              <div className="bg-white w-full h-[625px] md:h-auto px-10 py-16 md:px-0 md:py-12 sm:h-auto sm:px-0 sm:py-12 ">
-                <div className="items-center justify-center sm:flex hidden sm:w-full sm:mb-8">
+              <div className="bg-white w-full h-auto md:h-auto px-10 py-10 md:px-0 md:py-10 sm:h-auto sm:px-0 sm:py-10 rounded-xl">
+                <div className="items-center justify-center sm:flex hidden sm:w-full sm:mb-8 ">
                   <Image
                     className="object-cover object-center"
                     alt="logo"
@@ -44,21 +43,20 @@ export const SingleBlogData = ({ item }: { item: Number }) => {
                       />
                     </div>
                     {/* //////// h1 heading.////  */}
-                    <div className="w-[479px] lg:w-full sm:mt-16">
-                      <h1 className="font-poppins text-4xl  lg:text-3xl lg:leading-[40px] md:text-base md:leading-6 md:font-normal font-normal text-black leading-[48px]">
+                    <div className="w-auto h-[96px]  sm:h-auto lg:w-full sm:mt-12 flex items-center">
+                      <h1 className="font-poppins text-[31px] lg:text-3xl lg:leading-[40px] md:text-base md:leading-6 md:font-normal font-normal text-black leading-[48px]">
                         {data.title}
-                        {/* <br className="hidden lg:inline-block" /> */}
                       </h1>
                     </div>
                     {/* //////// P tag description/// */}
-                    <div className="w-auto  lg:w-full sm:mt-4">
-                      <p className="font-Lato font-medium text-xl leading-9 lg:text-lg lg:leading-7  md:text-xs md:leading-5 md:font-medium text-pColor text-justify">
+                    <div className="w-auto lg:w-full sm:mt-4">
+                      <p className="font-Lato font-medium text-xl leading-9 lg:text-lg lg:leading-7 md:text-xs md:leading-5 md:font-medium text-pColor text-justify">
                         {data.description}
                       </p>
                     </div>
                     {/* /////core technologies//// */}
-                    <div className="lg:w-full flex lg:justify-between lg:mt-4 mt-6 ">
-                      <div className=" lg:flex lg:justify-between lg:flex-col lg:w-2/4 md:py-8">
+                    <div className="lg:w-full flex lg:justify-between lg:mt-4 mt-6">
+                      <div className=" lg:flex lg:justify-between lg:flex-col lg:w-2/4 md:py-8 sm:w-full">
                         <div className="w-auto h-auto">
                           <h3 className="font-Lato font-medium text-xl leading-9 lg:text-lg lg:leading-7  md:text-base md:leading-6 md:font-normal text-black text-justify">
                             Core Technologies:
@@ -66,7 +64,10 @@ export const SingleBlogData = ({ item }: { item: Number }) => {
                           <ul className="flex list-disc pl-10 sm:pl-8 py-2 lg:flex-col mt-1">
                             {data.technologies.map((tech, i) => {
                               return (
-                                <li key={i} className="mr-12 text-main sm:mr-0 md:mb-2">
+                                <li
+                                  key={i}
+                                  className="mr-12 text-main sm:mr-0 md:mb-2 lg:mb-4"
+                                >
                                   <p className="bg-clip-text text-transparent bg-gradient-to-r from-gradient1 to-gradient2 font-Lato font-medium text-xl leading-9 lg:text-md lg:leading-7 md:text-xs md:leading-5 md:font-medium text-justify">
                                     {tech}
                                   </p>
@@ -89,10 +90,9 @@ export const SingleBlogData = ({ item }: { item: Number }) => {
                         />
                       </div>
                     </div>
-                    <div className="sm:justify-start flex w-full">
+                    <div className="sm:justify-start flex w-full ">
                       <Button
-                        // className="w-full flex justify-start sm:my-2 md:w-[145px] md:h-[34px] mt-12"
-                        className="flex h-[54px] w-[230px]  md:w-[150px] md:h-[34px] sm:rounded-full mb-3 bg-gradient-to-r from-gradient1 to-gradient2 text-white rounded-4xl justify-center items-center cursor-pointer mt-12"
+                        className="flex h-[54px] w-[230px]  md:w-[150px] md:h-[34px] sm:rounded-full mb-3 bg-gradient-to-r from-gradient1 to-gradient2 text-white rounded-4xl justify-center items-center cursor-pointer mt-12 lg:mt-2 md:mt-0"
                         preSVG={false}
                         svg={() =>
                           StraightArrowWhiteSvg({
@@ -111,14 +111,13 @@ export const SingleBlogData = ({ item }: { item: Number }) => {
                     </div>
                   </div>
 
-                  <div className="w-2/5 flex justify-center items-center lg:hidden sm:flex sm:w-full">
+                  <div className="w-2/5 flex justify-center items-center lg:hidden sm:flex  sm:w-full">
                     <Image
-                      className="object-cover object-center rounded"
+                      className="object-cover object-center rounded sm:w-8/12"
                       alt="hero"
-                      width={362}
-                      height={302}
+                      width={isMobile ? 190 : 362}
+                      height={isMobile ? 158 : 302}
                       src={`${data.image}`}
-                      objectFit="contain"
                     />
                   </div>
                 </div>
@@ -126,7 +125,6 @@ export const SingleBlogData = ({ item }: { item: Number }) => {
             </div>
           );
         })}
-      <CarouselItemIcons item={item} limit={3} />
     </>
   );
 };
