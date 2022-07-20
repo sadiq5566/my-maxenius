@@ -31,7 +31,6 @@ module.exports = {
       },
       backgroundSize: {
         "100%": "100%",
-        service: "0px 11px 16px rgba(0, 0, 0, 0.04)"
       },
       boxShadow: {
         service: "0px 11px 16px rgba(0, 0, 0, 0.04)",
