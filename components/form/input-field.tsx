@@ -5,7 +5,7 @@ interface IProps {
   type?: string;
   name: string;
   value: string;
-  onChange: () => void;
+  onChange: any;
   isTextArea?: boolean;
 }
 const InputField: FC<IProps> = (props) => {
