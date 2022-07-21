@@ -4,7 +4,7 @@ import { blogData } from "../../data/Blog";
 
 export const Blog = () => {
   return (
-    <section className="w-full body-font h-[1237px] lg:h-auto  py-20 px-[100px] md:px-8 sm:px-6">
+    <section className="w-full body-font h-[1237px] lg:h-auto  py-20 px-[80px] md:px-8 sm:px-6">
       {blogData.map((blog) => (
         <div className=" mx-auto h-1/2 flex flex-wrap lg:mb-8" key={`${blog.id}`}>
           <div

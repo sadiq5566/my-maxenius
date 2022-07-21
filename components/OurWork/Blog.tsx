@@ -23,7 +23,7 @@ export const Blog = () => {
                 />
               </div>
               <div className=" flex flex-row rounded-xl sm:flex-col ">
-                <div className="w-3/5 flex flex-col items-start justify-around px-8  sm:text-left lg:w-full sm:items-center sm:order-2 xl:mr-24">
+                <div className="w-3/5 flex flex-col items-start justify-around pl-8 px-0  sm:text-left lg:w-full sm:items-center sm:order-2 mr-10">
                   {/* //////// logo.////  */}
                   <div className="flex items-center justify-start sm:hidden">
                     <Image
