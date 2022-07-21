@@ -59,7 +59,7 @@ export function Header({
       } bg-cover bg-no-repeat bg-center`}
     >
       <div className="relative h-full">
-        <div className="px-14 md:px-4 sm:px-0 py-4">
+        <div className="px-14 md:px-4 sm:px-0 py-4 h-full">
           <div className="sm:w-full sm:inline-block mx-auto lg:flex-col flex flex-wrap py-5 px-14 sm:mx-0 sm:px-[20px] md:mx-2  md:px-2 md:py-2 flex-row items-center ">
             <Link href="/">
               <a className="flex title-font font-medium items-center text-gray-900 mb-4 sm:inline-block ">
@@ -83,7 +83,9 @@ export function Header({
             </div>
             <Nav />
           </div>
-          <section className="relative">
+          <section
+            className={`relative ${isContact ? "" : "h-[80%] flex items-center"} `}
+          >
             <div
               className={`px-14 py-24 lg:py-12 md:px-7 md:py-6 sm:py-0 mx-auto flex flex-nowrap sm:flex-col sm:px-6 sm:h-auto ${
                 router.pathname === "/ourwork" ? "justify-between items-center" : ""
@@ -91,8 +93,8 @@ export function Header({
             >
               <div
                 className={`w-2/3 sm:w-full sm:order-2 flex flex-col mr-32 lg:mr-16 sm:mt-2 md:mr-12 ${
-                  router.pathname === "/ourwork" ? "" : "justify-between"
-                }  ${
+                  isContact ? "" : "sm:mr-auto sm:ml-auto"
+                } ${router.pathname === "/ourwork" ? "" : "justify-between"}  ${
                   router.pathname === "/services" ? "justify-evenly" : ""
                 }  relative text-white sm:mt-8 sm:h-auto`}
               >

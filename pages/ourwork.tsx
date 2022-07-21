@@ -9,7 +9,7 @@ const OurWork = () => {
         headTitle="Take A Look At Our Work"
         subTitle="Here are some of our projects that we take pride in. Take a look around and you'll definitely find something fascinating in them"
         bannerImageClass="hidden sm:block"
-        customHeight="h-[654px] sm:h-[510.65px]"
+        customHeight="h-[654px] md:h-[515.65px] sm:h-[510.65px]"
       >
         <Blog />
       </Layout>

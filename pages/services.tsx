@@ -12,7 +12,7 @@ const OurWork = () => {
         headTitle="Your Business Needs Our Software Solutions"
         subTitle="We provide you end to end software development and consultancy services resulting in extraordinary digital experiences."
         bannerImageClass="hidden sm:block"
-        customHeight="h-[654px] sm:h-[510.65px]"
+        customHeight="h-[654px] md:h-[515.65px] sm:h-[640.24px]"
       >
         <Projects />
         <Services />

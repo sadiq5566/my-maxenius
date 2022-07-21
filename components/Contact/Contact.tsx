@@ -17,7 +17,7 @@ const Contact: FC = () => {
   };
   return (
     <>
-      <div className="absolute bg-white sm:top-[434px] top-[494px] sm:left-[20px] md:left-[80px] left-[115px] sm:w-[90%] w-[80%] sm:h-[760px] md:h-[760px] h-[650px] ml-auto mr-auto sm:px-[20px] px-[76px] sm:py-[60px] py-[66px] sm:mb-[30px] shadow-contact rounded-xl	">
+      <div className="absolute bg-white sm:top-[434px] md:top-[404px] top-[494px] sm:left-[20px] md:left-[80px] left-[115px] sm:w-[90%] w-[80%] sm:h-[760px] md:h-[760px] h-[650px] ml-auto mr-auto sm:px-[20px] px-[76px] sm:py-[60px] py-[66px] sm:mb-[30px] shadow-contact rounded-xl	">
         <form>
           <InputField
             label="How can i help you?"

@@ -8,7 +8,7 @@ const ContactPage: NextPage = () => {
       headTitle="Let’s get started!"
       subTitle="."
       isButton={false}
-      customHeight="h-[788px] sm:h-[734.95px]"
+      customHeight="h-[788px] md:h-[634.95px] sm:h-[734.95px]"
       bannerImageClass="hidden sm:block"
       isContact={true}
     >
