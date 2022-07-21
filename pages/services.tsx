@@ -1,6 +1,5 @@
 import React from "react";
 import { Carousel } from "../components/Carousel";
-import { Footer } from "../components/common/Footer";
 import { Feedback } from "../components/Feedback";
 import { Layout } from "../components/Layout";
 import { Projects } from "../components/Projects";
@@ -19,7 +18,6 @@ const OurWork = () => {
         <Services />
         <Carousel />
         <Feedback />
-        <Footer />
       </Layout>
     </>
   );

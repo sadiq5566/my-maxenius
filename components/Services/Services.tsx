@@ -94,7 +94,7 @@ export const Services = () => {
                       <h2 className="leading-9 text-black text-2xl lg:text-xl lg:leading-7 font-normal font-poppins md:text-base md:leading-6 md:font-normal sm:text-base sm:leading-[24px] sm:font-normal md:mb-2">
                         {service.title}
                       </h2>
-                      <p className="font-Lato text-pColor md:my-0 font-medium sm:text-xs sm:my-2 sm:tracking-widest sm:leading-5 sm:h-auto text-xl leading-[30px] lg:text-lg lg:leading-[24px] w-[270px] lg:w-full lg:mt-4 h-[120px] md:h-auto text-justify not-italic md:text-xs md:leading-[20px] md:font-medium">
+                      <p className="font-Lato text-pColor md:my-0 font-medium sm:text-xs sm:my-2 sm:tracking-widest sm:leading-5 sm:h-auto text-xl leading-[30px] lg:text-lg lg:leading-[24px] w-full lg:w-full lg:mt-4 h-[120px] md:h-auto text-justify not-italic md:text-xs md:leading-[20px] md:font-medium">
                         {service.description}
                       </p>
                     </div>
