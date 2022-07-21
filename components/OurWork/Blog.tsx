@@ -55,7 +55,7 @@ export const Blog = () => {
                         <h3 className="font-Lato font-medium text-xl leading-9 lg:text-lg lg:leading-7  md:text-base md:leading-6 md:font-normal text-black text-justify">
                           Core Technologies:
                         </h3>
-                        <ul className="flex list-disc pl-10 py-2 lg:flex-col mt-1">
+                        <ul className="flex list-disc pl-8 py-2 lg:flex-col mt-1">
                           {data.technologies.map((tech, i) => {
                             return (
                               <li
@@ -94,9 +94,9 @@ export const Blog = () => {
                   />
                 </div>
               </div>
-              <div className="px-12">
+              <div className="pl-8">
                 <Button
-                  className="flex h-[54px] w-[230px]  md:w-[150px] md:h-[34px] sm:rounded-full mb-3 bg-gradient-to-r from-gradient1 to-gradient2 text-white rounded-4xl justify-center items-center cursor-pointer mt-12 lg:mt-2 md:mt-0"
+                  className="flex h-[54px] w-[230px]  md:w-[150px] md:h-[34px] sm:rounded-full mb-3 bg-gradient-to-r from-gradient1 to-gradient2 text-white rounded-4xl justify-center items-center cursor-pointer mt-8 lg:mt-2 md:mt-0"
                   preSVG={false}
                   svg={() =>
                     StraightArrowWhiteSvg({

@@ -14,7 +14,7 @@ const Clients = () => {
     <div className="w-full h-[470px]  md:h-[301px] sm:h-[422px]  bg-main relative">
       <section>
         <div className="container py-20 md:pt-12 md:pb-30 sm:py-12">
-          <div className=" flex flex-row w-full sm:h-auto lg:flex-col lg:items-stretch lg:px-16 md:px-[74px] items-start justify-between px-20 sm:px-6 ">
+          <div className=" flex flex-row w-full sm:h-auto lg:flex-col lg:items-stretch lg:px-24 md:px-16 items-start justify-between px-24 sm:px-6 ">
             <div className="lg:mb-3 w-9/12 lg:w-full">
               <p className=" sm:w-full sm:h-auto sm:leading-[1.4] sm:tracking-widest sm:text-xs h-auto sm:font-medium text-white text-xl lg:text-lg font-medium  leading-9 text-justify  mb-3 font-Lato md:font-medium md:text-xs md:leading-[18px] md:font-Lato">
                 `When you hire Maxenius, you ensure a commitment from American management

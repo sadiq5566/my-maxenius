@@ -24,11 +24,11 @@ export const Feedback = () => {
   };
   return (
     <section className="w-full h-auto sm:h-auto ">
-      <div className="flex sm:flex-col justify-between items-center pt-16 px-28 lg:px-16 md:px-14 sm:pt-8 sm:px-6">
+      <div className="flex sm:flex-col justify-between items-center pt-16 px-24  md:px-12 sm:pt-8 sm:px-6">
         <div className="flex w-3/4 sm:text-left md:w-full ">
           <h1 className="inline md:text-[22px] md:font-normal md:leading[30px] font-poppins md:w-full font-normal text-4xl leading-[48px] text-black sm:text-xl sm:leading-[30px] sm:font-normal">
             Maxenius Success Stories
-            <span className="ml-7  md:h-[30px] md:w-[30px]">
+            <span className="ml-7 sm:ml-3 md:h-[30px] md:w-[30px]">
               <HalfRedStarSVG
                 {...(isLg
                   ? { height: "48", width: "48" }
@@ -60,11 +60,11 @@ export const Feedback = () => {
           View All Stories
         </Button>
       </div>
-      <div className="pt-10 px-28 sm:px-4">
+      <div className="pt-10 px-24  md:px-12 sm:px-4">
         <hr />
       </div>
 
-      <div className="w-full mx-auto flex px-5 md:px-4 sm:px-8 mt-24 md:mt-7 md:mb-10 mb-20 sm:mb-4 flex-row sm:flex-col items-center">
+      <div className="w-full mx-auto flex px-5 md:px-12 sm:px-8 mt-24 md:mt-7 md:mb-10 mb-20 sm:mb-4 flex-row sm:flex-col items-center">
         <motion.div
           key={selected}
           initial={{ x: -50, opacity: 0 }}
@@ -119,10 +119,6 @@ export const Feedback = () => {
               }`}
             ></div>
           ))}
-          {/* <div className="w-[19px] h-[8px] ml-2 rounded-[10px] bg-greyClr"></div>
-          <div className="w-[46px] h-[8px] ml-2 rounded-[10px] bg-main"></div>
-          <div className="w-[19px] h-[8px] ml-2 rounded-[10px] bg-greyClr"></div>
-          <div className="w-[19px] h-[8px] ml-2 rounded-[10px] bg-greyClr"></div> */}
           <div
             className="w-[30px] h-[30px] ml-20 md:ml-8 sm:ml-4 cursor-pointer"
             onClick={setData}

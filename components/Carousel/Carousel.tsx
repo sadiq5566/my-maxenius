@@ -6,6 +6,7 @@ import { SingleBlogData } from "./SingleBlogData";
 import { Pagination } from "swiper";
 import "swiper/css";
 import "swiper/css/pagination";
+
 export const Carousel = () => {
   const { isLg, isTab, isMobile } = useContext(StateContext);
 
@@ -34,18 +35,6 @@ export const Carousel = () => {
           </div>
         </div>
       </div>
-
-      {/* <div className="carousel w-full h-auto bg-transparent pb-16">
-        <div id="slide1" className="carousel-item relative w-full ">
-          <SingleBlogData item={1} />
-        </div>
-        <div id="slide2" className="carousel-item relative w-full">
-          <SingleBlogData item={2} />
-        </div>
-        <div id="slide3" className="carousel-item relative w-full">
-          <SingleBlogData item={3} />
-        </div>
-      </div> */}
 
       {isMobile ? (
         <div className="flex flex-col">
