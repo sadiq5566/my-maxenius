@@ -38,8 +38,8 @@ const Clients = () => {
         </div>
       </section>
       <div>
-        <div className={`w-full `}>
-          <div className="flex absolute -bottom-[70px]  md:-bottom-[40px]  justify-around w-full sm:flex-wrap  sm:h-[240px] xsm:h-[200px] xsm:-bottom-[6  0px] sm:-bottom-[50px] sm:items-center xsm:items-end">
+        <div className={`w-full`}>
+          <div className="flex absolute -bottom-[70px]  md:-bottom-[40px]  justify-around w-full sm:flex-wrap  sm:h-[240px] xsm:h-[200px]sm:-bottom-[50px] sm:items-center xsm:items-start">
             <div className="w-[257px] h-[149px] relative bg-white flex flex-col justify-center items-center rounded-md shadow-service lg:w-[190px] lg:h-[120px] md:w-[127px] md:h-[99px] sm:w-[150px] sm:h-[90px] xsm:w-[110px] xsm:h-[75px] ">
               <div className="w-[78px] h-[78px] rounded-full bg-white border-main border-[6px] flex justify-center items-center absolute -top-10 z-10 lg:w-[60px] lg:h-[60px] md:w-[40px] md:h-[40px] md:-top-5  xsm:w-[35px] xsm:h-[35px]">
                 <PersonsSVG
