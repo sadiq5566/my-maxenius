@@ -13,6 +13,7 @@
     "pre-commit": "next lint --fix && git add -A ."
   },
   "dependencies": {
+    "babel-plugin-styled-components": "^2.0.7",
     "framer-motion": "^6.5.1",
     "next": "12.1.6",
     "react": "18.1.0",
