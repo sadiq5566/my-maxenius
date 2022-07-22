@@ -2,16 +2,21 @@ module.exports = {
   content: ["./pages/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
   theme: {
     screens: {
-      "lg": { 'max': '1024px' },
-      'md': { 'max': '768px' },
-      'sm': { 'max': '500px' }
+      lg: { max: "1024px" },
+      md: { max: "768px" },
+      sm: { max: "500px" },
+      xsm: { max: "320px" }
+
     },
     extend: {
       backgroundImage: {
-        'header-bg': "url('/assets/images/headerbg.png')",
+        "header-bg": "url('/assets/images/headerbg.png')",
+        "footer-house": "url('../components/images/footer.png')",
+        "red-gradient": "linear-gradient(112.3deg, #FE2A44 0.22%, #BD0B21 100.27%)",
+        "button-gradient": "linear-gradient(112.3deg, #FE2A44 0.22%, #BD0B21 100.27%)"
       },
       borderRadius: {
-        '4xl': '40px',
+        "4xl": "40px"
       },
       colors: {
         main: "#E11C34",
@@ -22,25 +27,26 @@ module.exports = {
         greyClr: "#F0F0F0"
       },
       fontFamily: {
-        'poppins': ['Poppins', 'sans-serif'],
-        'Lato': ['Lato', 'sans-serif']
+        poppins: ["Poppins", "sans-serif"],
+        Lato: ["Lato", "sans-serif"]
       },
-
+      backgroundSize: {
+        "100%": "100%",
+      },
       boxShadow: {
-        'service': '0px 11px 16px rgba(0, 0, 0, 0.04)',
+        service: "0px 11px 16px rgba(0, 0, 0, 0.04)",
+        contact: "0px 11px 16px rgba(0, 0, 0, 0.04)"
       }
     }
   },
 
   variants: {
     extend: {
-      fontWeight: ['responsive', 'hover', 'focus', 'group-hover', 'active'],
-      fontBold: ['responsive', 'hover', 'focus', 'group-hover', 'active'],
-      opacity: ['responsive', 'hover', 'focus', 'disabled', 'active'],
+      fontWeight: ["responsive", "hover", "focus", "group-hover", "active"],
+      fontBold: ["responsive", "hover", "focus", "group-hover", "active"],
+      opacity: ["responsive", "hover", "focus", "disabled", "active"]
     }
   },
 
-  plugins: [
-    require("daisyui")
-  ]
+  plugins: []
 };

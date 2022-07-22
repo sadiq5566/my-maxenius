@@ -1,6 +1,5 @@
 import React from "react";
 import { Carousel } from "../components/Carousel";
-import { Footer } from "../components/common/Footer";
 import { Feedback } from "../components/Feedback";
 import { Layout } from "../components/Layout";
 import { Projects } from "../components/Projects";
@@ -12,12 +11,13 @@ const OurWork = () => {
       <Layout
         headTitle="Your Business Needs Our Software Solutions"
         subTitle="We provide you end to end software development and consultancy services resulting in extraordinary digital experiences."
+        bannerImageClass="hidden sm:block"
+        customHeight="h-[654px] md:h-[515.65px] sm:h-[640.24px]"
       >
         <Projects />
         <Services />
         <Carousel />
         <Feedback />
-        <Footer />
       </Layout>
     </>
   );

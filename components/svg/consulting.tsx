@@ -8,6 +8,7 @@ const Consulting = () => {
       viewBox="0 0 400 344"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
+      className="sm:w-[190px] sm:h-[177.28px] w-[400px] h-[334px]"
     >
       <path d="M47.374 33.9683V322.563" stroke="#263238" strokeMiterlimit="10" />
       <path d="M47.374 22.8418V28.3638" stroke="#263238" strokeMiterlimit="10" />
@@ -68,11 +69,7 @@ const Consulting = () => {
         strokeMiterlimit="10"
       />
       <path d="M126.116 158.427L129.627 168.68" stroke="#263238" strokeMiterlimit="10" />
-      <path
-        d="M162.363 157.504L159.149 167.139"
-        stroke="#263238"
-        strokeMiterlimit="10"
-      />
+      <path d="M162.363 157.504L159.149 167.139" stroke="#263238" strokeMiterlimit="10" />
       <path
         d="M125.77 165.301L129.627 168.68L130.591 164.098"
         stroke="#263238"
@@ -151,11 +148,7 @@ const Consulting = () => {
         stroke="#263238"
         strokeMiterlimit="10"
       />
-      <path
-        d="M80.9016 81.1359V101.625H113.803"
-        stroke="#263238"
-        strokeMiterlimit="10"
-      />
+      <path d="M80.9016 81.1359V101.625H113.803" stroke="#263238" strokeMiterlimit="10" />
       <path
         d="M91.1461 83.9298H84.3137V101.625H91.1461V83.9298Z"
         fill="#E11C34"

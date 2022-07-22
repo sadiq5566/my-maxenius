@@ -9,9 +9,27 @@ interface props {
   readonly children: React.ReactNode;
   headTitle?: string;
   subTitle?: string;
+  btnText?: string;
+  isButton?: boolean;
+  customHeight?: string;
+  isExpText?: boolean;
+  bannerImageClass?: string;
+  isContact?: boolean;
 }
 
-export const Layout = ({ title, description, children, headTitle, subTitle }: props) => {
+export const Layout = ({
+  title,
+  description,
+  children,
+  headTitle,
+  subTitle,
+  btnText,
+  isButton,
+  customHeight,
+  isExpText,
+  bannerImageClass,
+  isContact
+}: props) => {
   return (
     <>
       <div>
@@ -23,7 +41,16 @@ export const Layout = ({ title, description, children, headTitle, subTitle }: pr
           />
         </Head>
 
-        <Header title={headTitle} subTitle={subTitle} />
+        <Header
+          title={headTitle}
+          subTitle={subTitle}
+          btnText={btnText}
+          isButton={isButton}
+          customHeight={customHeight}
+          isExpText={isExpText}
+          bannerImageClass={bannerImageClass}
+          isContact={isContact}
+        />
 
         <div>
           <main>{children}</main>

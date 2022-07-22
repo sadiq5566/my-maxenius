@@ -10,7 +10,7 @@ import { Services } from "../components/Services";
 const Home: NextPage = () => {
   return (
     <>
-      <Layout>
+      <Layout isExpText={true} customHeight="h-[784px] md:h-[556.68px] sm:h-[576.68px]">
         <Projects />
         <Clients />
         <Services />

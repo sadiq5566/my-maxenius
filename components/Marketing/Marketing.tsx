@@ -6,8 +6,8 @@ export const Marketing = () => {
   const { isLg, isTab, isMobile } = useContext(StateContext);
   return (
     <section className="w-full h-auto md:h-auto  bg-serviceBg">
-      <div className="container px-28 py-24 md:px-8 sm:px-6 sm:py-8  mx-auto ">
-        <div className="flex flex-col text-center sm:text-left w-full mb-20 md:mb-8 sm:mb-2">
+      <div className="container px-24 py-24 lg:px-24 md:px-16 sm:px-6 sm:py-8  mx-auto ">
+        <div className="flex flex-col  sm:text-left w-full mb-20 md:mb-8 sm:mb-2">
           <div className="flex">
             <h1 className="text-4xl font-poppins font-normal leading-[48px] text-black not-italic md:text-[22px] md:font-normal md:leading-[30px] sm:text-[22px] sm:leading-[30px] sm:font-normal">
               Get rid of the Marketing Services section
@@ -30,14 +30,14 @@ export const Marketing = () => {
             assistance.
           </p>
         </div>
-        <div className="flex flex-wrap px-12 lg:px-0 md:px-2 justify-around sm:w-full sm:h-auto sm:px-4">
+        <div className="flex flex-wrap px-8 lg:px-0 md:px-2 justify-around sm:w-full sm:h-auto sm:px-4">
           {marketingData.map((data) => (
             <div
-              className={`pl-3 pr-8  h-auto md:h-auto w-1/2 sm:w-full sm:h-auto sm:my-2 hover:border-main hover:bg-white hover:border-b-4 r  hover:shadow-service 
+              className={`pl-3 pr-8 lg:pl-0 lg:pr-2  h-auto md:h-auto w-1/2 sm:w-full sm:h-auto sm:my-2 hover:border-main hover:bg-white hover:border-b-4 r  hover:shadow-service 
                ${data.id > 2 ? "mt-12" : "mt-6"}`}
               key={`${data.id}`}
             >
-              <div className=" pt-2 px-8 md:px-4 flex flex-col justify-around h-full ">
+              <div className=" pt-2 px-8 lg:px-4 md:px-4 flex flex-col justify-around h-full ">
                 <div className="mb-4 h-auto w-auto md:my-0">
                   {data.svg({
                     ...(isLg

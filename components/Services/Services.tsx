@@ -12,19 +12,19 @@ export const Services = () => {
     <div className="w-full h-auto  sm:h-auto py-20 bg-serviceBg ">
       <section className="body-font ">
         <div
-          className={`container px-5 ${
+          className={`container px-24 md:px-16 sm:px-6 ${
             router.pathname === "/services" ? "pt-0" : "pt-24"
           }  pb-16 mx-auto`}
         >
           {router.pathname === "/services" ? (
-            <div className="flex flex-col text-center sm:text-left sm:px-0 w-full mb-20">
+            <div className="flex flex-col text-center sm:text-left sm:px-0 w-full mb-10">
               <div className="mb-4">
                 <h3 className="font-Lato font-medium text-xl lg:leading-7 lg:text-lg md:leading-5 md:text-base md:font-medium leading-9 text-pColor sm:text-left">
                   What we do?
                 </h3>
               </div>
               <div>
-                <h1 className="text-black font-poppins font-normal text-4xl  lg:leading-7 lg:text-3xl md:leading-[30px] md:text-[22px] md:font-normal leading-9 sm:text-left">
+                <h1 className="text-black font-poppins font-normal text-4xl  lg:leading-7 lg:text-3xl md:leading-[24px] md:text-[22px] md:font-normal leading-9 sm:text-left ">
                   Solve Your Toughest Challenges
                 </h1>
               </div>
@@ -36,15 +36,16 @@ export const Services = () => {
                     background: white;
                     font-weight: 600;
                     border-bottom: 2px solid #e11c34;
+                    padding: 16px 44px;
                   }
                 `}</style>
 
                 <div
-                  className=" px-5 lg:px-0 pt-10 mx-auto flex flex-wrap flex-col"
+                  className=" px-4 lg:px-0 pt-10 mx-auto flex flex-wrap flex-col"
                   id="services"
                 >
-                  <div className="flex flex-wrap mx-48 lg:mx-24 md:mx-12 sm:mx-0 md:text-base md:leading-5 md:font-semibold ">
-                    <ActiveLink activeClassName="active" href="/services#services">
+                  <div className="flex flex-wrap  justify-between mx-24 lg:mx-24 md:mx-12 sm:mx-0 md:text-base md:leading-5 md:font-semibold ">
+                    <ActiveLink activeClassName="active " href="/services#services">
                       <a className="services-anchor  sm:px-auto ">Software Development</a>
                     </ActiveLink>
                     <ActiveLink activeClassName="active" href="/services#Consultancy">
@@ -61,14 +62,14 @@ export const Services = () => {
               </section>
             </div>
           ) : (
-            <div className="flex flex-col text-center sm:text-left sm:px-8 w-full mb-20">
+            <div className="flex flex-col text-center md:text-left sm:px-0 w-full mb-20 md:mb-10">
               <h1 className="font-poppins font-normal text-4xl not-italic leading-[48px] text-black sm:text-[22px] sm:leading-[24px] sm:font-normal">
                 Services We Offer
               </h1>
             </div>
           )}
 
-          <div className="flex flex-wrap mx-4 lg:mx-24 md:mx-8">
+          <div className="flex flex-wrap mx-4 lg:mx-18 md:mx-0">
             {servicesData.map((service) => {
               return (
                 <div
@@ -94,7 +95,7 @@ export const Services = () => {
                       <h2 className="leading-9 text-black text-2xl lg:text-xl lg:leading-7 font-normal font-poppins md:text-base md:leading-6 md:font-normal sm:text-base sm:leading-[24px] sm:font-normal md:mb-2">
                         {service.title}
                       </h2>
-                      <p className="font-Lato text-pColor md:my-0 font-medium sm:text-xs sm:my-2 sm:tracking-widest sm:leading-5 sm:h-auto text-xl leading-[30px] lg:text-lg lg:leading-[24px] w-[270px] lg:w-full lg:mt-4 h-[120px] md:h-auto text-justify not-italic md:text-xs md:leading-[20px] md:font-medium">
+                      <p className="font-Lato text-pColor md:my-0 font-medium sm:text-xs sm:my-2 sm:tracking-widest sm:leading-5 sm:h-auto text-xl leading-[30px] lg:text-lg lg:leading-[24px] w-full lg:w-full lg:mt-4 h-[120px] md:h-auto text-justify not-italic md:text-xs md:leading-[20px] md:font-medium">
                         {service.description}
                       </p>
                     </div>
@@ -120,7 +121,6 @@ export const Services = () => {
                     : { height: "24", width: "40" })
                 })
               }
-              // className="h-[54px] w-full flex justify-center sm:my-2"
               className="flex h-[54px] w-[230px]  md:w-[150px] md:h-[34px] sm:rounded-full mb-3 bg-gradient-to-r from-gradient1 to-gradient2 text-white rounded-4xl justify-center items-center cursor-pointer "
               preSVG={false}
             >

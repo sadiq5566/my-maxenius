@@ -6,7 +6,7 @@ import ActiveLink from "./ActiveLink";
 const Nav = () => {
   const { isLg, isTab, isMobile } = useContext(StateContext);
   return (
-    <nav className="ml-auto flex flex-wrap items-center text-base justify-center space-x-9  lg:mx-auto lg:mt-6 sm:mx-0 sm:space-x-3 sm:mt-0 sm:mr-0 sm:none">
+    <nav className="sm:hidden ml-auto flex flex-wrap items-center text-base justify-center space-x-9  lg:mx-auto lg:mt-6 sm:mx-0 sm:space-x-3 sm:mt-0 sm:mr-0 sm:none">
       <style jsx>{`
         .active {
           font-weight: bold;
@@ -21,13 +21,13 @@ const Nav = () => {
       <ActiveLink activeClassName="active" href="/ourwork">
         <a className="header-anchor">Our Work</a>
       </ActiveLink>
-      <ActiveLink activeClassName="active" href="#">
+      <ActiveLink activeClassName="active" href="/about">
         <a className="header-anchor">About Us!</a>
       </ActiveLink>
       <ActiveLink activeClassName="active" href="/services">
         <a className="header-anchor">Ecommerce Guide</a>
       </ActiveLink>
-      <ActiveLink activeClassName="active" href="#">
+      <ActiveLink activeClassName="active" href="/contact">
         <a className="header-anchor">Contact Us</a>
       </ActiveLink>
       <a className="mr-5 ">

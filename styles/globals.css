@@ -8,7 +8,7 @@ body {
   margin: 0px;  
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu,
     Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-       width: 100vw;
+       /* width: 100vw; */
         overflow-x: hidden; 
 }
 
@@ -26,7 +26,10 @@ a {
   @apply mr-5 opacity-[0.8] text-white sm:font-semibold font-medium font-Lato sm:mr-2 ;
 }
 .services-anchor{
-  @apply  py-3 w-1/4 justify-center text-pColor text-base border-b-2 md:border-b-0 font-normal inline-flex items-center cursor-pointer  md:w-1/2 sm:w-full  sm:mb-4 sm:text-xl sm:active:border-b-0;
+  @apply  py-3  justify-center text-pColor text-base   font-normal inline-flex items-center cursor-pointer  md:w-1/2 sm:w-full  sm:mb-4 sm:text-xl ;
 }
 }
 
+.swiper-pagination-bullet-active {
+     background-color: white !important;
+}

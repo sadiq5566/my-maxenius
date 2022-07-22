@@ -8,7 +8,7 @@ const Location = () => {
       viewBox="0 0 48 48"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
-      className="inline-block mb-3 ml-4"
+      className="inline-block mb-2 lg:mb-3  ml-[10px] lg:ml-4 w-[30px] h-[30px] lg:w-[48px] lg:h-[48px]"
     >
       <path
         fillRule="evenodd"
