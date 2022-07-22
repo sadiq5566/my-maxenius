@@ -2,10 +2,11 @@ module.exports = {
   content: ["./pages/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
   theme: {
     screens: {
-      xl: { max: "1440px" },
       lg: { max: "1024px" },
       md: { max: "768px" },
-      sm: { max: "500px" }
+      sm: { max: "500px" },
+      xsm: { max: "320px" }
+
     },
     extend: {
       backgroundImage: {

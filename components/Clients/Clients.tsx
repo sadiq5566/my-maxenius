@@ -11,7 +11,7 @@ import CountUp from "react-countup";
 const Clients = () => {
   const { isLg, isTab, isMobile } = useContext(StateContext);
   return (
-    <div className="w-full h-[470px]  md:h-[301px] sm:h-[422px]  bg-main relative">
+    <div className="w-full h-[470px]  md:h-[301px] sm:h-[422px] xsm:h-[460px] bg-main relative">
       <section>
         <div className="container py-20 md:pt-12 md:pb-30 sm:py-12">
           <div className=" flex flex-row w-full sm:h-auto lg:flex-col lg:items-stretch lg:px-24 md:px-16 items-start justify-between px-24 sm:px-6 ">
@@ -39,9 +39,9 @@ const Clients = () => {
       </section>
       <div>
         <div className={`w-full `}>
-          <div className="flex  absolute  -bottom-[70px]  md:-bottom-[40px]  justify-around w-full sm:flex-wrap  sm:h-[240px] sm:-bottom-[70px]   sm:items-center">
-            <div className="w-[257px] h-[149px] relative bg-white flex flex-col justify-center items-center rounded-md shadow-service lg:w-[190px] lg:h-[120px] md:w-[127px] md:h-[99px] sm:w-[150px] sm:h-[90px] ">
-              <div className="w-[78px] h-[78px] rounded-full bg-white border-main border-[6px] flex justify-center items-center absolute -top-10 z-10 lg:w-[60px] lg:h-[60px] md:w-[40px] md:h-[40px] md:-top-5  ">
+          <div className="flex absolute -bottom-[70px]  md:-bottom-[40px]  justify-around w-full sm:flex-wrap  sm:h-[240px] xsm:h-[200px] xsm:-bottom-[6  0px] sm:-bottom-[50px] sm:items-center xsm:items-end">
+            <div className="w-[257px] h-[149px] relative bg-white flex flex-col justify-center items-center rounded-md shadow-service lg:w-[190px] lg:h-[120px] md:w-[127px] md:h-[99px] sm:w-[150px] sm:h-[90px] xsm:w-[110px] xsm:h-[75px] ">
+              <div className="w-[78px] h-[78px] rounded-full bg-white border-main border-[6px] flex justify-center items-center absolute -top-10 z-10 lg:w-[60px] lg:h-[60px] md:w-[40px] md:h-[40px] md:-top-5  xsm:w-[35px] xsm:h-[35px]">
                 <PersonsSVG
                   {...(isLg
                     ? { height: "40", width: "40" }
@@ -57,7 +57,7 @@ const Clients = () => {
                   start={20}
                   end={100}
                   duration={1}
-                  className="font-poppins font-bold text-3xl text-gray-900 lg:text-2xl md:text-[22px] md:font-semibold"
+                  className="font-poppins font-bold text-3xl text-gray-900 lg:text-2xl md:text-[22px] md:font-semibold xsm:text-base "
                   suffix="+"
                 />
                 <p className=" font-Lato text-xl lg:text-lg font-medium md:text-xs ">
@@ -65,8 +65,8 @@ const Clients = () => {
                 </p>
               </div>
             </div>
-            <div className="w-[257px] h-[149px] relative bg-white flex flex-col justify-center items-center rounded-md shadow-service md:w-[127px] md:h-[99px] sm:w-[150px] sm:h-[90px] lg:w-[190px] lg:h-[120px] ">
-              <div className="w-[78px] h-[78px] rounded-full bg-white border-main border-[6px] flex justify-center items-center absolute -top-10 z-10 lg:w-[60px] lg:h-[60px] md:w-[40px] md:h-[40px] md:-top-5  ">
+            <div className="w-[257px] h-[149px] relative bg-white flex flex-col justify-center items-center rounded-md shadow-service md:w-[127px] md:h-[99px] sm:w-[150px] sm:h-[90px] lg:w-[190px] lg:h-[120px] xsm:w-[110px] xsm:h-[75px]">
+              <div className="w-[78px] h-[78px] rounded-full bg-white border-main border-[6px] flex justify-center items-center absolute -top-10 z-10 lg:w-[60px] lg:h-[60px] md:w-[40px] md:h-[40px] md:-top-5   xsm:w-[35px] xsm:h-[35px]">
                 <CompassSVG
                   {...(isLg
                     ? { height: "40", width: "40" }
@@ -81,7 +81,7 @@ const Clients = () => {
                 <CountUp
                   end={2}
                   duration={1}
-                  className="font-poppins font-bold text-3xl text-gray-900 lg:text-2xl md:text-[22px] md:font-semibold"
+                  className="font-poppins font-bold text-3xl text-gray-900 lg:text-2xl md:text-[22px] md:font-semibold xsm:text-base"
                   suffix="K+"
                 />
                 <p className=" font-Lato text-xl lg:text-lg font-medium md:text-xs">
@@ -89,8 +89,8 @@ const Clients = () => {
                 </p>
               </div>
             </div>
-            <div className="w-[257px] h-[149px] relative bg-white flex flex-col justify-center items-center rounded-md  shadow-service md:w-[127px] md:h-[99px] sm:w-[150px] sm:h-[90px] lg:w-[190px] lg:h-[120px] ">
-              <div className="w-[78px] h-[78px] rounded-full bg-white border-main border-[6px] flex justify-center items-center absolute -top-10 z-10 lg:w-[60px] lg:h-[60px] md:w-[40px] md:h-[40px] md:-top-5  ">
+            <div className="w-[257px] h-[149px] relative bg-white flex flex-col justify-center items-center rounded-md  shadow-service md:w-[127px] md:h-[99px] sm:w-[150px] sm:h-[90px] lg:w-[190px] lg:h-[120px] xsm:w-[110px] xsm:h-[75px]">
+              <div className="w-[78px] h-[78px] rounded-full bg-white border-main border-[6px] flex justify-center items-center absolute -top-10 z-10 lg:w-[60px] lg:h-[60px] md:w-[40px] md:h-[40px] md:-top-5   xsm:w-[35px] xsm:h-[35px]">
                 <WorldSVG
                   {...(isLg
                     ? { height: "40", width: "40" }
@@ -106,7 +106,7 @@ const Clients = () => {
                   start={400}
                   end={500}
                   duration={1}
-                  className="font-poppins font-bold text-3xl text-gray-900 lg:text-2xl md:text-[22px] md:font-semibold"
+                  className="font-poppins font-bold text-3xl text-gray-900 lg:text-2xl md:text-[22px] md:font-semibold xsm:text-base"
                   suffix="+"
                 />
                 <p className=" font-Lato text-xl lg:text-lg font-medium md:text-xs ">
@@ -114,8 +114,8 @@ const Clients = () => {
                 </p>
               </div>
             </div>
-            <div className="w-[257px] h-[149px] relative bg-white flex flex-col justify-center items-center rounded-md  shadow-service md:w-[127px] md:h-[99px] sm:w-[150px] sm:h-[90px] lg:w-[190px] lg:h-[120px] ">
-              <div className="w-[78px] h-[78px] rounded-full bg-white border-main border-[6px] flex justify-center items-center absolute -top-10 z-10 lg:w-[60px] lg:h-[60px] md:w-[40px] md:h-[40px] md:-top-5  ">
+            <div className="w-[257px] h-[149px] relative bg-white flex flex-col justify-center items-center rounded-md  shadow-service md:w-[127px] md:h-[99px] sm:w-[150px] sm:h-[90px] lg:w-[190px] lg:h-[120px] xsm:w-[110px] xsm:h-[75px]">
+              <div className="w-[78px] h-[78px] rounded-full bg-white border-main border-[6px] flex justify-center items-center absolute -top-10 z-10 lg:w-[60px] lg:h-[60px] md:w-[40px] md:h-[40px] md:-top-5  xsm:w-[35px] xsm:h-[35px]">
                 <BuildingSVG
                   {...(isLg
                     ? { height: "40", width: "40" }
@@ -131,7 +131,7 @@ const Clients = () => {
                   start={0}
                   end={8}
                   duration={1}
-                  className="font-poppins font-bold text-3xl text-gray-900 lg:text-2xl md:text-[22px] md:font-semibold"
+                  className="font-poppins font-bold text-3xl text-gray-900 lg:text-2xl md:text-[22px] md:font-semibold xsm:text-base"
                 />
                 <p className=" font-Lato text-xl lg:text-lg font-medium md:text-xs ">
                   Years in Business
